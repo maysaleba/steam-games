@@ -16,7 +16,7 @@ LANGUAGE = "english"
 POSTED_FILE = "steam_posted_recently.json"
 OUTPUT_CSV = "steam_deals_today.csv"
 
-DAILY_TARGET = 10
+DAILY_TARGET = 50
 FETCH_LIMIT = 500
 ROLLING_DAYS = 7
 
