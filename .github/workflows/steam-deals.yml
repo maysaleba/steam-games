@@ -34,15 +34,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests beautifulsoup4 pillow
 
-      # ===== RESTORE steam_posted_recently.json =====
-      - name: Restore posted history
-        uses: actions/cache@v4
-        with:
-          path: steam_posted_recently.json
-          key: steam-posted-history
-          restore-keys: |
-            steam-posted-history
-
       # ===== RUN DAILY STEAM FETCH =====
       - name: Run getDailySteam.py
         run: python getDailySteam.py
