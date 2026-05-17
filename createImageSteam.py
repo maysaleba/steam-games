@@ -70,6 +70,22 @@ SCORE_FONT_PATH = Path("Bahnschrift-Bold.ttf")
 SCORE_FONT_SIZE = 28
 SCORE_TEXT_FILL = "white"
 
+# ==== HOWLONGTOBEAT ICON ====
+HLTB_ICON_PATH = Path("howlongtobeat.png")
+HLTB_POS = (15, 698)
+HLTB_SIZE = (265, 186)
+HLTB_KEYS = ["MainStory", "MainExtra", "Completionist"]
+
+# ==== HLTB TIMES TEXT (fixed positions) ====
+HLTB_TEXT_FONT_PATH = Path("CoreSansDS67CnHeavy.ttf")
+HLTB_TEXT_FONT_SIZE = 24
+HLTB_TEXT_COLOR = "white"
+HLTB_TEXT_POS = {
+    "MainStory": (172, 766),
+    "MainExtra": (172, 799),
+    "Completionist": (172, 832),
+}
+
 SAVE_DIR.mkdir(parents=True, exist_ok=True)
 
 
@@ -343,6 +359,80 @@ def draw_score_badge(img_rgba: Image.Image, review_percent):
         print(f"[warn] Could not draw score badge: {e}")
 
 
+
+def has_hltb_data(entry: dict) -> bool:
+    """Return True if any HLTB value is numeric and greater than 0."""
+    for key in HLTB_KEYS:
+        try:
+            value = float(str(entry.get(key, "")).strip())
+            if value > 0:
+                return True
+        except Exception:
+            pass
+
+    return False
+
+
+def draw_hltb_icon(img_rgba: Image.Image, entry: dict):
+    """Draw the HowLongToBeat panel only when HLTB data exists."""
+    if not has_hltb_data(entry):
+        return
+
+    if not HLTB_ICON_PATH.exists():
+        print(f"[warn] Missing HLTB icon: {HLTB_ICON_PATH}")
+        return
+
+    try:
+        icon = Image.open(HLTB_ICON_PATH).convert("RGBA")
+
+        if icon.size != HLTB_SIZE:
+            icon = icon.resize(HLTB_SIZE, Image.LANCZOS)
+
+        img_rgba.alpha_composite(icon, HLTB_POS)
+
+    except Exception as e:
+        print(f"[warn] Could not draw HLTB icon: {e}")
+
+
+def format_hltb_value(value) -> str:
+    """Return '-' for missing/zero values, otherwise '<number> HRS'."""
+    try:
+        hours = float(str(value).strip())
+    except Exception:
+        return "-"
+
+    if hours <= 0:
+        return "-"
+
+    if hours.is_integer():
+        return f"{int(hours)} HRS"
+
+    # Keeps half-hour values readable, e.g. 7.5 HRS.
+    return f"{hours:g} HRS"
+
+
+def draw_hltb_times(img_rgba: Image.Image, entry: dict):
+    """Draw MainStory, MainExtra, and Completionist values at fixed positions."""
+    if not has_hltb_data(entry):
+        return
+
+    if not HLTB_TEXT_FONT_PATH.exists():
+        print(f"[warn] Missing HLTB text font: {HLTB_TEXT_FONT_PATH}")
+        return
+
+    try:
+        font = ImageFont.truetype(str(HLTB_TEXT_FONT_PATH), HLTB_TEXT_FONT_SIZE)
+    except Exception as e:
+        print(f"[warn] Could not load HLTB text font: {e}")
+        return
+
+    draw = ImageDraw.Draw(img_rgba)
+
+    for key, (x, y) in HLTB_TEXT_POS.items():
+        text = format_hltb_value(entry.get(key))
+        draw.text((x, y), text, font=font, fill=HLTB_TEXT_COLOR)
+
+
 def cover_resize_center_crop_rgb(img_path: Path, size: int) -> Image.Image:
     im = Image.open(img_path).convert("RGB")
     return cover_resize_center_crop(im, size)
@@ -360,6 +450,7 @@ def main():
         TEXT_FONT_PATH,
         STRIKE_FONT_PATH,
         SCORE_FONT_PATH,
+        HLTB_TEXT_FONT_PATH,
     ]
 
     for font_path in required_fonts:
@@ -436,9 +527,11 @@ def main():
 
             draw_platform_logo(composed)
             draw_score_badge(composed, review_percent)
+            draw_hltb_icon(composed, entry)
             draw_discount(composed, discount)
             draw_struck_price(composed, original_price)
             draw_sale_price(composed, final_price_php)
+            draw_hltb_times(composed, entry)
 
             safe_title = sanitize_filename(title)
             out_path = SAVE_DIR / f"{out_idx:02d}_{safe_title}.jpg"
