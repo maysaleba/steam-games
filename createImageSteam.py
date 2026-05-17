@@ -397,7 +397,7 @@ def main():
 
             try:
                 ad_img = cover_resize_center_crop_rgb(ad_path, CANVAS_SIZE)
-                out_path = SAVE_DIR / f"{out_idx}_ad-{ad_i + 1:02d}.jpg"
+                out_path = SAVE_DIR / f"{out_idx:02d}_ad-{ad_i + 1:02d}.jpg"
 
                 ad_img.save(out_path, format="JPEG", quality=92, optimize=True)
 
@@ -441,7 +441,7 @@ def main():
             draw_sale_price(composed, final_price_php)
 
             safe_title = sanitize_filename(title)
-            out_path = SAVE_DIR / f"{out_idx}_{safe_title}.jpg"
+            out_path = SAVE_DIR / f"{out_idx:02d}_{safe_title}.jpg"
 
             composed.convert("RGB").save(
                 out_path,
