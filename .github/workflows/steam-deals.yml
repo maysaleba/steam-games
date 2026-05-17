@@ -4,7 +4,10 @@ on:
   workflow_dispatch:
 
   schedule:
-    # Runs daily at 4:00 PM UTC
+    # Runs daily at 8:00 PM UTC
+    # = 12:00 PM PST
+    # = 1:00 PM PDT
+    # Safe buffer after Steam refresh
     - cron: "0 20 * * *"
 
 jobs:
@@ -28,6 +31,7 @@ jobs:
       # ===== INSTALL DEPENDENCIES =====
       - name: Install dependencies
         run: |
+          python -m pip install --upgrade pip
           pip install requests beautifulsoup4 pillow
 
       # ===== RESTORE steam_posted_recently.json =====
@@ -39,20 +43,22 @@ jobs:
           restore-keys: |
             steam-posted-history
 
-      # ===== RUN DAILY FETCH =====
+      # ===== RUN DAILY STEAM FETCH =====
       - name: Run getDailySteam.py
         run: python getDailySteam.py
 
-      # ===== RUN IMAGE GENERATOR =====
+      # ===== GENERATE IMAGES =====
       - name: Run createImageSteam.py
         run: python createImageSteam.py
 
-      # ===== RUN FACEBOOK POSTER =====
+      # ===== POST TO FACEBOOK =====
       - name: Run facebookPostSteam.py
+        env:
+          FB_PAGE_ACCESS_TOKEN_LIVE: ${{ secrets.FB_PAGE_ACCESS_TOKEN_LIVE }}
         run: python facebookPostSteam.py
 
-      # ===== COMMIT UPDATED steam_posted_recently.json =====
-      - name: Commit updated posted history
+      # ===== COMMIT UPDATED HISTORY =====
+      - name: Commit updated steam_posted_recently.json
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
