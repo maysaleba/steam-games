@@ -15,6 +15,7 @@ LANGUAGE = "english"
 
 POSTED_FILE = "steam_posted_recently.json"
 OUTPUT_CSV = "steam_deals_today.csv"
+HLTB_DATASET_CSV = "hltb_dataset_filtered.csv"
 
 DAILY_TARGET = 50
 FETCH_LIMIT = 500
@@ -76,6 +77,89 @@ def build_steam_library_capsule_url(appid: str, country_code: str = COUNTRY) -> 
         "https://shared.fastly.steamstatic.com/store_item_assets/"
         f"steam/apps/{appid}/library_600x900_2x.jpg"
     )
+
+
+
+def sanitize_title(value):
+    """
+    Normalizes titles so Steam title and HLTB name can match more reliably.
+    Example: "Game™: Deluxe Edition" -> "game deluxe edition"
+    """
+    if value is None:
+        return ""
+
+    value = str(value).lower()
+    value = re.sub(r"[™®©]", "", value)
+    value = value.replace("&", " and ")
+    value = re.sub(r"['’`]", "", value)
+    value = re.sub(r"[^a-z0-9]+", " ", value)
+    value = re.sub(r"\s+", " ", value).strip()
+
+    return value
+
+
+def clean_hltb_value(value):
+    if value is None:
+        return ""
+
+    value = str(value).strip()
+
+    if value == "" or value.lower() in {"nan", "none", "null"}:
+        return ""
+
+    return value
+
+
+def load_hltb_dataset(path=HLTB_DATASET_CSV):
+    """
+    Reads hltb_dataset_filtered.csv and builds a lookup:
+    sanitized HLTB name -> HLTB timing fields.
+    """
+    if not os.path.exists(path):
+        print(f"[warn] HLTB dataset not found: {path}")
+        return {}
+
+    lookup = {}
+
+    with open(path, "r", newline="", encoding="utf-8-sig") as f:
+        reader = csv.DictReader(f)
+
+        for row in reader:
+            sanitized_name = sanitize_title(row.get("name", ""))
+
+            if not sanitized_name:
+                continue
+
+            # If duplicate names exist, keep the first one.
+            # Your filtered dataset should already contain the preferred rows.
+            if sanitized_name in lookup:
+                continue
+
+            lookup[sanitized_name] = {
+                "MainStory": clean_hltb_value(row.get("main_story")),
+                "MainExtra": clean_hltb_value(row.get("main_plus_sides")),
+                "Completionist": clean_hltb_value(row.get("completionist")),
+            }
+
+    print(f"Loaded HLTB rows: {len(lookup)}")
+
+    return lookup
+
+
+def enrich_with_hltb(game, hltb_lookup):
+    sanitized_title = sanitize_title(game.get("title", ""))
+    hltb_data = hltb_lookup.get(sanitized_title, {})
+
+    game["MainStory"] = hltb_data.get("MainStory", "")
+    game["MainExtra"] = hltb_data.get("MainExtra", "")
+    game["Completionist"] = hltb_data.get("Completionist", "")
+
+    if hltb_data:
+        print(f"[HLTB] matched: {game.get('title')} -> {sanitized_title}")
+    else:
+        print(f"[HLTB] no match: {game.get('title')} -> {sanitized_title}")
+
+    return game
 
 
 def today_str():
@@ -314,6 +398,8 @@ def build_daily_batch():
     posted = load_recently_posted()
     posted_appids = set(posted["posted"].keys())
 
+    hltb_lookup = load_hltb_dataset()
+
     live_games = fetch_live_sale_pool(FETCH_LIMIT)
 
     daily_batch = [
@@ -329,6 +415,8 @@ def build_daily_batch():
         print(f"Enriching {index}/{len(daily_batch)}: {game['title']}")
 
         enriched_game = enrich_with_appdetails(game)
+        enriched_game = enrich_with_hltb(enriched_game, hltb_lookup)
+
         enriched_batch.append(enriched_game)
 
         posted["posted"][game["appid"]] = today
@@ -359,6 +447,9 @@ def export_csv(games, filename=OUTPUT_CSV):
         "header_image",
         "background_raw",
         "short_description",
+        "MainStory",
+        "MainExtra",
+        "Completionist",
         "url",
     ]
 
