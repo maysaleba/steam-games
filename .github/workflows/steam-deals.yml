@@ -1,0 +1,64 @@
+name: Steam Deals Pipeline
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    # Runs daily at 4:00 PM UTC
+    - cron: "0 20 * * *"
+
+jobs:
+  steam-deals:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      # ===== CHECKOUT REPO =====
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # ===== SETUP PYTHON =====
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # ===== INSTALL DEPENDENCIES =====
+      - name: Install dependencies
+        run: |
+          pip install requests beautifulsoup4 pillow
+
+      # ===== RESTORE steam_posted_recently.json =====
+      - name: Restore posted history
+        uses: actions/cache@v4
+        with:
+          path: steam_posted_recently.json
+          key: steam-posted-history
+          restore-keys: |
+            steam-posted-history
+
+      # ===== RUN DAILY FETCH =====
+      - name: Run getDailySteam.py
+        run: python getDailySteam.py
+
+      # ===== RUN IMAGE GENERATOR =====
+      - name: Run createImageSteam.py
+        run: python createImageSteam.py
+
+      # ===== RUN FACEBOOK POSTER =====
+      - name: Run facebookPostSteam.py
+        run: python facebookPostSteam.py
+
+      # ===== COMMIT UPDATED steam_posted_recently.json =====
+      - name: Commit updated posted history
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add steam_posted_recently.json
+
+          git diff --cached --quiet || git commit -m "Update Steam posted history"
+
+          git push
