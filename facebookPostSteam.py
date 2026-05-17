@@ -23,11 +23,10 @@ if not ACCESS_TOKEN:
 
 # ===== STEAM DEALS CONFIG =====
 IMAGE_FOLDER = Path("output_images")
-POST_TITLE = "Steam Deals Today"
+POST_TITLE = "Popular Steam Games On Sale"
 
 COMMENTS = [
-    # "Links / prices may vary by region.",
-    # "Check the Steam store before buying."
+    "🎮 Cheap Steam Wallet: https://www.eneba.com/steam-gift-card-steam-wallet-gift-card-50-php-steam-key-philippines?af_id=maysaleba&currency=PHP&region=philippines"
 ]
 
 MAX_IMAGES_PER_POST = None
