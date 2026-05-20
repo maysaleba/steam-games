@@ -62,6 +62,11 @@ STRIKE_FONT_SIZE = 20
 STRIKE_COLOR = (120, 120, 120)
 STRIKE_LINE_WIDTH = 2
 
+# ====== HISTORIC LOW BADGE ======
+ALL_TIME_LOW_BADGE_PATH = Path("logos/all-time-low.png")
+ALL_TIME_LOW_BADGE_GAP = 8
+ALL_TIME_LOW_BADGE_H = 19
+
 # ====== SCORE BADGE ======
 SCORE_BADGE_PATH = Path("logos/score.png")
 SCORE_TOP_OFFSET = 27
@@ -317,6 +322,63 @@ def draw_struck_price(img_rgba: Image.Image, original_price):
     )
 
 
+def get_struck_price_right_edge(original_price):
+    price = parse_price(original_price)
+
+    if price is None or price <= 0:
+        return STRIKE_X
+
+    text = f"P{int(round(price)):,}"
+    font = ImageFont.truetype(str(STRIKE_FONT_PATH), STRIKE_FONT_SIZE)
+    bbox = font.getbbox(text)
+
+    return STRIKE_X + (bbox[2] - bbox[0])
+
+
+def should_show_all_time_low_badge(final_price_php, historic_low_all):
+    current_price = parse_price(final_price_php)
+    historic_low = parse_price(historic_low_all)
+
+    if current_price is None or historic_low is None:
+        return False
+
+    return current_price <= historic_low
+
+
+def draw_all_time_low_badge(img_rgba: Image.Image, entry: dict):
+    if not should_show_all_time_low_badge(
+        entry.get("final_price_php"),
+        entry.get("historic_low_all"),
+    ):
+        return
+
+    if not ALL_TIME_LOW_BADGE_PATH.exists():
+        print(f"[warn] Missing all-time low badge: {ALL_TIME_LOW_BADGE_PATH}")
+        return
+
+    try:
+        badge = Image.open(ALL_TIME_LOW_BADGE_PATH).convert("RGBA")
+
+        if ALL_TIME_LOW_BADGE_H and badge.height != ALL_TIME_LOW_BADGE_H:
+            ratio = ALL_TIME_LOW_BADGE_H / badge.height
+            badge_w = int(badge.width * ratio)
+            badge = badge.resize((badge_w, ALL_TIME_LOW_BADGE_H), Image.LANCZOS)
+
+        strike_right = get_struck_price_right_edge(entry.get("original_price"))
+        x = strike_right + ALL_TIME_LOW_BADGE_GAP
+        y = STRIKE_Y + (STRIKE_FONT_SIZE - badge.height) // 2 + 3
+
+        # Keep badge inside the canvas if the original price is unusually long.
+        x = min(x, img_rgba.width - badge.width - 8)
+        x = max(x, 0)
+        y = max(y, 0)
+
+        img_rgba.alpha_composite(badge, (x, y))
+
+    except Exception as e:
+        print(f"[warn] Could not draw all-time low badge: {e}")
+
+
 def draw_score_badge(img_rgba: Image.Image, review_percent):
     if not review_percent:
         return
@@ -530,6 +592,7 @@ def main():
             draw_hltb_icon(composed, entry)
             draw_discount(composed, discount)
             draw_struck_price(composed, original_price)
+            draw_all_time_low_badge(composed, entry)
             draw_sale_price(composed, final_price_php)
             draw_hltb_times(composed, entry)
 

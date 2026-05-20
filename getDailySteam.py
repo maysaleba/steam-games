@@ -9,6 +9,8 @@ from datetime import datetime, timedelta
 
 BASE_URL = "https://store.steampowered.com/search/results/"
 APPDETAILS_URL = "https://store.steampowered.com/api/appdetails"
+ITAD_LOOKUP_URL = "https://api.isthereanydeal.com/games/lookup/v1"
+ITAD_PRICES_URL = "https://api.isthereanydeal.com/games/prices/v3"
 
 COUNTRY = "PH"
 LANGUAGE = "english"
@@ -16,8 +18,16 @@ LANGUAGE = "english"
 POSTED_FILE = "steam_posted_recently.json"
 OUTPUT_CSV = "steam_deals_today.csv"
 HLTB_DATASET_CSV = "hltb_dataset_filtered.csv"
+ITAD_CACHE_FILE = "itad_appid_cache.json"
 
-DAILY_TARGET = 50
+# Prefer setting this in GitHub Actions secrets/env as ITAD_API_KEY.
+# Falls back to the key you provided.
+ITAD_API_KEY = os.getenv(
+    "ITAD_API_KEY",
+    "94d257e036a819ad02eb7a498fee23e675cf24c7",
+)
+
+DAILY_TARGET = 10
 FETCH_LIMIT = 500
 ROLLING_DAYS = 7
 
@@ -356,6 +366,223 @@ def enrich_with_appdetails(game):
     return game
 
 
+def blank_itad_fields(game):
+    game["itad_id"] = ""
+    game["expiration_date"] = ""
+    game["historic_low_all"] = ""
+    game["historic_low_1y"] = ""
+    game["historic_low_3m"] = ""
+
+    return game
+
+
+def get_amount(value):
+    if not isinstance(value, dict):
+        return ""
+
+    amount = value.get("amount")
+    return "" if amount is None else amount
+
+
+def get_deal_expiry(price_row):
+    deals = price_row.get("deals", [])
+
+    if not deals:
+        return ""
+
+    # You are requesting Steam only with shops=61, but keep this defensive.
+    steam_deal = next(
+        (
+            deal for deal in deals
+            if str(deal.get("shop", {}).get("id", "")) == "61"
+        ),
+        deals[0],
+    )
+
+    return steam_deal.get("expiry") or ""
+
+
+def fetch_itad_id_for_appid(appid):
+    params = {
+        "appid": appid,
+        "key": ITAD_API_KEY,
+    }
+
+    headers = {"User-Agent": "Mozilla/5.0"}
+
+    try:
+        response = requests.get(
+            ITAD_LOOKUP_URL,
+            params=params,
+            headers=headers,
+            timeout=30,
+        )
+        response.raise_for_status()
+
+        data = response.json()
+
+        if not data.get("found"):
+            return {
+                "found": False,
+                "itad_id": "",
+                "title": "",
+                "slug": "",
+            }
+
+        game = data.get("game", {}) or {}
+
+        return {
+            "found": True,
+            "itad_id": game.get("id", ""),
+            "title": game.get("title", ""),
+            "slug": game.get("slug", ""),
+        }
+
+    except Exception as e:
+        print(f"[ITAD] lookup failed for appid {appid}: {e}")
+        return {
+            "found": False,
+            "itad_id": "",
+            "title": "",
+            "slug": "",
+        }
+
+
+def normalize_itad_cache_entry(entry):
+    """
+    Supports both the new dict cache format and a simple old format:
+    { "123": "itad-id" }
+    """
+    if isinstance(entry, str):
+        return {
+            "found": bool(entry),
+            "itad_id": entry,
+            "title": "",
+            "slug": "",
+        }
+
+    if isinstance(entry, dict):
+        return {
+            "found": bool(entry.get("found")),
+            "itad_id": entry.get("itad_id") or entry.get("id") or "",
+            "title": entry.get("title", ""),
+            "slug": entry.get("slug", ""),
+        }
+
+    return {
+        "found": False,
+        "itad_id": "",
+        "title": "",
+        "slug": "",
+    }
+
+
+def get_itad_mappings_for_games(games):
+    cache = load_json(ITAD_CACHE_FILE, {})
+    updated_cache = False
+    mappings = {}
+
+    for game in games:
+        appid = str(game.get("appid", "")).strip()
+
+        if not appid:
+            continue
+
+        if appid in cache:
+            cache_entry = normalize_itad_cache_entry(cache[appid])
+            print(f"[ITAD] cache hit: {appid} -> {cache_entry.get('itad_id') or 'not found'}")
+        else:
+            cache_entry = fetch_itad_id_for_appid(appid)
+            cache[appid] = cache_entry
+            updated_cache = True
+            print(f"[ITAD] lookup: {appid} -> {cache_entry.get('itad_id') or 'not found'}")
+
+        if cache_entry.get("found") and cache_entry.get("itad_id"):
+            mappings[appid] = cache_entry["itad_id"]
+
+    if updated_cache:
+        save_json(ITAD_CACHE_FILE, cache)
+        print(f"[ITAD] saved cache: {ITAD_CACHE_FILE}")
+
+    return mappings
+
+
+def fetch_itad_prices(itad_ids):
+    if not itad_ids:
+        return {}
+
+    params = {
+        "country": COUNTRY,
+        "shops": 61,
+        "key": ITAD_API_KEY,
+    }
+
+    headers = {
+        "Content-Type": "application/json",
+        "User-Agent": "Mozilla/5.0",
+    }
+
+    try:
+        response = requests.post(
+            ITAD_PRICES_URL,
+            params=params,
+            headers=headers,
+            json=itad_ids,
+            timeout=60,
+        )
+        response.raise_for_status()
+
+        data = response.json()
+
+        if not isinstance(data, list):
+            print("[ITAD] unexpected prices response format")
+            return {}
+
+        return {
+            item.get("id"): item
+            for item in data
+            if isinstance(item, dict) and item.get("id")
+        }
+
+    except Exception as e:
+        print(f"[ITAD] prices lookup failed: {e}")
+        return {}
+
+
+def enrich_with_itad(games):
+    """
+    Adds ITAD price-history data only for the already-selected daily target.
+    Performs one cached appid -> ITAD ID lookup pass, then one batch prices request.
+    """
+    for game in games:
+        blank_itad_fields(game)
+
+    appid_to_itad_id = get_itad_mappings_for_games(games)
+    itad_ids = list(dict.fromkeys(appid_to_itad_id.values()))
+
+    print(f"[ITAD] fetching prices for {len(itad_ids)} mapped daily games")
+    prices_by_itad_id = fetch_itad_prices(itad_ids)
+
+    for game in games:
+        appid = str(game.get("appid", "")).strip()
+        itad_id = appid_to_itad_id.get(appid, "")
+
+        if not itad_id:
+            continue
+
+        game["itad_id"] = itad_id
+
+        price_row = prices_by_itad_id.get(itad_id, {})
+        history_low = price_row.get("historyLow", {}) if isinstance(price_row, dict) else {}
+
+        game["historic_low_all"] = get_amount(history_low.get("all"))
+        game["historic_low_1y"] = get_amount(history_low.get("y1"))
+        game["historic_low_3m"] = get_amount(history_low.get("m3"))
+        game["expiration_date"] = get_deal_expiry(price_row)
+
+    return games
+
+
 def load_json(path, fallback):
     if not os.path.exists(path):
         return fallback
@@ -407,6 +634,8 @@ def build_daily_batch():
         if game["appid"] not in posted_appids
     ][:DAILY_TARGET]
 
+    daily_batch = enrich_with_itad(daily_batch)
+
     today = today_str()
 
     enriched_batch = []
@@ -434,6 +663,11 @@ def export_csv(games, filename=OUTPUT_CSV):
         "original_price",
         "final_price",
         "final_price_php",
+        "expiration_date",
+        "historic_low_all",
+        "historic_low_1y",
+        "historic_low_3m",
+        "itad_id",
         "review_summary",
         "review_percent",
         "review_count",
