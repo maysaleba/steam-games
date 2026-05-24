@@ -344,20 +344,20 @@ def get_struck_price_right_edge(original_price):
     return STRIKE_X + (bbox[2] - bbox[0])
 
 
-def should_show_all_time_low_badge(final_price_php, store_low):
+def should_show_all_time_low_badge(final_price_php, historic_low_all):
     current_price = parse_price(final_price_php)
-    store_low_price = parse_price(store_low)
+    historic_low = parse_price(historic_low_all)
 
-    if current_price is None or store_low_price is None:
+    if current_price is None or historic_low is None:
         return False
 
-    return current_price <= store_low_price
+    return current_price <= historic_low
 
 
 def draw_all_time_low_badge(img_rgba: Image.Image, entry: dict):
     if not should_show_all_time_low_badge(
         entry.get("final_price_php"),
-        entry.get("store_low"),
+        entry.get("historic_low_all"),
     ):
         return
 
