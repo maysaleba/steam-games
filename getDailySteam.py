@@ -372,6 +372,7 @@ def blank_itad_fields(game):
     game["historic_low_all"] = ""
     game["historic_low_1y"] = ""
     game["historic_low_3m"] = ""
+    game["store_low"] = ""
 
     return game
 
@@ -401,6 +402,23 @@ def get_deal_expiry(price_row):
 
     return steam_deal.get("expiry") or ""
 
+def get_store_low(price_row):
+    deals = price_row.get("deals", [])
+
+    if not deals:
+        return ""
+
+    steam_deal = next(
+        (
+            deal for deal in deals
+            if str(deal.get("shop", {}).get("id", "")) == "61"
+        ),
+        deals[0],
+    )
+
+    store_low = steam_deal.get("storeLow", {})
+
+    return get_amount(store_low)
 
 def fetch_itad_id_for_appid(appid):
     params = {
@@ -578,6 +596,7 @@ def enrich_with_itad(games):
         game["historic_low_all"] = get_amount(history_low.get("all"))
         game["historic_low_1y"] = get_amount(history_low.get("y1"))
         game["historic_low_3m"] = get_amount(history_low.get("m3"))
+        game["store_low"] = get_store_low(price_row)
         game["expiration_date"] = get_deal_expiry(price_row)
 
     return games
@@ -667,6 +686,7 @@ def export_csv(games, filename=OUTPUT_CSV):
         "historic_low_all",
         "historic_low_1y",
         "historic_low_3m",
+        "store_low",
         "itad_id",
         "review_summary",
         "review_percent",
