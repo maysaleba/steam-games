@@ -43,9 +43,10 @@ SCREENSHOT_POSITIONS = [
 ]
 
 # ====== DISCOUNT TEXT ======
-BOX_X, BOX_Y = 12, CANVAS_SIZE - 135
-BOX_W, BOX_H = 300, 140
-PAD_X, PAD_Y = 8, 12
+BOX_X = 0
+BOX_Y = CANVAS_SIZE - 100
+BOX_W = 200
+BOX_H = 100
 
 # ====== SALE PRICE ======
 PRICE_X = 220
@@ -258,26 +259,34 @@ def draw_discount(img_rgba: Image.Image, discount_text: str):
         return
 
     discount_text = str(discount_text).strip()
-
     discount_text = discount_text.replace("%", "").strip()
 
     if discount_text:
         discount_text = f"-{discount_text}%"
 
     draw = ImageDraw.Draw(img_rgba)
+
     font = load_font_to_fit(
         discount_text,
-        BOX_W - 2 * PAD_X,
-        BOX_H - 2 * PAD_Y
+        BOX_W,
+        BOX_H,
+        start_size=64
     )
 
     bbox = font.getbbox(discount_text)
-    th = bbox[3] - bbox[1]
 
-    x = BOX_X + PAD_X
-    y = BOX_Y + (BOX_H - th) // 2
+    text_w = bbox[2] - bbox[0]
+    text_h = bbox[3] - bbox[1]
 
-    draw.text((x, y), discount_text, font=font, fill="#bcec0c")
+    x = BOX_X + (BOX_W - text_w) / 2 - bbox[0]
+    y = BOX_Y + (BOX_H - text_h) / 2 - bbox[1]
+
+    draw.text(
+        (x, y),
+        discount_text,
+        font=font,
+        fill="#bcec0c"
+    )
 
 
 def draw_sale_price(img_rgba: Image.Image, final_price_php):
