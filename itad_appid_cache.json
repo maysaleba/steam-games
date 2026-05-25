@@ -1498,5 +1498,305 @@
     "itad_id": "0198f0d1-b61a-71e9-9e7a-8e242efa9042",
     "title": "Black Jacket",
     "slug": "black-jacket"
+  },
+  "1118520": {
+    "found": true,
+    "itad_id": "018d937f-3a62-72ac-97b0-f8ed6781e05d",
+    "title": "Paralives",
+    "slug": "paralives"
+  },
+  "3240220": {
+    "found": true,
+    "itad_id": "019548b5-653e-7101-ae11-8f0bfbd15ee6",
+    "title": "Grand Theft Auto V Enhanced",
+    "slug": "grand-theft-auto-v-enhanced"
+  },
+  "233860": {
+    "found": true,
+    "itad_id": "018d937e-f4aa-70cb-95d4-a5c09d41f310",
+    "title": "Kenshi",
+    "slug": "kenshi"
+  },
+  "275850": {
+    "found": true,
+    "itad_id": "018d937f-15f9-7056-8edf-2e8fa4b8f357",
+    "title": "No Man's Sky",
+    "slug": "no-mans-sky"
+  },
+  "4630570": {
+    "found": true,
+    "itad_id": "019d9f1f-9370-7017-9e6e-f51d3e36d84c",
+    "title": "RUNNING TRAIN | 走ル列車！",
+    "slug": "running-train-zouru-lie-che"
+  },
+  "1119730": {
+    "found": true,
+    "itad_id": "018d937f-07f0-7073-a8b2-24a6a19e3c04",
+    "title": "Ranch Simulator",
+    "slug": "ranch-simulator"
+  },
+  "1239080": {
+    "found": true,
+    "itad_id": "018d937f-3e2a-7327-890d-7fcf62b1917b",
+    "title": "Door Kickers 2: Task Force North",
+    "slug": "door-kickers-2-task-force-north"
+  },
+  "435150": {
+    "found": true,
+    "itad_id": "018d937f-1b0a-715e-8022-4d0a6f824679",
+    "title": "Divinity: Original Sin 2 - Definitive Edition",
+    "slug": "divinity-original-sin-2-definitive-edition"
+  },
+  "1547000": {
+    "found": true,
+    "itad_id": "018d937f-59ac-7213-8030-15ae8146fd45",
+    "title": "Grand Theft Auto: San Andreas - The Definitive Edition",
+    "slug": "grand-theft-auto-san-andreas-the-definitive-edition"
+  },
+  "337000": {
+    "found": true,
+    "itad_id": "018d937f-07c2-7077-bebc-928c09f137d8",
+    "title": "Deus Ex: Mankind Divided",
+    "slug": "deus-ex-mankind-divided"
+  },
+  "1222140": {
+    "found": true,
+    "itad_id": "018d937e-f0ad-7094-b86c-d8fb32a1e6b4",
+    "title": "Detroit: Become Human",
+    "slug": "detroit-become-human"
+  },
+  "1631270": {
+    "found": true,
+    "itad_id": "018d9759-f7ab-72bc-ad80-fb6a6f09508a",
+    "title": "StarRupture",
+    "slug": "starrupture"
+  },
+  "2784470": {
+    "found": true,
+    "itad_id": "018de04c-7ffa-7196-bde0-08380149d24d",
+    "title": "9 Kings",
+    "slug": "9-kings"
+  },
+  "12210": {
+    "found": true,
+    "itad_id": "018d937f-1af9-726f-b7fa-fd09622f57f6",
+    "title": "Grand Theft Auto IV: The Complete Edition",
+    "slug": "grand-theft-auto-iv-the-complete-edition"
+  },
+  "4135750": {
+    "found": true,
+    "itad_id": "019a6e81-aa1f-72ca-b00e-b6de7bfc0833",
+    "title": "FEED THE QUEEN",
+    "slug": "feed-the-queen"
+  },
+  "2634890": {
+    "found": true,
+    "itad_id": "01902bc1-9c67-71ad-a814-747989ab3fd7",
+    "title": "MARVEL vs. CAPCOM Fighting Collection: Arcade Classics",
+    "slug": "marvel-vs-capcom-fighting-collection-arcade-classics"
+  },
+  "2231380": {
+    "found": true,
+    "itad_id": "018d937e-f4e1-72d7-80a8-3946c6237baf",
+    "title": "Tom Clancy's Ghost Recon® Breakpoint",
+    "slug": "tom-clancys-ghost-recon-breakpoint"
+  },
+  "602960": {
+    "found": true,
+    "itad_id": "018d937f-0129-7250-9a75-9b5223b3742a",
+    "title": "Barotrauma",
+    "slug": "barotrauma"
+  },
+  "1940340": {
+    "found": true,
+    "itad_id": "018d937f-4af2-718f-9dfb-c80328b245fe",
+    "title": "Darkest Dungeon® II",
+    "slug": "darkest-dungeon-ii"
+  },
+  "2000890": {
+    "found": true,
+    "itad_id": "018d937f-74ee-71a5-b49c-34af62232487",
+    "title": "MechWarrior 5: Clans",
+    "slug": "mechwarrior-5-clans"
+  },
+  "373420": {
+    "found": true,
+    "itad_id": "018d937e-e9eb-72ed-8564-59f2f60f9665",
+    "title": "Divinity: Original Sin Enhanced Edition",
+    "slug": "divinity-original-sin-enhanced-edition"
+  },
+  "2275020": {
+    "found": true,
+    "itad_id": "018d937f-71e4-72fd-bc3e-7b20b048bbe9",
+    "title": "Backrooms Rec.",
+    "slug": "backrooms-rec"
+  },
+  "1634360": {
+    "found": true,
+    "itad_id": "018d937f-4384-72e1-994f-cd74fbacc705",
+    "title": "EMUUROM",
+    "slug": "emuurom"
+  },
+  "8870": {
+    "found": true,
+    "itad_id": "018d937e-f877-71b3-aba5-8ff11818cd0b",
+    "title": "BioShock Infinite",
+    "slug": "bioshock-infinite"
+  },
+  "815370": {
+    "found": true,
+    "itad_id": "018d937f-1608-721b-8ee7-f4903258fb76",
+    "title": "Green Hell",
+    "slug": "green-hell"
+  },
+  "1644320": {
+    "found": true,
+    "itad_id": "018d937f-644e-73d4-8b73-cda80493c756",
+    "title": "Railway Empire 2",
+    "slug": "railway-empire-2"
+  },
+  "2870340": {
+    "found": true,
+    "itad_id": "018e34a0-9193-7040-b723-45587d33b560",
+    "title": "Decktamer",
+    "slug": "decktamer"
+  },
+  "1137300": {
+    "found": true,
+    "itad_id": "018d937f-42ac-7001-b6f9-d1d610d683e9",
+    "title": "Sherlock Holmes: Chapter One",
+    "slug": "sherlock-holmes-chapter-one"
+  },
+  "492720": {
+    "found": true,
+    "itad_id": "018d937f-1cd5-7291-b6b7-afc302945dbb",
+    "title": "Tropico 6",
+    "slug": "tropico-6"
+  },
+  "750920": {
+    "found": true,
+    "itad_id": "018d937f-3a11-70d1-81cd-cac58ba1e391",
+    "title": "Shadow of the Tomb Raider - Definitive Edition",
+    "slug": "shadow-of-the-tomb-raider-definitive-edition"
+  },
+  "1342490": {
+    "found": true,
+    "itad_id": "019620b3-0d43-7120-89e4-218d4b57965b",
+    "title": "Daemon X Machina: Titanic Scion",
+    "slug": "daemon-x-machina-titanic-scion"
+  },
+  "787480": {
+    "found": true,
+    "itad_id": "018d937e-fcf7-7048-b82f-558a4db5883c",
+    "title": "Phoenix Wright: Ace Attorney Trilogy",
+    "slug": "phoenix-wright-ace-attorney-trilogy"
+  },
+  "262060": {
+    "found": true,
+    "itad_id": "018d937f-17be-72b4-ac97-2a2712a897d9",
+    "title": "Darkest Dungeon",
+    "slug": "darkest-dungeon"
+  },
+  "1969810": {
+    "found": true,
+    "itad_id": "018d937f-6ee9-706e-b845-f7a76c75e914",
+    "title": "Enter the Chronosphere",
+    "slug": "enter-the-chronosphere"
+  },
+  "2111870": {
+    "found": true,
+    "itad_id": "01917702-35a2-71b3-aa91-174a614a06ea",
+    "title": "Section 13",
+    "slug": "section-13"
+  },
+  "204100": {
+    "found": true,
+    "itad_id": "018d937f-1624-7008-a279-b8bfb6e55610",
+    "title": "Max Payne 3",
+    "slug": "max-payne-3"
+  },
+  "3214610": {
+    "found": true,
+    "itad_id": "01978435-e942-7397-ab68-0dd63171ddf7",
+    "title": "Cinderia",
+    "slug": "cinderia"
+  },
+  "3199360": {
+    "found": true,
+    "itad_id": "0192b40b-cfce-737d-aad2-0a4606887405",
+    "title": "Skull Horde",
+    "slug": "skull-horde"
+  },
+  "238010": {
+    "found": true,
+    "itad_id": "018d937f-037c-7124-93f1-26fa15dfbad9",
+    "title": "Deus Ex: Human Revolution™  Director's Cut",
+    "slug": "deus-ex-human-revolution-directors-cut"
+  },
+  "391220": {
+    "found": true,
+    "itad_id": "018d937e-f4d8-7368-a624-4a0e38d5d2eb",
+    "title": "Rise of the Tomb Raider™",
+    "slug": "rise-of-the-tomb-raider"
+  },
+  "2133760": {
+    "found": true,
+    "itad_id": "018d937f-6ee7-7261-93d8-0a6c4b0b3c23",
+    "title": "Tiny Bookshop",
+    "slug": "tiny-bookshop"
+  },
+  "3693650": {
+    "found": true,
+    "itad_id": "019b046e-dbbb-72c0-931b-c1c2cb5b21b5",
+    "title": "Thrifty Business",
+    "slug": "thrifty-business"
+  },
+  "1389550": {
+    "found": true,
+    "itad_id": "018d937f-47da-72ab-a584-451284fb7dcb",
+    "title": "Mind Scanners",
+    "slug": "mind-scanners"
+  },
+  "3046600": {
+    "found": true,
+    "itad_id": "018d937f-6d49-737c-83f6-b6baf3f3bfbf",
+    "title": "Onimusha 2 - Samurai's Destiny",
+    "slug": "onimusha-2-samurais-destiny"
+  },
+  "6910": {
+    "found": true,
+    "itad_id": "018d937f-24b7-731c-a789-8307ae059efa",
+    "title": "Deus Ex: Game of the Year Edition",
+    "slug": "deus-ex-game-of-the-year-edition"
+  },
+  "4279120": {
+    "found": true,
+    "itad_id": "019c249c-4047-7370-9dc9-16239411a5e1",
+    "title": "Budgie's Bug Shop",
+    "slug": "budgies-bug-shop"
+  },
+  "1594940": {
+    "found": true,
+    "itad_id": "018d937f-4edf-7292-8ac4-c51b881f6daf",
+    "title": "Little Witch in the Woods",
+    "slug": "little-witch-in-the-woods"
+  },
+  "386940": {
+    "found": true,
+    "itad_id": "018d937e-fda7-7357-babc-1dc4486fc980",
+    "title": "Ultimate Chicken Horse",
+    "slug": "ultimate-chicken-horse"
+  },
+  "3069050": {
+    "found": true,
+    "itad_id": "019ac626-c80d-73fe-a115-3f649b9c27ba",
+    "title": "Serpent's Gaze",
+    "slug": "serpents-gaze"
+  },
+  "1088850": {
+    "found": true,
+    "itad_id": "018d937f-51cf-71a2-8359-bde44588c59a",
+    "title": "Marvel's Guardians of the Galaxy",
+    "slug": "marvels-guardians-of-the-galaxy"
   }
 }
