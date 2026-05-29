@@ -229,12 +229,25 @@ def parse_results_html(html):
 
         discount_block = row.select_one(".discount_block")
 
-        discount = 0
-        final_cents = 0
+        # Skip rows with no actual discount
+        if (
+            not discount_block
+            or discount_block.get("data-discount") is None
+            or discount_block.get("data-price-final") is None
+        ):
+            print(f"[SKIP NO DISCOUNT] {title} | {appid}")
+            continue
 
-        if discount_block:
-            discount = int(discount_block.get("data-discount", 0))
-            final_cents = int(discount_block.get("data-price-final", 0))
+        discount = int(discount_block.get("data-discount", 0))
+        final_cents = int(discount_block.get("data-price-final", 0))
+
+        # Extra safety: skip zero-price/broken rows
+        if discount <= 0 or final_cents <= 0:
+            print(
+                f"[SKIP INVALID DISCOUNT] "
+                f"{title} | discount={discount} | price={final_cents}"
+            )
+            continue
 
         final_price_php = final_cents / 100
 
