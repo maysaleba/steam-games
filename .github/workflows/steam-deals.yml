@@ -51,12 +51,6 @@ jobs:
       - name: Run createImageSteam.py
         run: python createImageSteam.py
 
-      # ===== POST TO FACEBOOK =====
-      - name: Run facebookPostSteam.py
-        env:
-          FB_PAGE_ACCESS_TOKEN_LIVE: ${{ secrets.FB_PAGE_ACCESS_TOKEN_LIVE }}
-        run: python facebookPostSteam.py
-
       # ===== COMMIT UPDATED HISTORY/CACHE =====
       - name: Commit updated history/cache
         run: |
@@ -69,3 +63,9 @@ jobs:
           git diff --cached --quiet || git commit -m "Update Steam history/cache"
 
           git push
+
+      # ===== POST TO FACEBOOK =====
+      - name: Run facebookPostSteam.py
+        env:
+          FB_PAGE_ACCESS_TOKEN_LIVE: ${{ secrets.FB_PAGE_ACCESS_TOKEN_LIVE }}
+        run: python facebookPostSteam.py
