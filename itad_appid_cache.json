@@ -3316,5 +3316,143 @@
     "itad_id": "018d937f-4385-73cd-abfc-dc95e16b2e70",
     "title": "Wild Woods",
     "slug": "wild-woods"
+  },
+  "1401590": {
+    "found": true,
+    "itad_id": "018d937f-6449-7233-bfbc-a2e0c5c5eac3",
+    "title": "Disney Dreamlight Valley",
+    "slug": "disney-dreamlight-valley"
+  },
+  "1611600": {
+    "found": true,
+    "itad_id": "018d937f-5c70-7304-b0fd-490c637a583c",
+    "title": "WARNO",
+    "slug": "warno"
+  },
+  "2692990": {
+    "found": true,
+    "itad_id": "019a112a-6be8-71be-ab0a-5a43a42705cd",
+    "title": "DON'T SCREAM TOGETHER",
+    "slug": "don-t-scream-together"
+  },
+  "1546090": {
+    "found": true,
+    "itad_id": "018d937f-4cc6-7049-8b66-3e28d70e54b9",
+    "title": "RAIDBORN",
+    "slug": "raidborn"
+  },
+  "4244510": {
+    "found": true,
+    "itad_id": "019b30d9-ac4e-70da-9f31-6b883c2d433c",
+    "title": "Pratfall",
+    "slug": "pratfall"
+  },
+  "2963800": {
+    "found": true,
+    "itad_id": "018f3af2-8df9-7392-91d3-a43a280e1b49",
+    "title": "DrainSim",
+    "slug": "drainsim"
+  },
+  "2239710": {
+    "found": true,
+    "itad_id": "018d937f-6ef2-7274-87cd-6aaa3e36db69",
+    "title": "Into the Dead: Our Darkest Days",
+    "slug": "into-the-dead-our-darkest-days"
+  },
+  "4409870": {
+    "found": true,
+    "itad_id": "019c684e-d5dd-7265-b257-c45986a2bf76",
+    "title": "Slots & Diapers",
+    "slug": "slots-and-diapers"
+  },
+  "638510": {
+    "found": true,
+    "itad_id": "018d937f-3a7e-7337-8af0-c25c164ef69a",
+    "title": "dotAge",
+    "slug": "dotage"
+  },
+  "1702010": {
+    "found": true,
+    "itad_id": "018d937f-5c6a-73fb-b7e8-aa4acaf19e60",
+    "title": "Sengoku Dynasty",
+    "slug": "sengoku-dynasty"
+  },
+  "2328750": {
+    "found": true,
+    "itad_id": "018d937f-6f91-7233-82ec-c9a66564d2c3",
+    "title": "My Little Universe",
+    "slug": "my-little-universe"
+  },
+  "1124300": {
+    "found": true,
+    "itad_id": "018d937f-357d-7108-aec8-39e4b5c42eaa",
+    "title": "HUMANKIND™",
+    "slug": "humankind"
+  },
+  "2541530": {
+    "found": true,
+    "itad_id": "018f768e-52cf-70f3-afeb-8920e71937b9",
+    "title": "AETHUS",
+    "slug": "aethus"
+  },
+  "2313700": {
+    "found": true,
+    "itad_id": "018d937f-7179-717e-9c14-be8b13f694d3",
+    "title": "Constance",
+    "slug": "constance"
+  },
+  "1359980": {
+    "found": true,
+    "itad_id": "018d937f-4684-73dd-89e0-42d69219eb29",
+    "title": "POSTAL: Brain Damaged",
+    "slug": "postal-brain-damaged"
+  },
+  "2280430": {
+    "found": true,
+    "itad_id": "018d937f-7b91-72ac-a6e8-abc4016bc2ef",
+    "title": "The Berlin Apartment",
+    "slug": "the-berlin-apartment"
+  },
+  "392110": {
+    "found": true,
+    "itad_id": "018d937e-ff76-705d-9c76-1e86f76cb56c",
+    "title": "Endless Space 2",
+    "slug": "endless-space-2"
+  },
+  "4305480": {
+    "found": true,
+    "itad_id": "019c770f-782f-705a-a80a-182c976f94bb",
+    "title": "IncreKnight",
+    "slug": "increknight"
+  },
+  "1942110": {
+    "found": true,
+    "itad_id": "018d937f-702e-7125-b527-840bfc85e487",
+    "title": "Bootstrap Island",
+    "slug": "bootstrap-island"
+  },
+  "1016920": {
+    "found": true,
+    "itad_id": "018d937f-0680-71f6-a2c0-306612c8cee6",
+    "title": "Unrailed!",
+    "slug": "unrailed"
+  },
+  "3503790": {
+    "found": true,
+    "itad_id": "01953c48-58fc-732e-b7a5-317d4ec76f03",
+    "title": "PROHIBEAST",
+    "slug": "prohibeast"
+  },
+  "3730790": {
+    "found": true,
+    "itad_id": "0198ed39-963f-71ab-a9ac-3282ff0d17ef",
+    "title": "Q-UP",
+    "slug": "q-up"
+  },
+  "4262310": {
+    "found": true,
+    "itad_id": "019b9a0b-fbc4-721e-b6e0-78c268724402",
+    "title": "All Hail the Orb",
+    "slug": "all-hail-the-orb"
   }
 }
