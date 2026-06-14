@@ -5632,5 +5632,173 @@
     "itad_id": "018d979a-79bb-7397-a03b-5420a0c11a15",
     "title": "Root",
     "slug": "root--1"
+  },
+  "1681430": {
+    "found": true,
+    "itad_id": "018d937f-5256-73e1-bba6-66fd461a55c7",
+    "title": "RoboCop: Rogue City",
+    "slug": "robocop-rogue-city"
+  },
+  "2723430": {
+    "found": true,
+    "itad_id": "018e8886-f2d3-71b3-babc-2c8adc216f0d",
+    "title": "inKONBINI: One Store. Many Stories.",
+    "slug": "inkonbini-one-store-many-stories"
+  },
+  "2407270": {
+    "found": true,
+    "itad_id": "018d937f-7b1a-728b-8c90-012b9d8b3031",
+    "title": "AI Limit",
+    "slug": "ai-limit"
+  },
+  "3364070": {
+    "found": true,
+    "itad_id": "019779cd-70ed-72d5-bb02-13ffbce5a76c",
+    "title": "The Jackbox Party Pack 11",
+    "slug": "the-jackbox-party-pack-11"
+  },
+  "1205520": {
+    "found": true,
+    "itad_id": "018d937f-6153-7102-bbac-6fc89eb46df6",
+    "title": "Pentiment",
+    "slug": "pentiment"
+  },
+  "3525970": {
+    "found": true,
+    "itad_id": "01963525-a8cc-73dd-9262-176ef72aafda",
+    "title": "Horripilant",
+    "slug": "horripilant"
+  },
+  "4160210": {
+    "found": true,
+    "itad_id": "019b706d-8214-7394-8eed-135c65ba4587",
+    "title": "The Artisan of Glimmith",
+    "slug": "the-artisan-of-glimmith"
+  },
+  "3868320": {
+    "found": true,
+    "itad_id": "0199a753-5ce5-707f-8589-1dd7a9c8d8a7",
+    "title": "Forage Wizard",
+    "slug": "forage-wizard"
+  },
+  "503560": {
+    "found": true,
+    "itad_id": "018d937f-21f5-72e7-81dd-7c4cd610e1d5",
+    "title": "911 Operator",
+    "slug": "911-operator"
+  },
+  "2305500": {
+    "found": true,
+    "itad_id": "0191207b-2248-7304-8f6f-9cae7f54091b",
+    "title": "FAIRY TAIL: DUNGEONS",
+    "slug": "fairy-tail-dungeons"
+  },
+  "1341290": {
+    "found": true,
+    "itad_id": "018d937f-4ce2-7321-a693-ed58e1fb95aa",
+    "title": "We Were Here Forever",
+    "slug": "we-were-here-forever"
+  },
+  "619820": {
+    "found": true,
+    "itad_id": "01919046-4ce4-7134-9a4f-8d778c90866a",
+    "title": "Heroes of Hammerwatch II",
+    "slug": "heroes-of-hammerwatch-ii"
+  },
+  "2742830": {
+    "found": true,
+    "itad_id": "01951ebb-d8a9-71d8-b389-f8de0325be9d",
+    "title": "Monster Train 2",
+    "slug": "monster-train-2"
+  },
+  "1763250": {
+    "found": true,
+    "itad_id": "018d937e-fd5a-7214-abc8-cf697a2913e7",
+    "title": "SWORN",
+    "slug": "sworn"
+  },
+  "894020": {
+    "found": true,
+    "itad_id": "018d937f-4d3b-7333-8666-20f85ab1a1c3",
+    "title": "Death's Door",
+    "slug": "deaths-door"
+  },
+  "1432860": {
+    "found": true,
+    "itad_id": "018d937f-4959-7012-9cc1-33534c9d44de",
+    "title": "Sun Haven",
+    "slug": "sun-haven"
+  },
+  "1286580": {
+    "found": true,
+    "itad_id": "018d937f-66cd-724b-a937-3b0cdb1d3aec",
+    "title": "Ship of Fools",
+    "slug": "ship-of-fools"
+  },
+  "2420660": {
+    "found": true,
+    "itad_id": "018d937f-6eed-717e-a3ee-586c7dbb7cb0",
+    "title": "Neva",
+    "slug": "neva"
+  },
+  "1026680": {
+    "found": true,
+    "itad_id": "018d937f-27eb-720b-97d4-8481ce76842f",
+    "title": "FINAL FANTASY VIII - REMASTERED",
+    "slug": "final-fantasy-viii-remastered"
+  },
+  "2308690": {
+    "found": true,
+    "itad_id": "018d937f-6f0f-7249-9866-8930f6f65b25",
+    "title": "Ground of Aces",
+    "slug": "ground-of-aces"
+  },
+  "2305840": {
+    "found": true,
+    "itad_id": "018d97e4-f553-71db-a03a-0a750c6bfcc9",
+    "title": "Cat Quest III",
+    "slug": "cat-quest-iii"
+  },
+  "292120": {
+    "found": true,
+    "itad_id": "018d937f-0120-723c-be2b-6037706890d2",
+    "title": "FINAL FANTASY XIII",
+    "slug": "final-fantasy-xiii"
+  },
+  "1173810": {
+    "found": true,
+    "itad_id": "018d937f-1002-71b2-a13d-6b968919e04f",
+    "title": "FINAL FANTASY V",
+    "slug": "final-fantasy-v"
+  },
+  "814370": {
+    "found": true,
+    "itad_id": "018d937e-f017-72bf-96c6-087c3ec8c496",
+    "title": "Monster Sanctuary",
+    "slug": "monster-sanctuary"
+  },
+  "1263240": {
+    "found": true,
+    "itad_id": "018d937f-61b5-724c-aae8-41595e0571ce",
+    "title": "Skate Story",
+    "slug": "skate-story"
+  },
+  "559650": {
+    "found": true,
+    "itad_id": "018d937f-294b-72e9-b27d-ee8643dde988",
+    "title": "Witch It",
+    "slug": "witch-it"
+  },
+  "1281040": {
+    "found": true,
+    "itad_id": "018d937f-6eee-70ae-ad31-c16780eb44d3",
+    "title": "Baby Steps",
+    "slug": "baby-steps"
+  },
+  "1173800": {
+    "found": true,
+    "itad_id": "018d937f-1b6e-7034-8bfb-5f03787f8478",
+    "title": "FINAL FANTASY IV",
+    "slug": "final-fantasy-iv"
   }
 }
