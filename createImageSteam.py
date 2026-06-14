@@ -65,6 +65,7 @@ STRIKE_LINE_WIDTH = 2
 
 # ====== HISTORIC LOW BADGE ======
 ALL_TIME_LOW_BADGE_PATH = Path("logos/all-time-low.png")
+NEW_HISTORIC_LOW_BADGE_PATH = Path("logos/new-historic-low.png")
 ALL_TIME_LOW_BADGE_GAP = 8
 ALL_TIME_LOW_BADGE_H = 19
 
@@ -344,29 +345,39 @@ def get_struck_price_right_edge(original_price):
     return STRIKE_X + (bbox[2] - bbox[0])
 
 
-def should_show_all_time_low_badge(final_price_php, historic_low_all):
+def should_show_all_time_low_badge(final_price_php, store_low):
     current_price = parse_price(final_price_php)
-    historic_low = parse_price(historic_low_all)
+    store_low_price = parse_price(store_low)
 
-    if current_price is None or historic_low is None:
+    if current_price is None or store_low_price is None:
         return False
 
-    return current_price <= historic_low
+    return current_price <= store_low_price
+
+
+def is_new_historic_low(entry: dict) -> bool:
+    return str(entry.get("new_historic_low", "")).strip().upper() == "Y"
 
 
 def draw_all_time_low_badge(img_rgba: Image.Image, entry: dict):
     if not should_show_all_time_low_badge(
         entry.get("final_price_php"),
-        entry.get("historic_low_all"),
+        entry.get("store_low"),
     ):
         return
 
-    if not ALL_TIME_LOW_BADGE_PATH.exists():
-        print(f"[warn] Missing all-time low badge: {ALL_TIME_LOW_BADGE_PATH}")
+    badge_path = (
+        NEW_HISTORIC_LOW_BADGE_PATH
+        if is_new_historic_low(entry)
+        else ALL_TIME_LOW_BADGE_PATH
+    )
+
+    if not badge_path.exists():
+        print(f"[warn] Missing historic low badge: {badge_path}")
         return
 
     try:
-        badge = Image.open(ALL_TIME_LOW_BADGE_PATH).convert("RGBA")
+        badge = Image.open(badge_path).convert("RGBA")
 
         if ALL_TIME_LOW_BADGE_H and badge.height != ALL_TIME_LOW_BADGE_H:
             ratio = ALL_TIME_LOW_BADGE_H / badge.height
@@ -385,7 +396,7 @@ def draw_all_time_low_badge(img_rgba: Image.Image, entry: dict):
         img_rgba.alpha_composite(badge, (x, y))
 
     except Exception as e:
-        print(f"[warn] Could not draw all-time low badge: {e}")
+        print(f"[warn] Could not draw historic low badge: {e}")
 
 
 def draw_score_badge(img_rgba: Image.Image, review_percent):

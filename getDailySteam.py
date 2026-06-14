@@ -11,6 +11,7 @@ BASE_URL = "https://store.steampowered.com/search/results/"
 APPDETAILS_URL = "https://store.steampowered.com/api/appdetails"
 ITAD_LOOKUP_URL = "https://api.isthereanydeal.com/games/lookup/v1"
 ITAD_PRICES_URL = "https://api.isthereanydeal.com/games/prices/v3"
+ITAD_STORELOW_URL = "https://api.isthereanydeal.com/games/storelow/v2"
 
 COUNTRY = "PH"
 LANGUAGE = "english"
@@ -386,6 +387,7 @@ def blank_itad_fields(game):
     game["historic_low_1y"] = ""
     game["historic_low_3m"] = ""
     game["store_low"] = ""
+    game["new_historic_low"] = "N"
 
     return game
 
@@ -432,6 +434,22 @@ def get_store_low(price_row):
     store_low = steam_deal.get("storeLow", {})
 
     return get_amount(store_low)
+
+def get_deal_timestamp(price_row):
+    deals = price_row.get("deals", [])
+
+    if not deals:
+        return ""
+
+    steam_deal = next(
+        (
+            deal for deal in deals
+            if str(deal.get("shop", {}).get("id", "")) == "61"
+        ),
+        deals[0],
+    )
+
+    return steam_deal.get("timestamp") or ""
 
 def fetch_itad_id_for_appid(appid):
     params = {
@@ -579,6 +597,99 @@ def fetch_itad_prices(itad_ids):
         print(f"[ITAD] prices lookup failed: {e}")
         return {}
 
+def fetch_itad_store_lows(itad_ids):
+    if not itad_ids:
+        return {}
+
+    params = {
+        "country": COUNTRY,
+        "shops": 61,
+        "key": ITAD_API_KEY,
+    }
+
+    headers = {
+        "Content-Type": "application/json",
+        "User-Agent": "Mozilla/5.0",
+    }
+
+    try:
+        response = requests.post(
+            ITAD_STORELOW_URL,
+            params=params,
+            headers=headers,
+            json=itad_ids,
+            timeout=60,
+        )
+        response.raise_for_status()
+
+        data = response.json()
+
+        if not isinstance(data, list):
+            print("[ITAD] unexpected storelow response format")
+            return {}
+
+        return {
+            item.get("id"): item
+            for item in data
+            if isinstance(item, dict) and item.get("id")
+        }
+
+    except Exception as e:
+        print(f"[ITAD] storelow lookup failed: {e}")
+        return {}
+
+
+def get_current_sale_amount_int(game):
+    value = game.get("final_price_php")
+
+    if value in ("", None):
+        return None
+
+    try:
+        return int(round(float(value) * 100))
+    except (TypeError, ValueError):
+        return None
+
+
+def is_new_historic_low_from_storelow(
+    storelow_row,
+    current_sale_amount_int,
+    sale_start_timestamp,
+    tolerance_days=1,
+):
+    lows = storelow_row.get("lows", [])
+
+    if not lows or current_sale_amount_int is None or not sale_start_timestamp:
+        return False
+
+    steam_low = next(
+        (
+            low for low in lows
+            if str(low.get("shop", {}).get("id", "")) == "61"
+        ),
+        lows[0],
+    )
+
+    low_price_int = steam_low.get("price", {}).get("amountInt")
+    storelow_timestamp = steam_low.get("timestamp")
+
+    if low_price_int is None or not storelow_timestamp:
+        return False
+
+    # Current Steam sale price must match the Steam store-low price.
+    if int(current_sale_amount_int) != int(low_price_int):
+        return False
+
+    try:
+        sale_start_dt = datetime.fromisoformat(sale_start_timestamp)
+        storelow_dt = datetime.fromisoformat(storelow_timestamp)
+    except ValueError:
+        return False
+
+    # New historic low means the store-low record was created during this Steam sale.
+    # The tolerance handles small timezone/API timing differences.
+    return storelow_dt >= sale_start_dt - timedelta(days=tolerance_days)
+
 
 def enrich_with_itad(games):
     """
@@ -593,6 +704,9 @@ def enrich_with_itad(games):
 
     print(f"[ITAD] fetching prices for {len(itad_ids)} mapped daily games")
     prices_by_itad_id = fetch_itad_prices(itad_ids)
+
+    print(f"[ITAD] fetching store lows for {len(itad_ids)} mapped daily games")
+    store_lows_by_itad_id = fetch_itad_store_lows(itad_ids)
 
     for game in games:
         appid = str(game.get("appid", "")).strip()
@@ -611,6 +725,21 @@ def enrich_with_itad(games):
         game["historic_low_3m"] = get_amount(history_low.get("m3"))
         game["store_low"] = get_store_low(price_row)
         game["expiration_date"] = get_deal_expiry(price_row)
+
+        storelow_row = store_lows_by_itad_id.get(itad_id, {})
+        current_sale_amount_int = get_current_sale_amount_int(game)
+        sale_start_timestamp = get_deal_timestamp(price_row)
+
+        game["new_historic_low"] = (
+            "Y"
+            if is_new_historic_low_from_storelow(
+                storelow_row,
+                current_sale_amount_int,
+                sale_start_timestamp,
+                tolerance_days=1,
+            )
+            else "N"
+        )
 
     return games
 
@@ -700,6 +829,7 @@ def export_csv(games, filename=OUTPUT_CSV):
         "historic_low_1y",
         "historic_low_3m",
         "store_low",
+        "new_historic_low",
         "itad_id",
         "review_summary",
         "review_percent",
