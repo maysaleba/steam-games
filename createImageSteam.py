@@ -23,6 +23,20 @@ STEAM_LOGO_PATH = Path("logos/steam-logo.png")
 LOGO_POS = (15, 15)
 LOGO_SIZE = (96, 96)
 
+# ====== STEAM DECK BADGE ======
+STEAM_DECK_BADGE_PATHS = {
+    "verified": Path("logos/verified.png"),
+    "playable": Path("logos/playable.png"),
+    "unsupported": Path("logos/unsupported.png"),
+    "unknown": Path("logos/unknown.png"),
+}
+STEAM_DECK_BADGE_GAP = 12
+STEAM_DECK_BADGE_SIZE = (50, 50)
+STEAM_DECK_BADGE_POS = (
+    LOGO_POS[0] + LOGO_SIZE[0] + STEAM_DECK_BADGE_GAP,
+    36,
+)
+
 # ====== ADS ======
 ADS_DIR  = Path("ads")
 AD_SLOTS = {5, 6, 7, 12, 13, 14, 19, 20, 21, 26, 27, 28, 33, 34, 35, 40, 41, 42}
@@ -253,6 +267,35 @@ def draw_platform_logo(img_rgba: Image.Image):
 
     except Exception as e:
         print(f"[warn] Could not load steam logo: {e}")
+
+
+def normalize_steam_deck_status(value) -> str:
+    status = str(value or "").strip().lower()
+
+    if status in STEAM_DECK_BADGE_PATHS:
+        return status
+
+    return "unknown"
+
+
+def draw_steam_deck_badge(img_rgba: Image.Image, entry: dict):
+    status = normalize_steam_deck_status(entry.get("steam_deck_status"))
+    badge_path = STEAM_DECK_BADGE_PATHS.get(status)
+
+    if not badge_path or not badge_path.exists():
+        print(f"[warn] Missing Steam Deck badge for {status}: {badge_path}")
+        return
+
+    try:
+        badge = Image.open(badge_path).convert("RGBA")
+
+        if badge.size != STEAM_DECK_BADGE_SIZE:
+            badge = badge.resize(STEAM_DECK_BADGE_SIZE, Image.LANCZOS)
+
+        img_rgba.alpha_composite(badge, STEAM_DECK_BADGE_POS)
+
+    except Exception as e:
+        print(f"[warn] Could not draw Steam Deck badge '{status}': {e}")
 
 
 def draw_discount(img_rgba: Image.Image, discount_text: str):
@@ -608,6 +651,7 @@ def main():
             composed = Image.alpha_composite(base_layer, overlay_rgba)
 
             draw_platform_logo(composed)
+            draw_steam_deck_badge(composed, entry)
             draw_score_badge(composed, review_percent)
             draw_hltb_icon(composed, entry)
             draw_discount(composed, discount)

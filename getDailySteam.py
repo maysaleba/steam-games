@@ -12,6 +12,7 @@ APPDETAILS_URL = "https://store.steampowered.com/api/appdetails"
 ITAD_LOOKUP_URL = "https://api.isthereanydeal.com/games/lookup/v1"
 ITAD_PRICES_URL = "https://api.isthereanydeal.com/games/prices/v3"
 ITAD_STORELOW_URL = "https://api.isthereanydeal.com/games/storelow/v2"
+STEAM_DECK_COMPAT_URL = "https://store.steampowered.com/saleaction/ajaxgetdeckappcompatibilityreport"
 
 COUNTRY = "PH"
 LANGUAGE = "english"
@@ -20,6 +21,7 @@ POSTED_FILE = "steam_posted_recently.json"
 OUTPUT_CSV = "steam_deals_today.csv"
 HLTB_DATASET_CSV = "hltb_dataset_filtered.csv"
 ITAD_CACHE_FILE = "itad_appid_cache.json"
+STEAM_DECK_CACHE_FILE = "steam_deck_compat_cache.json"
 
 # Prefer setting this in GitHub Actions secrets/env as ITAD_API_KEY.
 # Falls back to the key you provided.
@@ -88,6 +90,136 @@ def build_steam_library_capsule_url(appid: str, country_code: str = COUNTRY) -> 
         "https://shared.fastly.steamstatic.com/store_item_assets/"
         f"steam/apps/{appid}/library_600x900_2x.jpg"
     )
+
+
+def steam_deck_category_label(category):
+    mapping = {
+        0: "Unknown",
+        1: "Unsupported",
+        2: "Playable",
+        3: "Verified",
+    }
+
+    try:
+        return mapping.get(int(category), "Unknown")
+    except (TypeError, ValueError):
+        return "Unknown"
+
+
+def blank_steam_deck_fields(game):
+    game["steam_deck_category"] = ""
+    game["steam_deck_status"] = "Unknown"
+    game["steam_deck_tested"] = "N"
+
+    return game
+
+
+def parse_steam_deck_response(data):
+    """
+    Normalizes Steam's hidden Deck compatibility endpoint.
+    The endpoint can vary slightly, so this checks the common nested shapes.
+    """
+    if not isinstance(data, dict):
+        return {
+            "category": "",
+            "status": "Unknown",
+            "tested": "N",
+        }
+
+    candidates = [
+        data,
+        data.get("results", {}),
+        data.get("result", {}),
+        data.get("app_compatibility", {}),
+        data.get("results", {}).get("app_compatibility", {})
+        if isinstance(data.get("results"), dict)
+        else {},
+    ]
+
+    category = ""
+
+    for candidate in candidates:
+        if not isinstance(candidate, dict):
+            continue
+
+        for key in (
+            "resolved_category",
+            "category",
+            "compat_category",
+            "deck_compatibility_category",
+        ):
+            value = candidate.get(key)
+
+            if value not in (None, ""):
+                category = value
+                break
+
+        if category not in (None, ""):
+            break
+
+    status = steam_deck_category_label(category)
+
+    return {
+        "category": category if category not in (None, "") else "",
+        "status": status,
+        "tested": "Y" if status in {"Unsupported", "Playable", "Verified"} else "N",
+    }
+
+
+def fetch_steam_deck_compatibility(appid):
+    params = {"nAppID": appid}
+    headers = {"User-Agent": "Mozilla/5.0"}
+
+    try:
+        response = requests.get(
+            STEAM_DECK_COMPAT_URL,
+            params=params,
+            headers=headers,
+            timeout=20,
+        )
+        response.raise_for_status()
+
+        return parse_steam_deck_response(response.json())
+
+    except Exception as e:
+        print(f"[Deck] lookup failed for appid {appid}: {e}")
+        return {
+            "category": "",
+            "status": "Unknown",
+            "tested": "N",
+        }
+
+
+def enrich_with_steam_deck_compatibility(games):
+    cache = load_json(STEAM_DECK_CACHE_FILE, {})
+    updated_cache = False
+
+    for game in games:
+        blank_steam_deck_fields(game)
+
+        appid = str(game.get("appid", "")).strip()
+
+        if not appid:
+            continue
+
+        if appid in cache:
+            deck_data = cache.get(appid, {})
+            print(f"[Deck] cache hit: {appid} -> {deck_data.get('status', 'Unknown')}")
+        else:
+            deck_data = fetch_steam_deck_compatibility(appid)
+            cache[appid] = deck_data
+            updated_cache = True
+            print(f"[Deck] lookup: {appid} -> {deck_data.get('status', 'Unknown')}")
+
+        game["steam_deck_category"] = deck_data.get("category", "")
+        game["steam_deck_status"] = deck_data.get("status", "Unknown")
+        game["steam_deck_tested"] = deck_data.get("tested", "N")
+
+    if updated_cache:
+        save_json(STEAM_DECK_CACHE_FILE, cache)
+        print(f"[Deck] saved cache: {STEAM_DECK_CACHE_FILE}")
+
+    return games
 
 
 
@@ -796,6 +928,7 @@ def build_daily_batch():
     ][:DAILY_TARGET]
 
     daily_batch = enrich_with_itad(daily_batch)
+    daily_batch = enrich_with_steam_deck_compatibility(daily_batch)
 
     today = today_str()
 
@@ -831,6 +964,9 @@ def export_csv(games, filename=OUTPUT_CSV):
         "store_low",
         "new_historic_low",
         "itad_id",
+        "steam_deck_status",
+        "steam_deck_category",
+        "steam_deck_tested",
         "review_summary",
         "review_percent",
         "review_count",
