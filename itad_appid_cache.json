@@ -6424,5 +6424,161 @@
     "itad_id": "01924e06-631d-7310-a63d-0a31b95d62f4",
     "title": "Deck of Haunts",
     "slug": "deck-of-haunts"
+  },
+  "1091500": {
+    "found": true,
+    "itad_id": "018d937f-2997-7131-b8b9-7c8af4825fa8",
+    "title": "Cyberpunk 2077",
+    "slug": "cyberpunk-2077"
+  },
+  "518790": {
+    "found": true,
+    "itad_id": "018d937f-343c-71da-b9ce-584b6df40d40",
+    "title": "theHunter™: Call of the Wild",
+    "slug": "thehunter-call-of-the-wild"
+  },
+  "292030": {
+    "found": true,
+    "itad_id": "018d937f-1212-7232-b23f-a046f6fd4a57",
+    "title": "The Witcher 3: Wild Hunt",
+    "slug": "the-witcher-3-wild-hunt"
+  },
+  "1693980": {
+    "found": true,
+    "itad_id": "018d937f-699e-7346-b27c-0b1b48f926c3",
+    "title": "Dead Space (2023)",
+    "slug": "dead-space-2023"
+  },
+  "2486820": {
+    "found": true,
+    "itad_id": "0194fc66-d60d-71a8-8f5c-66db5556853b",
+    "title": "Sonic Racing: CrossWorlds",
+    "slug": "sonic-racing-crossworlds"
+  },
+  "801800": {
+    "found": true,
+    "itad_id": "01900c88-cec4-7115-9387-a48bf8d67eae",
+    "title": "Atomfall",
+    "slug": "atomfall"
+  },
+  "221100": {
+    "found": true,
+    "itad_id": "018d937f-0fa6-72ce-88cc-960788c91718",
+    "title": "DayZ",
+    "slug": "dayz"
+  },
+  "1874880": {
+    "found": true,
+    "itad_id": "018d937f-5fc7-71e3-a0ea-90044f619dee",
+    "title": "Arma Reforger",
+    "slug": "arma-reforger"
+  },
+  "3156770": {
+    "found": true,
+    "itad_id": "018d937f-4665-70e4-9df6-9075f7dd9b8b",
+    "title": "Witchfire",
+    "slug": "witchfire"
+  },
+  "3404260": {
+    "found": true,
+    "itad_id": "01966347-fc7c-704d-9f25-ad2d99338d4a",
+    "title": "Dead as Disco",
+    "slug": "dead-as-disco"
+  },
+  "2513280": {
+    "found": true,
+    "itad_id": "018d937f-7b69-73cb-9999-7b8554f43f2d",
+    "title": "SONIC X SHADOW GENERATIONS",
+    "slug": "sonic-x-shadow-generations"
+  },
+  "2169200": {
+    "found": true,
+    "itad_id": "01917506-318b-714c-a60c-a4812d006b09",
+    "title": "Sniper Elite: Resistance",
+    "slug": "sniper-elite-resistance"
+  },
+  "3986670": {
+    "found": true,
+    "itad_id": "019d7871-f307-7273-b192-245f11469370",
+    "title": "YOU ARE THE MONSTER",
+    "slug": "you-are-the-monster"
+  },
+  "1774580": {
+    "found": true,
+    "itad_id": "018d937f-679d-712f-8751-a010d35def06",
+    "title": "STAR WARS Jedi: Survivor™‎",
+    "slug": "star-wars-jedi-survivor"
+  },
+  "1426210": {
+    "found": true,
+    "itad_id": "018d937f-4a27-72c8-9837-8ec5e5e92932",
+    "title": "It Takes Two",
+    "slug": "it-takes-two"
+  },
+  "1328670": {
+    "found": true,
+    "itad_id": "018d937f-4b67-7020-aac6-246767f92aa6",
+    "title": "Mass Effect™ Legendary Edition",
+    "slug": "mass-effect-legendary-edition"
+  },
+  "1971870": {
+    "found": true,
+    "itad_id": "018d937f-2085-72ce-ab5c-7c4138adc603",
+    "title": "MORTAL KOMBAT 1",
+    "slug": "mortal-kombat-1"
+  },
+  "107410": {
+    "found": true,
+    "itad_id": "018d937f-1775-7390-8ad5-8a3d0ae6007a",
+    "title": "Arma 3",
+    "slug": "arma-3"
+  },
+  "208650": {
+    "found": true,
+    "itad_id": "018d937f-0e0c-70be-91d5-75e399e6b4e3",
+    "title": "Batman: Arkham Knight",
+    "slug": "batman-arkham-knight"
+  },
+  "1282100": {
+    "found": true,
+    "itad_id": "018d937f-799e-72ce-893c-4a824dcc7a46",
+    "title": "Remnant II",
+    "slug": "remnant-ii"
+  },
+  "2129530": {
+    "found": true,
+    "itad_id": "019170f2-605f-7141-91b1-4e7da7bcd658",
+    "title": "REANIMAL",
+    "slug": "reanimal"
+  },
+  "220200": {
+    "found": true,
+    "itad_id": "018d937f-08a5-730e-ab9f-04c285adec1c",
+    "title": "Kerbal Space Program",
+    "slug": "kerbal-space-program"
+  },
+  "784080": {
+    "found": true,
+    "itad_id": "018d937f-426e-7234-8b8b-4c331a91412b",
+    "title": "MechWarrior 5: Mercenaries",
+    "slug": "mechwarrior-5-mercenaries"
+  },
+  "228380": {
+    "found": true,
+    "itad_id": "018d937f-3486-72cf-9ddb-b90f2110f278",
+    "title": "Wreckfest",
+    "slug": "wreckfest"
+  },
+  "584400": {
+    "found": true,
+    "itad_id": "018d937e-f02e-7125-a2a3-bc943cdd4f22",
+    "title": "Sonic Mania",
+    "slug": "sonic-mania"
+  },
+  "1029690": {
+    "found": true,
+    "itad_id": "018d937f-5e0e-71d6-a8ac-f36fbe3897db",
+    "title": "Sniper Elite 5",
+    "slug": "sniper-elite-5"
   }
 }
