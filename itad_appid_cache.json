@@ -7630,5 +7630,179 @@
     "itad_id": "018d937f-3fac-70af-b00e-b86114b06d12",
     "title": "Command & Conquer™ Remastered Collection",
     "slug": "command-and-conquer-remastered-collection"
+  },
+  "250900": {
+    "found": true,
+    "itad_id": "018d937f-09ae-70b2-8269-996df377eeea",
+    "title": "The Binding of Isaac: Rebirth",
+    "slug": "the-binding-of-isaac-rebirth"
+  },
+  "1086940": {
+    "found": true,
+    "itad_id": "018d9584-24d6-7010-b82b-df1f0b154cc7",
+    "title": "Baldur's Gate 3",
+    "slug": "baldurs-gate-3"
+  },
+  "108600": {
+    "found": true,
+    "itad_id": "018d937e-f4fb-70ee-b1c7-ff968a297b4c",
+    "title": "Project Zomboid",
+    "slug": "project-zomboid"
+  },
+  "3489700": {
+    "found": true,
+    "itad_id": "0191e1ab-f56a-73c3-a150-9bda3983c160",
+    "title": "Stellar Blade",
+    "slug": "stellar-blade"
+  },
+  "1671210": {
+    "found": true,
+    "itad_id": "018d937f-4ada-7155-9e83-ff2728cce390",
+    "title": "Deltarune",
+    "slug": "deltarune"
+  },
+  "814380": {
+    "found": true,
+    "itad_id": "018d937f-5599-70de-b7b0-96f7e67684ff",
+    "title": "Sekiro™: Shadows Die Twice - GOTY Edition",
+    "slug": "sekiro-shadows-die-twice-goty-edition"
+  },
+  "2651280": {
+    "found": true,
+    "itad_id": "018d937f-7871-736b-991b-3dc2794ac099",
+    "title": "Marvel's Spider-Man 2",
+    "slug": "marvels-spider-man-2"
+  },
+  "2322010": {
+    "found": true,
+    "itad_id": "018d937f-6bca-706d-9e69-8316170c379b",
+    "title": "God of War Ragnarök",
+    "slug": "god-of-war-ragnarok"
+  },
+  "105600": {
+    "found": true,
+    "itad_id": "018d937f-30fa-705e-8a3a-f39719bdde93",
+    "title": "Terraria",
+    "slug": "terraria"
+  },
+  "227300": {
+    "found": true,
+    "itad_id": "018d937f-20cc-703a-963c-8dd3f93cb88b",
+    "title": "Euro Truck Simulator 2",
+    "slug": "euro-truck-simulator-2"
+  },
+  "2161700": {
+    "found": true,
+    "itad_id": "018d937f-7466-727c-8331-8f9c8c2af33b",
+    "title": "Persona 3 Reload",
+    "slug": "persona-3-reload"
+  },
+  "2215430": {
+    "found": true,
+    "itad_id": "018e147e-9b32-7025-90af-981a785efddf",
+    "title": "Ghost of Tsushima DIRECTOR'S CUT",
+    "slug": "ghost-of-tsushima-directors-cut"
+  },
+  "3932890": {
+    "found": true,
+    "itad_id": "018d937f-7395-728e-9527-2197f4e0d80d",
+    "title": "Escape from Tarkov",
+    "slug": "escape-from-tarkov"
+  },
+  "2552430": {
+    "found": true,
+    "itad_id": "018d937f-4adb-73a6-a9e5-94ff5f2b847b",
+    "title": "KINGDOM HEARTS - HD 1 5+2 5 ReMIX",
+    "slug": "kingdom-hearts-hd-1-5-and-2-5-remix"
+  },
+  "1888930": {
+    "found": true,
+    "itad_id": "018d937f-679e-7276-b6f1-e59da609dd4b",
+    "title": "The Last of Us™ Part I",
+    "slug": "the-last-of-us-part-i"
+  },
+  "1158310": {
+    "found": true,
+    "itad_id": "018d937f-3a2c-706d-9bc5-6eb0d04e3857",
+    "title": "Crusader Kings III",
+    "slug": "crusader-kings-iii"
+  },
+  "447040": {
+    "found": true,
+    "itad_id": "018d937e-ff88-70fb-8ce4-9bda48f3048d",
+    "title": "Watch_Dogs® 2",
+    "slug": "watch_dogs-2"
+  },
+  "1593500": {
+    "found": true,
+    "itad_id": "018d937f-4964-7357-a557-f04dac608915",
+    "title": "God of War",
+    "slug": "god-of-war"
+  },
+  "3280350": {
+    "found": true,
+    "itad_id": "019c5415-b335-70b0-8977-4be74e816e5f",
+    "title": "DEATH STRANDING 2: ON THE BEACH",
+    "slug": "death-stranding-2-on-the-beach"
+  },
+  "1817070": {
+    "found": true,
+    "itad_id": "018d937f-6136-71e4-a7d4-088a2e8f58ad",
+    "title": "Marvel's Spider-Man Remastered",
+    "slug": "marvels-spider-man-remastered"
+  },
+  "553850": {
+    "found": true,
+    "itad_id": "018d937f-6ee4-73f5-858c-2fde3407462f",
+    "title": "HELLDIVERS™ 2",
+    "slug": "helldivers-2"
+  },
+  "294100": {
+    "found": true,
+    "itad_id": "018d937f-12e9-71ca-a5d5-f31985870694",
+    "title": "RimWorld",
+    "slug": "rimworld"
+  },
+  "2344520": {
+    "found": true,
+    "itad_id": "018d937f-679d-712f-8751-a010d2edb5cf",
+    "title": "Diablo® IV",
+    "slug": "diablo-iv"
+  },
+  "261550": {
+    "found": true,
+    "itad_id": "018d937f-2b82-710b-be7f-7324eaa1d8d5",
+    "title": "Mount & Blade II: Bannerlord",
+    "slug": "mount-and-blade-ii-bannerlord"
+  },
+  "2622380": {
+    "found": true,
+    "itad_id": "0193bdcf-1842-73b6-aa11-bf0ebd540557",
+    "title": "ELDEN RING NIGHTREIGN",
+    "slug": "elden-ring-nightreign"
+  },
+  "2531310": {
+    "found": true,
+    "itad_id": "018d937f-7b20-72f6-a2de-dc2ff64bae95",
+    "title": "The Last of Us Part II Remastered",
+    "slug": "the-last-of-us-part-ii-remastered"
+  },
+  "413150": {
+    "found": true,
+    "itad_id": "018d937e-f835-710c-b95b-928e277b187e",
+    "title": "Stardew Valley",
+    "slug": "stardew-valley"
+  },
+  "3017860": {
+    "found": true,
+    "itad_id": "018ffe30-0af1-701c-b71a-24ca5e3c0d05",
+    "title": "DOOM: The Dark Ages",
+    "slug": "doom-the-dark-ages"
+  },
+  "3164500": {
+    "found": true,
+    "itad_id": "019172e3-4305-708c-8efc-3beb3c180cf1",
+    "title": "Schedule I",
+    "slug": "schedule-i"
   }
 }
