@@ -8140,5 +8140,71 @@
     "itad_id": "018d937f-469e-7367-bf34-be753fe3abff",
     "title": "Riders Republic",
     "slug": "riders-republic"
+  },
+  "1256670": {
+    "found": true,
+    "itad_id": "018d937f-3e9f-7353-a335-e3bc1d901ae3",
+    "title": "Library Of Ruina",
+    "slug": "library-of-ruina"
+  },
+  "568220": {
+    "found": true,
+    "itad_id": "018d937f-09e4-7215-b479-d53b791c8bd1",
+    "title": "Lobotomy Corporation | Monster Management Simulation",
+    "slug": "lobotomy-corporation-monster-management-simulation"
+  },
+  "1229490": {
+    "found": true,
+    "itad_id": "018d937f-3e13-70f0-81d8-5bb0f9517c3f",
+    "title": "ULTRAKILL",
+    "slug": "ultrakill"
+  },
+  "1809540": {
+    "found": true,
+    "itad_id": "018d937f-6ee3-738a-b578-ddd7eb7b327d",
+    "title": "Nine Sols",
+    "slug": "nine-sols"
+  },
+  "524220": {
+    "found": true,
+    "itad_id": "018d937f-2ee8-7008-bda8-5bc6436d8ae3",
+    "title": "Nier: Automata™ Game Of The Yorha Edition",
+    "slug": "nier-automata-game-of-the-yorha-edition"
+  },
+  "2379780": {
+    "found": true,
+    "itad_id": "018d937f-700e-7161-9c8d-5423af1b7c99",
+    "title": "Balatro",
+    "slug": "balatro"
+  },
+  "960090": {
+    "found": true,
+    "itad_id": "018d937e-fd00-73d9-a35c-e7bfba64f05e",
+    "title": "Bloons TD 6",
+    "slug": "bloons-td-6"
+  },
+  "3552140": {
+    "found": true,
+    "itad_id": "019779d5-a77f-70d4-aaa0-13d2a1e5ac58",
+    "title": "Retro Rewind - Video Store Simulator",
+    "slug": "retro-rewind-video-store-simulator"
+  },
+  "1284190": {
+    "found": true,
+    "itad_id": "018d937f-4ab7-7316-b9c3-c4c3a27c575a",
+    "title": "The Planet Crafter",
+    "slug": "the-planet-crafter"
+  },
+  "2239550": {
+    "found": true,
+    "itad_id": "018d937f-1f23-73f4-b983-a2dacd7259d0",
+    "title": "Watch Dogs: Legion",
+    "slug": "watch-dogs-legion"
+  },
+  "546560": {
+    "found": true,
+    "itad_id": "018d937f-3ac1-7228-87f4-1233cb94b630",
+    "title": "Half-Life: Alyx",
+    "slug": "half-life-alyx"
   }
 }
