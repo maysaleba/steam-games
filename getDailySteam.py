@@ -32,7 +32,7 @@ ITAD_API_KEY = os.getenv(
 
 DAILY_TARGET = 50
 FETCH_LIMIT = 500
-ROLLING_DAYS = 7
+ROLLING_DAYS = 10
 
 
 def build_steam_store_items_url(appid: str, country_code: str = COUNTRY) -> str:
