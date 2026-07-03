@@ -8410,5 +8410,89 @@
     "itad_id": "018d937f-6ee6-7204-89da-b33d235526d9",
     "title": "Fields of Mistria",
     "slug": "fields-of-mistria"
+  },
+  "4634490": {
+    "found": true,
+    "itad_id": "019db381-f65c-7080-8e73-ba1136e5f50a",
+    "title": "Master Healer Kale with useless party",
+    "slug": "master-healer-kale-with-useless-party"
+  },
+  "1721110": {
+    "found": true,
+    "itad_id": "018d937f-69de-704b-868e-a6f3485ed743",
+    "title": "Abyssus",
+    "slug": "abyssus"
+  },
+  "614570": {
+    "found": true,
+    "itad_id": "018d937f-33d5-73be-87f4-56da2ded2082",
+    "title": "Dishonored: Death of the Outsider",
+    "slug": "dishonored-death-of-the-outsider"
+  },
+  "3097560": {
+    "found": true,
+    "itad_id": "01920485-bb29-726b-b2a2-448897d3bfd9",
+    "title": "Liar's Bar",
+    "slug": "liars-bar"
+  },
+  "476600": {
+    "found": true,
+    "itad_id": "018d937f-0e1e-70f5-85f9-797eb8bb0d39",
+    "title": "Call of Duty: WWII",
+    "slug": "call-of-duty-wwii"
+  },
+  "287700": {
+    "found": true,
+    "itad_id": "018d937e-fa14-7020-9111-93ad90d49695",
+    "title": "METAL GEAR SOLID V: THE PHANTOM PAIN",
+    "slug": "metal-gear-solid-v-the-phantom-pain"
+  },
+  "1971650": {
+    "found": true,
+    "itad_id": "018d937f-64ac-7047-aed9-f1a7e64996d5",
+    "title": "OCTOPATH TRAVELER II",
+    "slug": "octopath-traveler-ii"
+  },
+  "1392860": {
+    "found": true,
+    "itad_id": "018d970d-f0e7-72c2-81ab-d9be7e1fdc7e",
+    "title": "Little Nightmares III",
+    "slug": "little-nightmares-iii"
+  },
+  "361420": {
+    "found": true,
+    "itad_id": "018d937e-f969-72ed-a245-152daff6edb7",
+    "title": "ASTRONEER",
+    "slug": "astroneer"
+  },
+  "292730": {
+    "found": true,
+    "itad_id": "018d937f-30a2-71a7-9634-fb31a94f9ab0",
+    "title": "Call of Duty: Infinite Warfare",
+    "slug": "call-of-duty-infinite-warfare"
+  },
+  "553420": {
+    "found": true,
+    "itad_id": "018d937f-0186-717a-8898-b39f09dd8206",
+    "title": "TUNIC",
+    "slug": "tunic"
+  },
+  "4128580": {
+    "found": true,
+    "itad_id": "019a308a-079e-7189-98c9-df0034215137",
+    "title": "BidKing",
+    "slug": "bidking"
+  },
+  "920210": {
+    "found": true,
+    "itad_id": "018d937f-043b-733c-b262-1cd8894e4787",
+    "title": "LEGO® Star Wars™: The Skywalker Saga",
+    "slug": "lego-star-wars-the-skywalker-saga"
+  },
+  "1575940": {
+    "found": true,
+    "itad_id": "018f343d-d3de-71cd-8e95-70d04543b1e7",
+    "title": "Sins of a Solar Empire II",
+    "slug": "sins-of-a-solar-empire-ii"
   }
 }
