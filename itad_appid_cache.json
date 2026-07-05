@@ -8596,5 +8596,71 @@
     "itad_id": "018f0c1d-bac3-700a-a559-586ee845eac0",
     "title": "The Spell Brigade",
     "slug": "the-spell-brigade"
+  },
+  "3501070": {
+    "found": true,
+    "itad_id": "0194d1c1-205c-7251-a98e-bf6b866c5645",
+    "title": "Car Service Together",
+    "slug": "car-service-together"
+  },
+  "1449690": {
+    "found": true,
+    "itad_id": "018d937f-2b92-725d-a702-2182ca1855b3",
+    "title": "The Walking Dead: The Telltale Definitive Series",
+    "slug": "the-walking-dead-the-telltale-definitive-series"
+  },
+  "2119830": {
+    "found": true,
+    "itad_id": "018d937f-782e-70e2-ad38-0f0c5ede4fac",
+    "title": "MISERY",
+    "slug": "misery"
+  },
+  "2737070": {
+    "found": true,
+    "itad_id": "018f540d-ae47-716f-862d-2ea56d8cf5ef",
+    "title": "Crime Simulator",
+    "slug": "crime-simulator"
+  },
+  "924970": {
+    "found": true,
+    "itad_id": "018d937f-4ab3-707f-ad19-abd38336f54c",
+    "title": "Back 4 Blood",
+    "slug": "back-4-blood"
+  },
+  "1113560": {
+    "found": true,
+    "itad_id": "018d937f-47c7-730f-9ef2-8025ade99100",
+    "title": "NieR Replicant™ ver.1.22474487139...",
+    "slug": "nier-replicant-ver-1-22474487139"
+  },
+  "3265700": {
+    "found": true,
+    "itad_id": "019aa27c-3c16-73ce-a025-dfe0f9a2f7c7",
+    "title": "Vampire Crawlers: The Turbo Wildcard from Vampire Survivors",
+    "slug": "vampire-crawlers-the-turbo-wildcard-from-vampire-survivors"
+  },
+  "22380": {
+    "found": true,
+    "itad_id": "018d937f-0896-71b1-94d9-82725d1e320a",
+    "title": "Fallout®: New Vegas™",
+    "slug": "fallout-new-vegas"
+  },
+  "24010": {
+    "found": true,
+    "itad_id": "018f9c26-8945-724b-9017-e17b7ce9e48d",
+    "title": "Train Simulator Classic 2024",
+    "slug": "train-simulator-classic-2024"
+  },
+  "1262350": {
+    "found": true,
+    "itad_id": "018d937f-4051-7072-89b2-bc7dec11ec06",
+    "title": "SIGNALIS",
+    "slug": "signalis"
+  },
+  "2751000": {
+    "found": true,
+    "itad_id": "018d937f-7850-73de-b288-0774d2cb4332",
+    "title": "Prince of Persia™: The Lost Crown",
+    "slug": "prince-of-persia-the-lost-crown"
   }
 }
