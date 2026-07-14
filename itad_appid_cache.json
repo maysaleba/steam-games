@@ -9136,5 +9136,149 @@
     "itad_id": "019d6dc5-1592-7074-9d94-e3926acb0bb8",
     "title": "Goal Idle",
     "slug": "goal-idle"
+  },
+  "3641000": {
+    "found": true,
+    "itad_id": "01977a72-00e6-71ab-b894-a24ad5ebaf21",
+    "title": "The Incident at Galley House",
+    "slug": "the-incident-at-galley-house"
+  },
+  "710230": {
+    "found": true,
+    "itad_id": "018d937f-281f-7353-b032-5ef07ce70b45",
+    "title": "Urban Strife",
+    "slug": "urban-strife"
+  },
+  "3312130": {
+    "found": true,
+    "itad_id": "0195ba21-c4ce-71f7-b8fd-5a6001830fa3",
+    "title": "Factory Town 2: Paradise",
+    "slug": "factory-town-2-paradise"
+  },
+  "4163030": {
+    "found": true,
+    "itad_id": "019b22f7-3508-722f-b1f2-c529a72ab555",
+    "title": "Cat Chess",
+    "slug": "cat-chess"
+  },
+  "2131680": {
+    "found": true,
+    "itad_id": "018d937f-7196-708d-9299-8014ac322a74",
+    "title": "METAL GEAR & METAL GEAR 2: Solid Snake",
+    "slug": "metal-gear-and-metal-gear-2-solid-snake"
+  },
+  "4297840": {
+    "found": true,
+    "itad_id": "019bbe6d-2dff-73f1-bb89-1df3933abe96",
+    "title": "Rock Bottom",
+    "slug": "rock-bottom"
+  },
+  "2989180": {
+    "found": true,
+    "itad_id": "01950035-d6b3-7193-95fb-b4088f91245c",
+    "title": "Darwin's Paradox!",
+    "slug": "darwins-paradox"
+  },
+  "1932640": {
+    "found": true,
+    "itad_id": "018d937f-64fb-73f0-925f-1fa4f69f2c03",
+    "title": "Suikoden I&II HD Remaster Gate Rune and Dunan Unification Wars",
+    "slug": "suikoden-i-and-ii-hd-remaster-gate-rune-and-dunan-unification-wars"
+  },
+  "2230110": {
+    "found": true,
+    "itad_id": "018d937f-6ecf-710d-8ca0-69b8479bd5f2",
+    "title": "Fae Farm",
+    "slug": "fae-farm"
+  },
+  "3152750": {
+    "found": true,
+    "itad_id": "01913687-5eb4-738d-a07f-146468b81c84",
+    "title": "Taival",
+    "slug": "taival"
+  },
+  "3361510": {
+    "found": true,
+    "itad_id": "01936dd3-47df-716d-b4ce-5345d5775d78",
+    "title": "Coal LLC",
+    "slug": "coal-llc"
+  },
+  "201870": {
+    "found": true,
+    "itad_id": "018d937f-0085-7156-93a8-5a7c9a7854cf",
+    "title": "Assassin's Creed Revelations",
+    "slug": "assassins-creed-revelations"
+  },
+  "4549610": {
+    "found": true,
+    "itad_id": "019d3435-ab0e-72aa-8e5e-19387d671921",
+    "title": "Three Kingdoms : Alias",
+    "slug": "three-kingdoms-alias"
+  },
+  "2183670": {
+    "found": true,
+    "itad_id": "018ffe96-6455-705b-9a67-94bca0273346",
+    "title": "Hotel Galactic",
+    "slug": "hotel-galactic"
+  },
+  "1895460": {
+    "found": true,
+    "itad_id": "01997906-9704-7180-8f5d-7685f625ec5c",
+    "title": "D-Topia",
+    "slug": "d-topia"
+  },
+  "953880": {
+    "found": true,
+    "itad_id": "018d937e-fedc-73cf-a886-05bc40955051",
+    "title": "First Class Trouble",
+    "slug": "first-class-trouble"
+  },
+  "2131640": {
+    "found": true,
+    "itad_id": "018d937f-7195-7383-9798-c762c2c4cdbc",
+    "title": "METAL GEAR SOLID 2: Sons of Liberty - Master Collection Version",
+    "slug": "metal-gear-solid-2-sons-of-liberty-master-collection-version"
+  },
+  "1646850": {
+    "found": true,
+    "itad_id": "018d937f-6783-7277-a272-48c6ecc8e444",
+    "title": "SpaceBourne 2",
+    "slug": "spacebourne-2"
+  },
+  "15100": {
+    "found": true,
+    "itad_id": "018d937f-1204-72ca-a521-98f6e02e29d5",
+    "title": "Assassin's Creed™ Director's Cut Edition",
+    "slug": "assassins-creed-directors-cut-edition"
+  },
+  "1684350": {
+    "found": true,
+    "itad_id": "018d937f-6b6f-711c-b807-77468cad7a62",
+    "title": "The Thaumaturge",
+    "slug": "the-thaumaturge"
+  },
+  "2695260": {
+    "found": true,
+    "itad_id": "018d937f-799a-70c9-836c-9bdc2eeb4576",
+    "title": "The Crimson Maid",
+    "slug": "the-crimson-maid"
+  },
+  "2717880": {
+    "found": true,
+    "itad_id": "018ec91d-521a-71bd-ba91-808d6d6b40a4",
+    "title": "The Rogue Prince of Persia",
+    "slug": "the-rogue-prince-of-persia"
+  },
+  "4465600": {
+    "found": true,
+    "itad_id": "019cbfbf-77f5-7380-9d98-edc217f7ea29",
+    "title": "Bowling Alley Simulator",
+    "slug": "bowling-alley-simulator"
+  },
+  "2779120": {
+    "found": true,
+    "itad_id": "019cb3bb-4561-715b-80fd-b5030784c9d0",
+    "title": "Modulus: Factory Automation",
+    "slug": "modulus-factory-automation"
   }
 }
