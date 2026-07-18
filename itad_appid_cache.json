@@ -9724,5 +9724,185 @@
     "itad_id": "018d937e-ff87-73d7-bd78-751a0549c7f3",
     "title": "Megaquarium",
     "slug": "megaquarium"
+  },
+  "4178020": {
+    "found": true,
+    "itad_id": "019c926b-1f2a-7163-93ef-763d85d6accd",
+    "title": "Lured In",
+    "slug": "lured-in"
+  },
+  "1771980": {
+    "found": true,
+    "itad_id": "018e3315-109c-7081-b2f0-d50a2c96f28f",
+    "title": "The OPERATOR",
+    "slug": "the-operator"
+  },
+  "861650": {
+    "found": true,
+    "itad_id": "018d937f-5cfc-7172-bcac-015390601d2b",
+    "title": "Session: Skate Sim",
+    "slug": "session-skate-sim"
+  },
+  "1995520": {
+    "found": true,
+    "itad_id": "018d937f-6b81-7349-a92d-486b45d0992a",
+    "title": "Pax Dei",
+    "slug": "pax-dei"
+  },
+  "211820": {
+    "found": true,
+    "itad_id": "018d937e-ea37-73f8-b1a9-a6869e3c024d",
+    "title": "Starbound",
+    "slug": "starbound"
+  },
+  "424030": {
+    "found": true,
+    "itad_id": "018d937f-05d3-7334-adf2-f4c81a1352e3",
+    "title": "War of Rights",
+    "slug": "war-of-rights"
+  },
+  "977880": {
+    "found": true,
+    "itad_id": "018d937f-20f2-7248-ae6f-f2e868cfec6a",
+    "title": "Eastward",
+    "slug": "eastward"
+  },
+  "3354220": {
+    "found": true,
+    "itad_id": "0194584d-eb7c-70ef-bd7a-d9f34749a646",
+    "title": "Comic Book Store Simulator",
+    "slug": "comic-book-store-simulator"
+  },
+  "3586450": {
+    "found": true,
+    "itad_id": "0196a912-9e77-703b-a05c-3aed254f2b56",
+    "title": "World Tree Ranch: Elven Legacy",
+    "slug": "world-tree-ranch-elven-legacy"
+  },
+  "3132930": {
+    "found": true,
+    "itad_id": "0195d82e-84c2-7334-9b03-f3e96b1c99b5",
+    "title": "Monument Valley 3",
+    "slug": "monument-valley-3"
+  },
+  "4867330": {
+    "found": true,
+    "itad_id": "019eec33-249e-720c-9fc4-deb91c710d45",
+    "title": "Toy Keeper",
+    "slug": "toy-keeper"
+  },
+  "3160880": {
+    "found": true,
+    "itad_id": "0191b929-6125-7129-a3d1-4b6031c9987b",
+    "title": "Tavern Legends",
+    "slug": "tavern-legends"
+  },
+  "916350": {
+    "found": true,
+    "itad_id": "018d937f-400f-7048-8e09-1475bfbd1fd8",
+    "title": "Saturnalia",
+    "slug": "saturnalia"
+  },
+  "4622330": {
+    "found": true,
+    "itad_id": "019dd6a4-f3a7-72bf-8ea5-184b2ef8b3ae",
+    "title": "CD Market - Music Label Sim",
+    "slug": "cd-market-music-label-sim"
+  },
+  "1709880": {
+    "found": true,
+    "itad_id": "018d937f-50e6-705d-b0c8-eb6885235732",
+    "title": "Loco Motive",
+    "slug": "loco-motive"
+  },
+  "2382520": {
+    "found": true,
+    "itad_id": "018d937f-6fed-7030-9f29-b1ff4b2f35c6",
+    "title": "Erenshor",
+    "slug": "erenshor"
+  },
+  "590380": {
+    "found": true,
+    "itad_id": "018d937e-fd08-732e-a1d1-cee1c7d920d5",
+    "title": "Into the Breach",
+    "slug": "into-the-breach"
+  },
+  "2356560": {
+    "found": true,
+    "itad_id": "018d937f-501a-7142-89c3-45df0aa1356d",
+    "title": "Monster Hunter Stories",
+    "slug": "monster-hunter-stories"
+  },
+  "3615160": {
+    "found": true,
+    "itad_id": "0196276a-1eca-724d-99f1-362534eebe69",
+    "title": "Teddy's Haven - A Fantasy Inspired Shop Simulator",
+    "slug": "teddys-haven-a-fantasy-inspired-shop-simulator"
+  },
+  "2525510": {
+    "found": true,
+    "itad_id": "01926c7e-8462-717a-8477-190cd5883049",
+    "title": "NITRO GEN OMEGA",
+    "slug": "nitro-gen-omega"
+  },
+  "235540": {
+    "found": true,
+    "itad_id": "018d937f-1e9f-7127-bbb7-c34b1a562103",
+    "title": "Warhammer: End Times - Vermintide",
+    "slug": "warhammer-end-times-vermintide"
+  },
+  "4624560": {
+    "found": true,
+    "itad_id": "019d9f3a-c812-73b6-bc28-e078ff0c7787",
+    "title": "Chest Buster",
+    "slug": "chest-buster"
+  },
+  "365590": {
+    "found": true,
+    "itad_id": "018d937e-fd49-7027-9e59-51f9d8685cd5",
+    "title": "Tom Clancy's The Division™",
+    "slug": "tom-clancys-the-division"
+  },
+  "265550": {
+    "found": true,
+    "itad_id": "018d937f-221f-70de-8737-c0c0ad381541",
+    "title": "Dead Rising 3 Apocalypse Edition",
+    "slug": "dead-rising-3-apocalypse-edition"
+  },
+  "4605210": {
+    "found": true,
+    "itad_id": "019ccea9-3a93-7212-bfde-18e9dc56ae3c",
+    "title": "Pet the Cat",
+    "slug": "pet-the-cat"
+  },
+  "1042550": {
+    "found": true,
+    "itad_id": "018d937f-3a20-7328-b483-b6b3f28e8a97",
+    "title": "Digimon Story Cyber Sleuth: Complete Edition",
+    "slug": "digimon-story-cyber-sleuth-complete-edition"
+  },
+  "688420": {
+    "found": true,
+    "itad_id": "018d937f-2265-73b1-a1e5-d3d14a34a840",
+    "title": "Bad North: Jotunn Edition",
+    "slug": "bad-north-jotunn-edition"
+  },
+  "3570060": {
+    "found": true,
+    "itad_id": "0195b903-c59f-700d-9ff1-86a7a9a79e2d",
+    "title": "The Ember Guardian",
+    "slug": "the-ember-guardian"
+  },
+  "1259980": {
+    "found": true,
+    "itad_id": "018d937f-4438-73e4-b9f6-e75b923bc7ef",
+    "title": "RIDE 4",
+    "slug": "ride-4"
+  },
+  "1811990": {
+    "found": true,
+    "itad_id": "018d937f-64f3-71d5-8c1f-03235e7bf628",
+    "title": "Wildfrost",
+    "slug": "wildfrost"
   }
 }
