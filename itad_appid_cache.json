@@ -9904,5 +9904,185 @@
     "itad_id": "018d937f-64f3-71d5-8c1f-03235e7bf628",
     "title": "Wildfrost",
     "slug": "wildfrost"
+  },
+  "324080": {
+    "found": true,
+    "itad_id": "018d937e-f9a8-7393-a321-b1963240cbf0",
+    "title": "Rising World",
+    "slug": "rising-world"
+  },
+  "1689500": {
+    "found": true,
+    "itad_id": "018d937f-73bf-73e9-99c0-cb5b1e194cb1",
+    "title": "Dune: Imperium",
+    "slug": "dune-imperium"
+  },
+  "4009730": {
+    "found": true,
+    "itad_id": "019954b4-496c-71a0-8c95-f39302205f18",
+    "title": "Feed the Reactor",
+    "slug": "feed-the-reactor"
+  },
+  "2653470": {
+    "found": true,
+    "itad_id": "0198fadd-57bc-7366-8134-22a26eb41cbd",
+    "title": "Little problems",
+    "slug": "little-problems"
+  },
+  "1700270": {
+    "found": true,
+    "itad_id": "018d937f-69d1-70f4-9283-10f2c686f082",
+    "title": "Lucky Tower Ultimate",
+    "slug": "lucky-tower-ultimate"
+  },
+  "2495450": {
+    "found": true,
+    "itad_id": "018d937f-7331-722a-b552-deaf374e28b4",
+    "title": "Winter Memories",
+    "slug": "winter-memories"
+  },
+  "790820": {
+    "found": true,
+    "itad_id": "018d937f-3a7e-7337-8af0-c25c17549c3e",
+    "title": "Valkyria Chronicles 4 Complete Edition",
+    "slug": "valkyria-chronicles-4-complete-edition"
+  },
+  "3694480": {
+    "found": true,
+    "itad_id": "019980ea-b417-7312-9ebd-6443efab3fbc",
+    "title": "A Game About Feeding A Black Hole",
+    "slug": "a-game-about-feeding-a-black-hole"
+  },
+  "1307550": {
+    "found": true,
+    "itad_id": "018d937f-42a8-70ee-a5e2-cd53e7d4e670",
+    "title": "Craftopia",
+    "slug": "craftopia"
+  },
+  "2582140": {
+    "found": true,
+    "itad_id": "01956079-7eb1-722b-8c2f-19c724eb825d",
+    "title": "Seafarer: The Ship Sim",
+    "slug": "seafarer-the-ship-sim"
+  },
+  "1540210": {
+    "found": true,
+    "itad_id": "019e92ef-372c-73b6-9ae5-3dc693746626",
+    "title": "Arizona Sunshine® VR 2",
+    "slug": "arizona-sunshine-vr-2"
+  },
+  "232890": {
+    "found": true,
+    "itad_id": "018d937e-fdbd-7369-9995-bb6cd7ea01c7",
+    "title": "Stronghold Crusader 2",
+    "slug": "stronghold-crusader-2"
+  },
+  "3509230": {
+    "found": true,
+    "itad_id": "01959e23-80b1-7050-8b99-d7fe13070403",
+    "title": "Gambonanza",
+    "slug": "gambonanza"
+  },
+  "3371260": {
+    "found": true,
+    "itad_id": "01937940-5f68-7001-902e-7be0949b5a7e",
+    "title": "Requiem of Reuinis",
+    "slug": "requiem-of-reuinis"
+  },
+  "2292650": {
+    "found": true,
+    "itad_id": "018d937f-6ef5-70b6-8028-d3848f10344b",
+    "title": "Escape From Mystwood Mansion",
+    "slug": "escape-from-mystwood-mansion"
+  },
+  "1672500": {
+    "found": true,
+    "itad_id": "018de7a5-eb53-71c4-9eac-7cedbae7a287",
+    "title": "GUNDAM BREAKER 4",
+    "slug": "gundam-breaker-4"
+  },
+  "979070": {
+    "found": true,
+    "itad_id": "018d937f-429b-73ac-99f9-3893548226de",
+    "title": "Just Die Already",
+    "slug": "just-die-already"
+  },
+  "245170": {
+    "found": true,
+    "itad_id": "018d937f-4cee-7015-9ee2-902b3645522f",
+    "title": "Skullgirls 2nd Encore",
+    "slug": "skullgirls-2nd-encore"
+  },
+  "2890830": {
+    "found": true,
+    "itad_id": "018e61e7-3d06-70fc-82ee-81068e30bf35",
+    "title": "Streamer Life Simulator 2",
+    "slug": "streamer-life-simulator-2"
+  },
+  "1712350": {
+    "found": true,
+    "itad_id": "018d937e-ea58-70ef-95df-fdd61d61e00f",
+    "title": "Riven",
+    "slug": "riven"
+  },
+  "2599690": {
+    "found": true,
+    "itad_id": "018d937f-79fe-72ad-9ec0-b374956000fa",
+    "title": "Better Than Dead",
+    "slug": "better-than-dead"
+  },
+  "1812090": {
+    "found": true,
+    "itad_id": "018d937f-60ca-735e-a2f5-6a896bc33776",
+    "title": "Escape Academy",
+    "slug": "escape-academy"
+  },
+  "644930": {
+    "found": true,
+    "itad_id": "018d937f-29ed-7191-a058-ee9191ef6996",
+    "title": "They Are Billions",
+    "slug": "they-are-billions"
+  },
+  "1909950": {
+    "found": true,
+    "itad_id": "0195d802-f19d-71a0-aa5c-3c6eb53a1064",
+    "title": "SUPER ROBOT WARS Y",
+    "slug": "super-robot-wars-y"
+  },
+  "798460": {
+    "found": true,
+    "itad_id": "018d937f-3827-71fe-8758-0d0dff13c065",
+    "title": "Ni no Kuni Wrath of the White Witch™ Remastered",
+    "slug": "ni-no-kuni-wrath-of-the-white-witch-remastered"
+  },
+  "1552550": {
+    "found": true,
+    "itad_id": "018d937f-5722-7367-916e-57a65b1bc488",
+    "title": "Castlevania Advance Collection",
+    "slug": "castlevania-advance-collection"
+  },
+  "2305640": {
+    "found": true,
+    "itad_id": "018d937f-713b-703a-ad5b-760c80ca2ff4",
+    "title": "Bladesong",
+    "slug": "bladesong"
+  },
+  "1291340": {
+    "found": true,
+    "itad_id": "018d937f-42c1-735a-bd39-46c3936d5fd0",
+    "title": "Townscaper",
+    "slug": "townscaper"
+  },
+  "2198510": {
+    "found": true,
+    "itad_id": "018d937f-6ef2-7274-87cd-6aaa3a12b530",
+    "title": "New Cycle",
+    "slug": "new-cycle"
+  },
+  "1170950": {
+    "found": true,
+    "itad_id": "018d937f-3cb6-70a5-934e-7d45cce5ca83",
+    "title": "Mortal Online 2",
+    "slug": "mortal-online-2"
   }
 }
