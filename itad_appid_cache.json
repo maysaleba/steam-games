@@ -10396,5 +10396,113 @@
     "itad_id": "0198c80c-948d-7051-8d21-0786c4eadcf5",
     "title": "Global Rescue",
     "slug": "global-rescue"
+  },
+  "3440070": {
+    "found": true,
+    "itad_id": "0194626f-06f9-701e-8cd8-98b110b559dd",
+    "title": "Dinoblade",
+    "slug": "dinoblade"
+  },
+  "1845250": {
+    "found": true,
+    "itad_id": "018d937f-74c4-72c4-8bed-60e92c69a9b2",
+    "title": "Rubinite",
+    "slug": "rubinite"
+  },
+  "3561220": {
+    "found": true,
+    "itad_id": "019b1779-fba6-71b3-b6ca-cab863f25151",
+    "title": "Pass The Fear",
+    "slug": "pass-the-fear"
+  },
+  "1181550": {
+    "found": true,
+    "itad_id": "018d937f-3a6a-7114-95c7-8f2ff9143f18",
+    "title": "Carnival Hunt",
+    "slug": "carnival-hunt"
+  },
+  "4223300": {
+    "found": true,
+    "itad_id": "019ae63b-270b-7001-ae5a-28eb9a952d98",
+    "title": "Bird Game 3",
+    "slug": "bird-game-3--5"
+  },
+  "2251220": {
+    "found": true,
+    "itad_id": "0191ead3-a138-73bc-a17a-a7431784e9dd",
+    "title": "High Times - Dating/Cooking Sim",
+    "slug": "high-times-dating-cooking-sim"
+  },
+  "2803490": {
+    "found": true,
+    "itad_id": "0196a415-5c0a-7396-a0d1-1c7087ed77c9",
+    "title": "Atomcraft",
+    "slug": "atomcraft"
+  },
+  "2230980": {
+    "found": true,
+    "itad_id": "018d97db-b9c8-71f8-bfff-d2f1b941e87d",
+    "title": "Caribbean Legend",
+    "slug": "caribbean-legend"
+  },
+  "2593340": {
+    "found": true,
+    "itad_id": "018d937f-7b06-731c-9683-6d8ea256528f",
+    "title": "Wonderia",
+    "slug": "wonderia"
+  },
+  "931060": {
+    "found": true,
+    "itad_id": "018d937e-fd12-712a-b417-c813fd313cd0",
+    "title": "Tormentum II",
+    "slug": "tormentum-ii"
+  },
+  "926990": {
+    "found": true,
+    "itad_id": "018d937f-2672-738c-be22-be89784db38a",
+    "title": "WolfQuest: Anniversary Edition",
+    "slug": "wolfquest-anniversary-edition"
+  },
+  "4337440": {
+    "found": true,
+    "itad_id": "019dc490-dd10-70a4-a261-4e6747d1b6e4",
+    "title": "Memory of Memorie : A Chill Story",
+    "slug": "memory-of-memorie-a-chill-story"
+  },
+  "1120320": {
+    "found": true,
+    "itad_id": "018d937e-f8cd-7084-a09c-6e80c3511c98",
+    "title": "Builder Simulator",
+    "slug": "builder-simulator"
+  },
+  "1373090": {
+    "found": true,
+    "itad_id": "019668fa-7098-7297-9d54-e61032293618",
+    "title": "Yes, Your Grace 2: Snowfall",
+    "slug": "yes-your-grace-2-snowfall"
+  },
+  "986130": {
+    "found": true,
+    "itad_id": "018d937f-1b1a-7035-b153-15006d9c9a55",
+    "title": "Shadows of Doubt",
+    "slug": "shadows-of-doubt"
+  },
+  "2765320": {
+    "found": true,
+    "itad_id": "018d937f-7b50-7327-931d-146e383bad26",
+    "title": "Celestial Descends",
+    "slug": "celestial-descends"
+  },
+  "361280": {
+    "found": true,
+    "itad_id": "018d937f-262c-707a-b4eb-3f345a6ded8c",
+    "title": "Turmoil",
+    "slug": "turmoil"
+  },
+  "424840": {
+    "found": true,
+    "itad_id": "018d937f-0c86-70e9-9298-ddf197875e33",
+    "title": "Little Nightmares",
+    "slug": "little-nightmares"
   }
 }
