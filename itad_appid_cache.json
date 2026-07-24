@@ -10504,5 +10504,119 @@
     "itad_id": "018d937f-0c86-70e9-9298-ddf197875e33",
     "title": "Little Nightmares",
     "slug": "little-nightmares"
+  },
+  "3683770": {
+    "found": true,
+    "itad_id": "019700d5-afd0-7173-acdd-571f696caee8",
+    "title": "Boba Cafe Simulator",
+    "slug": "boba-cafe-simulator"
+  },
+  "3863760": {
+    "found": true,
+    "itad_id": "019a5752-b94e-71c9-8bdf-c694874b69b1",
+    "title": "侠影录",
+    "slug": "xia-ying-lu"
+  },
+  "4668890": {
+    "found": true,
+    "itad_id": "019dd2ba-6d93-71a1-954a-b1b5212299a3",
+    "title": "Mall Together",
+    "slug": "mall-together"
+  },
+  "460920": {
+    "found": true,
+    "itad_id": "018d937f-1018-7053-bd38-d5cfb751b486",
+    "title": "STEEP",
+    "slug": "steep"
+  },
+  "4112070": {
+    "found": true,
+    "itad_id": "019a2f42-9488-72c7-a37a-33f5f2706ed8",
+    "title": "an Eggstremely Hard Game",
+    "slug": "an-eggstremely-hard-game"
+  },
+  "4358310": {
+    "found": true,
+    "itad_id": "019c0e14-3ad4-71ba-9f0d-eb559e31c265",
+    "title": "Coin Tavern",
+    "slug": "coin-tavern"
+  },
+  "4124920": {
+    "found": true,
+    "itad_id": "019a5b3d-6a56-71d9-8487-7ff87d8349ed",
+    "title": "Some of You May Die",
+    "slug": "some-of-you-may-die"
+  },
+  "3555780": {
+    "found": true,
+    "itad_id": "01961a60-fc13-72a5-b06e-43e0763ed7b8",
+    "title": "Bookbinding",
+    "slug": "bookbinding"
+  },
+  "3508910": {
+    "found": true,
+    "itad_id": "019643d8-7c09-732e-a5c1-a9a8b3760f0f",
+    "title": "Abyss Kitchen",
+    "slug": "abyss-kitchen"
+  },
+  "4214320": {
+    "found": true,
+    "itad_id": "019aea25-ba3d-70c0-8399-2b6a2c677401",
+    "title": "我的美味丈夫 My Tasty Husband",
+    "slug": "wo-de-mei-wei-zhang-fu-my-tasty-husband"
+  },
+  "4371450": {
+    "found": true,
+    "itad_id": "019c205f-3d06-7074-a3cf-baca2265642c",
+    "title": "Arctic Shift: Fuel Station",
+    "slug": "arctic-shift-fuel-station"
+  },
+  "1115690": {
+    "found": true,
+    "itad_id": "018d937f-153a-7291-844e-c16225b24cdc",
+    "title": "Yes, Your Grace",
+    "slug": "yes-your-grace"
+  },
+  "1192900": {
+    "found": true,
+    "itad_id": "018d937f-3d0d-708d-8729-369c23a3eb45",
+    "title": "IRON REBELLION",
+    "slug": "iron-rebellion"
+  },
+  "1859910": {
+    "found": true,
+    "itad_id": "018d937f-6fa5-7389-8368-7827d99ab809",
+    "title": "Legend of Mortal",
+    "slug": "legend-of-mortal"
+  },
+  "1161830": {
+    "found": true,
+    "itad_id": "018d96b9-bfb2-709b-ab25-75c0b09e9fc0",
+    "title": "Age of Reforging:The Freelands",
+    "slug": "age-of-reforging-the-freelands"
+  },
+  "1910150": {
+    "found": true,
+    "itad_id": "01931cdd-d7ed-7242-81fc-0eac3be5bca6",
+    "title": "Walk of Life",
+    "slug": "walk-of-life"
+  },
+  "4438540": {
+    "found": true,
+    "itad_id": "019c8ce4-ba51-72fc-a9fa-fca98ee852f1",
+    "title": "Limitless Survivors",
+    "slug": "limitless-survivors"
+  },
+  "2111630": {
+    "found": true,
+    "itad_id": "018d937f-64d3-727e-b521-87992058a52a",
+    "title": "JR EAST Train Simulator",
+    "slug": "jr-east-train-simulator"
+  },
+  "3125750": {
+    "found": true,
+    "itad_id": "0192ac6d-b5d3-706e-8550-dc34c9836383",
+    "title": "EDENS ZERO",
+    "slug": "edens-zero"
   }
 }
