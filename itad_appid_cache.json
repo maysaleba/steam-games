@@ -10708,5 +10708,83 @@
     "itad_id": "018d937f-00fd-71b0-acba-1520c19a41e9",
     "title": "The Crew 2",
     "slug": "the-crew-2"
+  },
+  "367450": {
+    "found": true,
+    "itad_id": "018d937f-32d4-729c-af3c-fa3adf8a8390",
+    "title": "Poly Bridge",
+    "slug": "poly-bridge"
+  },
+  "629820": {
+    "found": true,
+    "itad_id": "018d937e-f49a-7117-93e6-bc4f4afd65c4",
+    "title": "Maneater",
+    "slug": "maneater"
+  },
+  "456750": {
+    "found": true,
+    "itad_id": "018d937f-329b-73c7-9af3-ecde403996c8",
+    "title": "The Room Three",
+    "slug": "the-room-three"
+  },
+  "288160": {
+    "found": true,
+    "itad_id": "018d937f-046e-73cb-be8b-0f3ea8931291",
+    "title": "The Room",
+    "slug": "the-room"
+  },
+  "600130": {
+    "found": true,
+    "itad_id": "018d937f-1f18-7333-9b1d-26f498ce5bc9",
+    "title": "Valfaris",
+    "slug": "valfaris"
+  },
+  "425580": {
+    "found": true,
+    "itad_id": "018d937f-221a-7213-8be2-69d6b50568e2",
+    "title": "The Room Two",
+    "slug": "the-room-two"
+  },
+  "726840": {
+    "found": true,
+    "itad_id": "018d937f-37b5-70ec-aaad-619095c4a77d",
+    "title": "City Game Studio",
+    "slug": "city-game-studio"
+  },
+  "2496180": {
+    "found": true,
+    "itad_id": "018d937f-5ef3-7023-8ccc-365680f69663",
+    "title": "Ghost town",
+    "slug": "ghost-town"
+  },
+  "1649950": {
+    "found": true,
+    "itad_id": "018d937f-50c4-7033-aa3e-cc0fa98347bb",
+    "title": "News Tower",
+    "slug": "news-tower"
+  },
+  "2502780": {
+    "found": true,
+    "itad_id": "019884ac-2890-72b7-9e42-2a22901289a6",
+    "title": "Ranger's Path: National Park Simulator",
+    "slug": "rangers-path-national-park-simulator"
+  },
+  "4249130": {
+    "found": true,
+    "itad_id": "018d937f-6e3a-737f-98b6-eced27999867",
+    "title": "Dino Crisis",
+    "slug": "dino-crisis"
+  },
+  "3743790": {
+    "found": true,
+    "itad_id": "019c2f04-9ab2-7046-b0a3-eef4ef2f580e",
+    "title": "Thomas & Friends™: Wonders of Sodor",
+    "slug": "thomas-and-friends-wonders-of-sodor"
+  },
+  "3669570": {
+    "found": true,
+    "itad_id": "01965b47-6c9f-7280-8e60-a883102f4acd",
+    "title": "Alchemy Factory",
+    "slug": "alchemy-factory"
   }
 }
