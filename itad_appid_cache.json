@@ -11224,5 +11224,83 @@
     "itad_id": "018d937f-6ee8-7321-a387-d87af43bbb8a",
     "title": "Morbid Metal",
     "slug": "morbid-metal"
+  },
+  "3014080": {
+    "found": true,
+    "itad_id": "01902bcf-463d-71f4-9676-1ba67ccb7ca8",
+    "title": "The Hundred Line -Last Defense Academy-",
+    "slug": "the-hundred-line-last-defense-academy"
+  },
+  "2052410": {
+    "found": true,
+    "itad_id": "018d937f-74c9-7334-8873-29eab5d87eb2",
+    "title": "WITCH ON THE HOLY NIGHT",
+    "slug": "witch-on-the-holy-night"
+  },
+  "1134100": {
+    "found": true,
+    "itad_id": "018d937f-4cdd-72de-8ef9-45fe413454d6",
+    "title": "Frozenheim",
+    "slug": "frozenheim"
+  },
+  "4836070": {
+    "found": true,
+    "itad_id": "019f4c6f-cc3c-7374-b565-4fb21de22bd4",
+    "title": "Ghosts of Tabor : LEGACY",
+    "slug": "ghosts-of-tabor-legacy"
+  },
+  "1722840": {
+    "found": true,
+    "itad_id": "018d937f-6347-711b-acf6-386682751e0d",
+    "title": "Everdell",
+    "slug": "everdell"
+  },
+  "3522360": {
+    "found": true,
+    "itad_id": "019c4193-dee6-72fa-95be-3e5c312f1a50",
+    "title": "WARSHIFT 2",
+    "slug": "warshift-2"
+  },
+  "403640": {
+    "found": true,
+    "itad_id": "018d937f-2133-7352-904c-8ee0741c3547",
+    "title": "Dishonored 2",
+    "slug": "dishonored-2"
+  },
+  "2453060": {
+    "found": true,
+    "itad_id": "018d937f-7304-70c6-acb8-f5cf16b9c4e2",
+    "title": "Dreamcore",
+    "slug": "dreamcore"
+  },
+  "1609230": {
+    "found": true,
+    "itad_id": "018d937f-464e-7160-8102-a5f09383a3d1",
+    "title": "Scarlet Hollow",
+    "slug": "scarlet-hollow"
+  },
+  "2808550": {
+    "found": true,
+    "itad_id": "01981352-7bf6-702e-aec7-1b84f7d00f02",
+    "title": "Sudden Strike 5",
+    "slug": "sudden-strike-5"
+  },
+  "601430": {
+    "found": true,
+    "itad_id": "018d937f-222a-72ea-ad3e-7746f9a70c46",
+    "title": "The Evil Within 2",
+    "slug": "the-evil-within-2"
+  },
+  "268050": {
+    "found": true,
+    "itad_id": "018d937f-0e04-738c-8409-517f4a4c8ad3",
+    "title": "The Evil Within",
+    "slug": "the-evil-within"
+  },
+  "1491670": {
+    "found": true,
+    "itad_id": "018d937f-4aaa-7177-ade7-5675464b5d81",
+    "title": "Venba",
+    "slug": "venba"
   }
 }
