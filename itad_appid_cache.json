@@ -11494,5 +11494,101 @@
     "itad_id": "0195f240-bafa-72c7-9bbd-ca45abb2d6a6",
     "title": "Kin and Quarry",
     "slug": "kin-and-quarry"
+  },
+  "1478500": {
+    "found": true,
+    "itad_id": "018d937f-79bd-73aa-8546-5b4cc8823aa8",
+    "title": "Big Walk",
+    "slug": "big-walk"
+  },
+  "1289670": {
+    "found": true,
+    "itad_id": "018d937f-466a-703c-a3e9-7ac02a270e53",
+    "title": "EA Play",
+    "slug": "ea-play"
+  },
+  "3399900": {
+    "found": true,
+    "itad_id": "01971786-b1d0-7038-ab4b-b8e2fbabbbce",
+    "title": "HellSlave II: Judgment of the Archon",
+    "slug": "hellslave-ii-judgment-of-the-archon"
+  },
+  "896250": {
+    "found": true,
+    "itad_id": "018d937f-43b8-70c5-a557-4300b15fe46f",
+    "title": "Liquidation",
+    "slug": "liquidation"
+  },
+  "4547970": {
+    "found": true,
+    "itad_id": "019dc234-9c2b-73ae-b60a-c40710016e06",
+    "title": "Pih 2",
+    "slug": "pih-2"
+  },
+  "1610440": {
+    "found": true,
+    "itad_id": "018d975e-74c9-7108-8165-93dc585a1753",
+    "title": "Minds Beneath Us",
+    "slug": "minds-beneath-us"
+  },
+  "447530": {
+    "found": true,
+    "itad_id": "018d937f-2998-7044-874d-26ecb30c4e4b",
+    "title": "VA-11 Hall-A: Cyberpunk Bartender Action",
+    "slug": "va-11-hall-a-cyberpunk-bartender-action"
+  },
+  "420530": {
+    "found": true,
+    "itad_id": "018d937e-ff62-72d2-99ca-1c309ef22ae2",
+    "title": "OneShot",
+    "slug": "oneshot"
+  },
+  "241600": {
+    "found": true,
+    "itad_id": "018d937f-3644-70b9-8ba4-77cd53f88932",
+    "title": "Rogue Legacy",
+    "slug": "rogue-legacy"
+  },
+  "1451090": {
+    "found": true,
+    "itad_id": "018d937f-637d-71ac-9931-99186a2b0f8b",
+    "title": "Tactics Ogre: Reborn",
+    "slug": "tactics-ogre-reborn"
+  },
+  "2490990": {
+    "found": true,
+    "itad_id": "018d937f-7b14-716d-a5f4-67ff85a7b858",
+    "title": "Visions of Mana",
+    "slug": "visions-of-mana"
+  },
+  "1328350": {
+    "found": true,
+    "itad_id": "018d937f-4ebd-705e-90b9-e2bdc8381c1b",
+    "title": "Turbo Overkill",
+    "slug": "turbo-overkill"
+  },
+  "613830": {
+    "found": true,
+    "itad_id": "018d937f-3315-73b2-8abc-45994d8564f0",
+    "title": "CHRONO TRIGGER",
+    "slug": "chrono-trigger"
+  },
+  "1481080": {
+    "found": true,
+    "itad_id": "018d937f-4b88-70f0-9cb7-c73210faa479",
+    "title": "DRAMAtical Murder",
+    "slug": "dramatical-murder"
+  },
+  "4619420": {
+    "found": true,
+    "itad_id": "019d96f8-0283-7363-bd73-6f8405c7d6db",
+    "title": "Slot Grind",
+    "slug": "slot-grind"
+  },
+  "268870": {
+    "found": true,
+    "itad_id": "018d937f-2852-72f3-b785-f54273b4f6c7",
+    "title": "Satellite Reign",
+    "slug": "satellite-reign"
   }
 }
