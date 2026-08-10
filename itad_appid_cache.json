@@ -12136,5 +12136,41 @@
     "itad_id": "018d937e-fda4-73aa-9489-3b690a2c42f2",
     "title": "LEGO® STAR WARS™: The Force Awakens",
     "slug": "lego-star-wars-the-force-awakens"
+  },
+  "1067360": {
+    "found": true,
+    "itad_id": "0197a4f9-a6a6-736b-bc34-7986ae423478",
+    "title": "Pax Autocratica",
+    "slug": "pax-autocratica"
+  },
+  "3144340": {
+    "found": true,
+    "itad_id": "0197ac04-9743-72df-861b-f842a057273f",
+    "title": "Cult of PiN",
+    "slug": "cult-of-pin"
+  },
+  "3755930": {
+    "found": true,
+    "itad_id": "01981ba3-4356-7099-a4d0-d049dc298860",
+    "title": "The Severed Gods",
+    "slug": "the-severed-gods"
+  },
+  "4508020": {
+    "found": true,
+    "itad_id": "019d72d0-0458-72bf-9b64-e66348fc9600",
+    "title": "Hole Is Mine",
+    "slug": "hole-is-mine"
+  },
+  "1808680": {
+    "found": true,
+    "itad_id": "018d937f-618b-71e5-82b5-939937bfee48",
+    "title": "Snufkin: Melody of Moominvalley",
+    "slug": "snufkin-melody-of-moominvalley"
+  },
+  "992840": {
+    "found": true,
+    "itad_id": "018d937f-33fd-7192-a597-42f7f82d0535",
+    "title": "Car Wash Simulator",
+    "slug": "car-wash-simulator"
   }
 }
