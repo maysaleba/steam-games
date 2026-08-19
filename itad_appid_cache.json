@@ -13162,5 +13162,155 @@
     "itad_id": "01989f2c-2fe2-7057-a047-fbec3d0d82f5",
     "title": "ploink",
     "slug": "ploink"
+  },
+  "4315040": {
+    "found": true,
+    "itad_id": "019c05fc-e518-7132-b45e-7b10a9bb79b2",
+    "title": "Hearth and Hamlet",
+    "slug": "hearth-and-hamlet"
+  },
+  "4026250": {
+    "found": true,
+    "itad_id": "019a5a38-4806-71af-a100-8dab058aca95",
+    "title": "Project P.I.T.T.",
+    "slug": "project-pitt"
+  },
+  "4132330": {
+    "found": true,
+    "itad_id": "019e5138-8cc4-701e-b815-6a6cb55d7e47",
+    "title": "Pizza House Simulator🍕",
+    "slug": "pizza-house-simulator"
+  },
+  "2228280": {
+    "found": true,
+    "itad_id": "018d937f-74b7-71cc-bca7-1c02083b6f7e",
+    "title": "MEMORIAPOLIS",
+    "slug": "memoriapolis"
+  },
+  "4626940": {
+    "found": true,
+    "itad_id": "019e6917-aa5c-719c-b22a-95aa34851964",
+    "title": "Scratch the Ticket",
+    "slug": "scratch-the-ticket"
+  },
+  "1189290": {
+    "found": true,
+    "itad_id": "018d937f-427e-72f6-b0fe-6a396ec9aee9",
+    "title": "The Black Grimoire: Cursebreaker",
+    "slug": "the-black-grimoire-cursebreaker"
+  },
+  "648350": {
+    "found": true,
+    "itad_id": "018d937f-122d-7118-bdb0-5b34f74c8432",
+    "title": "Jurassic World Evolution",
+    "slug": "jurassic-world-evolution"
+  },
+  "1849790": {
+    "found": true,
+    "itad_id": "018d937f-6ee8-7321-a387-d87af3eea5f7",
+    "title": "Uncle Chop's Rocket Shop",
+    "slug": "uncle-chops-rocket-shop"
+  },
+  "4961460": {
+    "found": true,
+    "itad_id": "019f7121-2983-73bb-9215-d63a31846046",
+    "title": "MarginCall",
+    "slug": "margincall"
+  },
+  "1864950": {
+    "found": true,
+    "itad_id": "018d937f-6efb-70bd-ae76-90494a04ba4f",
+    "title": "Beastieball",
+    "slug": "beastieball"
+  },
+  "2190290": {
+    "found": true,
+    "itad_id": "018d983f-1dd2-73f1-8da5-38c3733921cd",
+    "title": "To Be or Not to Be",
+    "slug": "to-be-or-not-to-be--1"
+  },
+  "2591280": {
+    "found": true,
+    "itad_id": "018e3330-5efe-7007-9569-c35c148c18c0",
+    "title": "F1® Manager 2024",
+    "slug": "f1-manager-2024"
+  },
+  "2644610": {
+    "found": true,
+    "itad_id": "018d937f-789d-71ef-add1-c90d4cd3e370",
+    "title": "Menace from the Deep",
+    "slug": "menace-from-the-deep"
+  },
+  "1413480": {
+    "found": true,
+    "itad_id": "018d937f-4d0f-71c9-a559-73cb88910b78",
+    "title": "Shin Megami Tensei III Nocturne HD Remaster",
+    "slug": "shin-megami-tensei-iii-nocturne-hd-remaster"
+  },
+  "1996390": {
+    "found": true,
+    "itad_id": "018d97b2-7bdf-7346-9612-dfa0857d23de",
+    "title": "Escape from Ever After",
+    "slug": "escape-from-ever-after"
+  },
+  "4534000": {
+    "found": true,
+    "itad_id": "019d5894-920f-7340-b9bc-9d7bbfe5a3b6",
+    "title": "Planetary Resource Optimization & Freight Infrastructure Technician Simulator 2167",
+    "slug": "planetary-resource-optimization-and-freight-infrastructure-technician-s-70119d16"
+  },
+  "1101120": {
+    "found": true,
+    "itad_id": "018d937f-264d-7053-abe6-9effdb3c8d23",
+    "title": "Gunsmith Simulator",
+    "slug": "gunsmith-simulator"
+  },
+  "1539140": {
+    "found": true,
+    "itad_id": "018d937f-6170-7342-a7c9-2a73d6452ddf",
+    "title": "STONKS-9800: Stock Market Simulator",
+    "slug": "stonks-9800-stock-market-simulator"
+  },
+  "200510": {
+    "found": true,
+    "itad_id": "018d937e-fd5e-7114-937e-5357a75217fc",
+    "title": "XCOM: Enemy Unknown",
+    "slug": "xcom-enemy-unknown"
+  },
+  "1809700": {
+    "found": true,
+    "itad_id": "018d937f-682d-734c-bcf6-ddaa1386331c",
+    "title": "Persona 3 Portable",
+    "slug": "persona-3-portable"
+  },
+  "2254740": {
+    "found": true,
+    "itad_id": "018d937f-7160-702d-8162-954c0fcf1b5a",
+    "title": "Persona 5 Tactica",
+    "slug": "persona-5-tactica"
+  },
+  "2300120": {
+    "found": true,
+    "itad_id": "018d937f-1904-719d-84f8-cabf440b1b25",
+    "title": "Painkiller",
+    "slug": "painkiller"
+  },
+  "241260": {
+    "found": true,
+    "itad_id": "018d937e-f4f5-7095-b972-5a0bacdb6869",
+    "title": "Sherlock Holmes: Crimes and Punishments",
+    "slug": "sherlock-holmes-crimes-and-punishments"
+  },
+  "913740": {
+    "found": true,
+    "itad_id": "018d937f-35b5-7152-ae42-b522bf174b0a",
+    "title": "WORLD OF HORROR",
+    "slug": "world-of-horror"
+  },
+  "736190": {
+    "found": true,
+    "itad_id": "018d937f-3d13-73df-80a6-fb0c835b6b10",
+    "title": "Chinese Parents",
+    "slug": "chinese-parents"
   }
 }
