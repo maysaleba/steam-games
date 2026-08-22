@@ -13600,5 +13600,131 @@
     "itad_id": "018d937f-4d26-7231-b0f4-5fac7b24d37d",
     "title": "Isonzo",
     "slug": "isonzo"
+  },
+  "868360": {
+    "found": true,
+    "itad_id": "018d937f-263d-70c5-80db-12abc70f1e49",
+    "title": "Project Hospital",
+    "slug": "project-hospital"
+  },
+  "2254890": {
+    "found": true,
+    "itad_id": "018d97de-8fd0-7345-a9f4-a1e8cb65a47f",
+    "title": "The Killing Antidote",
+    "slug": "the-killing-antidote"
+  },
+  "1796790": {
+    "found": true,
+    "itad_id": "018d937f-618b-71e5-82b5-939933e057ac",
+    "title": "Chef RPG",
+    "slug": "chef-rpg"
+  },
+  "2416100": {
+    "found": true,
+    "itad_id": "018f262f-ecce-704b-a257-d63105111850",
+    "title": "Goodnight Universe",
+    "slug": "goodnight-universe"
+  },
+  "2695940": {
+    "found": true,
+    "itad_id": "018d937f-7975-713f-b339-bbb42b627926",
+    "title": "PANICORE",
+    "slug": "panicore"
+  },
+  "4373870": {
+    "found": true,
+    "itad_id": "019c0bef-0cea-7236-8778-a07a8b54f93a",
+    "title": "Unpossess 2: Exorcism Simulator",
+    "slug": "unpossess-2-exorcism-simulator"
+  },
+  "1155650": {
+    "found": true,
+    "itad_id": "018d937f-3833-7210-ac54-eb893eb5470f",
+    "title": "Shady Knight",
+    "slug": "shady-knight"
+  },
+  "1701520": {
+    "found": true,
+    "itad_id": "018d937f-6395-7034-be0f-298e2a073874",
+    "title": "Afterimage",
+    "slug": "afterimage"
+  },
+  "207610": {
+    "found": true,
+    "itad_id": "018d937e-f05c-7388-88ac-876eacf2e2fd",
+    "title": "The Walking Dead",
+    "slug": "the-walking-dead"
+  },
+  "2473480": {
+    "found": true,
+    "itad_id": "018dd67d-d51a-71f1-a263-c517eb3c66b0",
+    "title": "Tails of Iron 2: Whiskers of Winter",
+    "slug": "tails-of-iron-2-whiskers-of-winter"
+  },
+  "2958970": {
+    "found": true,
+    "itad_id": "018ff457-8e7f-703b-8792-c191b8e81519",
+    "title": "The Thing: Remastered",
+    "slug": "the-thing-remastered"
+  },
+  "1082430": {
+    "found": true,
+    "itad_id": "018d937f-4e9f-720d-9d18-0d38dfb93728",
+    "title": "Before Your Eyes",
+    "slug": "before-your-eyes"
+  },
+  "1388590": {
+    "found": true,
+    "itad_id": "018d937f-4af9-70b7-80ae-6b01476e712f",
+    "title": "YAKUZA 6: The Song of Life",
+    "slug": "yakuza-6-the-song-of-life"
+  },
+  "394690": {
+    "found": true,
+    "itad_id": "018d937f-09f7-71b3-b932-3721f2ffad74",
+    "title": "Tower Unite",
+    "slug": "tower-unite"
+  },
+  "1061090": {
+    "found": true,
+    "itad_id": "018d937f-2be4-7074-8a22-34c501155164",
+    "title": "Jump King",
+    "slug": "jump-king"
+  },
+  "357070": {
+    "found": true,
+    "itad_id": "018d937e-ff42-70a1-9c66-ae59d2175383",
+    "title": "UBERMOSH",
+    "slug": "ubermosh"
+  },
+  "1750770": {
+    "found": true,
+    "itad_id": "018d937f-661c-734b-b651-360d97ff7a48",
+    "title": "Starcom: Unknown Space",
+    "slug": "starcom-unknown-space"
+  },
+  "3528970": {
+    "found": true,
+    "itad_id": "0195295a-ffff-7054-bb4d-604db83ca741",
+    "title": "Unmourned",
+    "slug": "unmourned"
+  },
+  "1105510": {
+    "found": true,
+    "itad_id": "018d937f-4b50-734d-925d-554aa3cfd7d3",
+    "title": "Yakuza 5 Remastered",
+    "slug": "yakuza-5-remastered"
+  },
+  "2663530": {
+    "found": true,
+    "itad_id": "018d937f-78a2-7228-9b44-b8ffdc75f535",
+    "title": "Pools",
+    "slug": "pools"
+  },
+  "1602010": {
+    "found": true,
+    "itad_id": "018d937f-5af9-7132-a3f9-a02ec5208f6c",
+    "title": "Persona 4 Arena Ultimax",
+    "slug": "persona-4-arena-ultimax"
   }
 }
