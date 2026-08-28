@@ -14038,5 +14038,59 @@
     "itad_id": "019e9a11-b8b9-7332-931b-d59c19cf31c8",
     "title": "Blood Dungeon",
     "slug": "blood-dungeon"
+  },
+  "2100020": {
+    "found": true,
+    "itad_id": "018d937f-6f0c-70f5-9467-15feca802dad",
+    "title": "Lou's Lagoon",
+    "slug": "lous-lagoon"
+  },
+  "593600": {
+    "found": true,
+    "itad_id": "018d937f-1163-73c6-8a57-2660e344fdd4",
+    "title": "PIXARK",
+    "slug": "pixark"
+  },
+  "2640950": {
+    "found": true,
+    "itad_id": "01974760-72fd-7352-a1b6-ee8b68ba4105",
+    "title": "Scott Pilgrim EX",
+    "slug": "scott-pilgrim-ex"
+  },
+  "5053820": {
+    "found": true,
+    "itad_id": "019ff54f-002e-704e-924b-16564e13f74a",
+    "title": "Mimic Party",
+    "slug": "mimic-party"
+  },
+  "2824880": {
+    "found": true,
+    "itad_id": "018dcecf-9d33-7030-9fa8-b9eb176521a2",
+    "title": "SHRIMP GAME",
+    "slug": "shrimp-game"
+  },
+  "4406280": {
+    "found": true,
+    "itad_id": "019da41c-81fb-71a5-8136-43847e46b41c",
+    "title": "the cabin game",
+    "slug": "the-cabin-game"
+  },
+  "774461": {
+    "found": true,
+    "itad_id": "018d937f-1cab-725d-85c9-ea3c071019fb",
+    "title": "The Jackbox Party Pack 5",
+    "slug": "the-jackbox-party-pack-5"
+  },
+  "610180": {
+    "found": true,
+    "itad_id": "018d937f-1938-73c6-bf62-3b9bcc81965c",
+    "title": "The Jackbox Party Pack 4",
+    "slug": "the-jackbox-party-pack-4"
+  },
+  "2054520": {
+    "found": true,
+    "itad_id": "018d937f-6fe4-72f9-bea0-fd8e40bc4256",
+    "title": "Gawr Gura: Quest for Bread",
+    "slug": "gawr-gura-quest-for-bread"
   }
 }
