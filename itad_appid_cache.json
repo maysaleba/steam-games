@@ -14092,5 +14092,155 @@
     "itad_id": "018d937f-6fe4-72f9-bea0-fd8e40bc4256",
     "title": "Gawr Gura: Quest for Bread",
     "slug": "gawr-gura-quest-for-bread"
+  },
+  "2530470": {
+    "found": true,
+    "itad_id": "019158de-c9ce-7140-b512-afcb1478bf94",
+    "title": "Garden of Witches",
+    "slug": "garden-of-witches"
+  },
+  "1148130": {
+    "found": true,
+    "itad_id": "018d937e-ff61-709c-83b1-d4033056a5fb",
+    "title": "Divinum",
+    "slug": "divinum"
+  },
+  "1147860": {
+    "found": true,
+    "itad_id": "018d937f-3854-725d-88ed-4c178361521c",
+    "title": "UFO 50",
+    "slug": "ufo-50"
+  },
+  "3516590": {
+    "found": true,
+    "itad_id": "0194e940-3d61-7396-a9e7-fc66884b886d",
+    "title": "Allumeria",
+    "slug": "allumeria"
+  },
+  "833360": {
+    "found": true,
+    "itad_id": "018d937e-ea21-7051-9b8f-0460bdc43399",
+    "title": "Star Valor",
+    "slug": "star-valor"
+  },
+  "1618380": {
+    "found": true,
+    "itad_id": "018d937f-67fe-735c-918b-7374a2ee7496",
+    "title": "Spellmasons",
+    "slug": "spellmasons"
+  },
+  "3908940": {
+    "found": true,
+    "itad_id": "019b2407-8025-7308-b9e7-a3370fd77802",
+    "title": "Inferno Protocol",
+    "slug": "inferno-protocol"
+  },
+  "1975520": {
+    "found": true,
+    "itad_id": "018d937f-6f0b-71a5-bb5e-5ec472169582",
+    "title": "Astronomics",
+    "slug": "astronomics"
+  },
+  "4298500": {
+    "found": true,
+    "itad_id": "019bc754-eb8d-725d-810d-f5010047c754",
+    "title": "Last Breath 最后的气息",
+    "slug": "last-breath-zui-hou-de-qi-xi"
+  },
+  "1552350": {
+    "found": true,
+    "itad_id": "018d937f-56e3-72b1-9b14-3277388c0125",
+    "title": "The Jackbox Party Pack 8",
+    "slug": "the-jackbox-party-pack-8"
+  },
+  "2216830": {
+    "found": true,
+    "itad_id": "018d937f-7399-7084-89e1-af18a897cf49",
+    "title": "The Jackbox Party Pack 10",
+    "slug": "the-jackbox-party-pack-10"
+  },
+  "3850800": {
+    "found": true,
+    "itad_id": "019d0a0b-8efd-7375-bc5e-be9e8dbe02c0",
+    "title": "WakuWaku Park",
+    "slug": "wakuwaku-park"
+  },
+  "397460": {
+    "found": true,
+    "itad_id": "018d937f-211a-72b3-9e4b-34145e6ed2d2",
+    "title": "The Jackbox Party Pack 2",
+    "slug": "the-jackbox-party-pack-2"
+  },
+  "331670": {
+    "found": true,
+    "itad_id": "018d937f-2f07-725a-85b7-886f5f556dc0",
+    "title": "The Jackbox Party Pack",
+    "slug": "the-jackbox-party-pack"
+  },
+  "4529120": {
+    "found": true,
+    "itad_id": "019dca85-4aac-7115-abd6-00b0e1d64104",
+    "title": "Alice's Gaze",
+    "slug": "alices-gaze"
+  },
+  "2586440": {
+    "found": true,
+    "itad_id": "018d937f-74fe-7086-88ea-973b38ee33f3",
+    "title": "House 2",
+    "slug": "house-2"
+  },
+  "232090": {
+    "found": true,
+    "itad_id": "018d937f-327d-7178-8eb7-79e76361b4dc",
+    "title": "Killing Floor 2",
+    "slug": "killing-floor-2"
+  },
+  "2098160": {
+    "found": true,
+    "itad_id": "01985040-f794-71de-b182-3d836ad70e0a",
+    "title": "Star Vortex",
+    "slug": "star-vortex--2"
+  },
+  "1442430": {
+    "found": true,
+    "itad_id": "018fba28-6aa1-7055-b07b-f165f117e7f4",
+    "title": "Storage Hunter Simulator",
+    "slug": "storage-hunter-simulator"
+  },
+  "241930": {
+    "found": true,
+    "itad_id": "018d937f-0a89-7069-a869-1ade408b2d54",
+    "title": "Middle-earth: Shadow of Mordor",
+    "slug": "middle-earth-shadow-of-mordor"
+  },
+  "299970": {
+    "found": true,
+    "itad_id": "0196816b-36f4-701a-b115-d7e8a0e5ea3a",
+    "title": "Project Motor Racing",
+    "slug": "project-motor-racing"
+  },
+  "3500390": {
+    "found": true,
+    "itad_id": "019a097c-3b6b-70fa-8cb8-c987fc9058c2",
+    "title": "Mega Man Star Force Legacy Collection",
+    "slug": "mega-man-star-force-legacy-collection"
+  },
+  "1473060": {
+    "found": true,
+    "itad_id": "018d937f-6f91-7233-82ec-c9a666cc4aa6",
+    "title": "Reality Break",
+    "slug": "reality-break"
+  },
+  "2248620": {
+    "found": true,
+    "itad_id": "019a744a-5741-72c6-bfe4-e6fc5df37dc7",
+    "title": "The Economy Bros",
+    "slug": "the-economy-bros"
+  },
+  "4429930": {
+    "found": true,
+    "itad_id": "019ecc3a-2d80-7330-86f6-75f82784204f",
+    "title": "Water You Doing?",
+    "slug": "water-you-doing"
   }
 }
