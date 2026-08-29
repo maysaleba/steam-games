@@ -14242,5 +14242,65 @@
     "itad_id": "019ecc3a-2d80-7330-86f6-75f82784204f",
     "title": "Water You Doing?",
     "slug": "water-you-doing"
+  },
+  "4353650": {
+    "found": true,
+    "itad_id": "019f232f-3889-70d3-8000-e3489773ade1",
+    "title": "Imperial Knights",
+    "slug": "imperial-knights"
+  },
+  "2533600": {
+    "found": true,
+    "itad_id": "018d937f-73ae-7296-9b42-7ed96b83734c",
+    "title": "Bloodthief",
+    "slug": "bloodthief"
+  },
+  "4090330": {
+    "found": true,
+    "itad_id": "019c2946-cf8a-70b6-9418-5bba68c19088",
+    "title": "Mall Rivals",
+    "slug": "mall-rivals"
+  },
+  "711660": {
+    "found": true,
+    "itad_id": "018d937e-fa1e-7020-94cb-8e93b0bcf71b",
+    "title": "CHUCHEL",
+    "slug": "chuchel"
+  },
+  "3267900": {
+    "found": true,
+    "itad_id": "019664f1-aee9-7260-892d-5c6e5f4ed6e3",
+    "title": "Click and Conquer",
+    "slug": "click-and-conquer"
+  },
+  "1721060": {
+    "found": true,
+    "itad_id": "0194b788-7b67-738d-87fb-075d1656ceae",
+    "title": "Mandragora: Whispers of the Witch Tree",
+    "slug": "mandragora-whispers-of-the-witch-tree"
+  },
+  "5028390": {
+    "found": true,
+    "itad_id": "019ff2d7-6f77-7367-9a85-ac37f680ca9d",
+    "title": "Too Many Toys!",
+    "slug": "too-many-toys"
+  },
+  "742300": {
+    "found": true,
+    "itad_id": "018d937f-17d7-7081-9f63-85bf75b75d40",
+    "title": "Mega Man 11",
+    "slug": "mega-man-11"
+  },
+  "2248760": {
+    "found": true,
+    "itad_id": "01a0331b-22ee-7069-aead-1bd0d9370a67",
+    "title": "Car For Sale Simulator",
+    "slug": "car-for-sale-simulator"
+  },
+  "3963030": {
+    "found": true,
+    "itad_id": "0198c971-a9ee-70e1-9be7-4ed0019192e8",
+    "title": "Pickle Pete",
+    "slug": "pickle-pete"
   }
 }
