@@ -14428,5 +14428,95 @@
     "itad_id": "018f9014-ab45-7142-9a7e-7fc17ddbd9bc",
     "title": "Lady Death Demonicron",
     "slug": "lady-death-demonicron"
+  },
+  "3768760": {
+    "found": true,
+    "itad_id": "01973cf5-c00c-72ad-bc30-2d24c94799f6",
+    "title": "007 First Light",
+    "slug": "007-first-light"
+  },
+  "3905450": {
+    "found": true,
+    "itad_id": "019c0453-261f-70e8-a90d-533f311409be",
+    "title": "WheelMates",
+    "slug": "wheelmates"
+  },
+  "4412000": {
+    "found": true,
+    "itad_id": "019c5eb4-ae35-70b8-87fa-6638bdf129e5",
+    "title": "Zad Archery",
+    "slug": "zad-archery"
+  },
+  "3846120": {
+    "found": true,
+    "itad_id": "01980a4f-69ea-733e-8905-074e20adec91",
+    "title": "MineMogul",
+    "slug": "minemogul"
+  },
+  "2380050": {
+    "found": true,
+    "itad_id": "018d937f-6ed9-71ca-8010-4baa96f40575",
+    "title": "Star Trucker",
+    "slug": "star-trucker"
+  },
+  "3597200": {
+    "found": true,
+    "itad_id": "019d905e-cbeb-70f9-9b83-a7228027030f",
+    "title": "Grail",
+    "slug": "grail"
+  },
+  "313120": {
+    "found": true,
+    "itad_id": "018d937e-f030-70ab-9906-580febf9b1c3",
+    "title": "Stranded Deep",
+    "slug": "stranded-deep"
+  },
+  "3828500": {
+    "found": true,
+    "itad_id": "0198bca1-f5b9-727f-b1b5-f658bd29b84a",
+    "title": "Deck & Conn",
+    "slug": "deck-and-conn"
+  },
+  "1335830": {
+    "found": true,
+    "itad_id": "018d937f-42c4-7000-b596-71a6fcb0afab",
+    "title": "Len's Island",
+    "slug": "lens-island"
+  },
+  "324160": {
+    "found": true,
+    "itad_id": "018d937f-1af9-726f-b7fa-fd096863b2fe",
+    "title": "CLANNAD",
+    "slug": "clannad"
+  },
+  "3026450": {
+    "found": true,
+    "itad_id": "0190c022-d7c5-72e6-afa7-b7288f31aaa8",
+    "title": "Deadly Days: Roadtrip",
+    "slug": "deadly-days-roadtrip"
+  },
+  "933820": {
+    "found": true,
+    "itad_id": "018d937f-3a62-72ac-97b0-f8ed65aef5a6",
+    "title": "Endzone - A World Apart",
+    "slug": "endzone-a-world-apart"
+  },
+  "985890": {
+    "found": true,
+    "itad_id": "018d937f-3886-7218-b451-22fe4ca4bb4c",
+    "title": "Streets of Rage 4",
+    "slug": "streets-of-rage-4"
+  },
+  "1106840": {
+    "found": true,
+    "itad_id": "018d937f-3885-7265-ab09-d011fad1d2e0",
+    "title": "Hydroneer",
+    "slug": "hydroneer"
+  },
+  "1150530": {
+    "found": true,
+    "itad_id": "018d937f-51cb-73f5-b45c-bf7fe8380c76",
+    "title": "Wizard with a Gun",
+    "slug": "wizard-with-a-gun"
   }
 }
