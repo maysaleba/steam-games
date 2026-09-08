@@ -14968,5 +14968,101 @@
     "itad_id": "018d937f-0c4f-72e5-8b5d-98e06306a1da",
     "title": "Blair Witch",
     "slug": "blair-witch"
+  },
+  "3624140": {
+    "found": true,
+    "itad_id": "01974e90-8db6-71b0-aebc-b907cd327b6b",
+    "title": "Wanderburg",
+    "slug": "wanderburg"
+  },
+  "3748520": {
+    "found": true,
+    "itad_id": "019c9b1c-115d-72f3-85eb-14340fdb8efe",
+    "title": "SPRAWL zero",
+    "slug": "sprawl-zero"
+  },
+  "1510440": {
+    "found": true,
+    "itad_id": "018d959b-2623-73fa-81ff-ee97f9d6b673",
+    "title": "Honeycomb: The World Beyond",
+    "slug": "honeycomb-the-world-beyond"
+  },
+  "4047270": {
+    "found": true,
+    "itad_id": "019d647d-3911-713e-bcd2-79870d06748b",
+    "title": "Orc Incremental",
+    "slug": "orc-incremental"
+  },
+  "1293160": {
+    "found": true,
+    "itad_id": "018d937f-4263-733b-b061-5d194045de47",
+    "title": "The Medium",
+    "slug": "the-medium"
+  },
+  "2112740": {
+    "found": true,
+    "itad_id": "018d937f-6fb6-71ed-a88a-d6693fd1553c",
+    "title": "Humanica",
+    "slug": "humanica"
+  },
+  "1864690": {
+    "found": true,
+    "itad_id": "018d937f-6f15-737c-be19-f720cc92157e",
+    "title": "Veterum",
+    "slug": "veterum"
+  },
+  "1519090": {
+    "found": true,
+    "itad_id": "018d937f-7adc-73e2-94ff-7c22d84de34d",
+    "title": "Welcome to ParadiZe",
+    "slug": "welcome-to-paradize"
+  },
+  "3170490": {
+    "found": true,
+    "itad_id": "0194d574-b350-7209-85e3-1feb1cb78ee3",
+    "title": "Cat Me If You Can",
+    "slug": "cat-me-if-you-can"
+  },
+  "2830030": {
+    "found": true,
+    "itad_id": "018fed6c-0480-71da-9362-7a72d577cc7f",
+    "title": "MOTORSLICE",
+    "slug": "motorslice"
+  },
+  "3266090": {
+    "found": true,
+    "itad_id": "0195a666-a361-7259-9cab-0c012d630d8e",
+    "title": "IT Specialist Simulator",
+    "slug": "it-specialist-simulator"
+  },
+  "3794210": {
+    "found": true,
+    "itad_id": "019884e5-710b-7251-a9c4-690caba19144",
+    "title": "Thousand Hells: The Underworld Heists",
+    "slug": "thousand-hells-the-underworld-heists"
+  },
+  "3544130": {
+    "found": true,
+    "itad_id": "0195b301-a4c2-72b7-87b1-57f4ba4f09a7",
+    "title": "Soul Chained",
+    "slug": "soul-chained"
+  },
+  "507490": {
+    "found": true,
+    "itad_id": "018d937f-2d3d-7353-b636-617545e459f0",
+    "title": "Ashes of the Singularity: Escalation",
+    "slug": "ashes-of-the-singularity-escalation"
+  },
+  "3560110": {
+    "found": true,
+    "itad_id": "0195855a-eef2-721a-9d0e-6abe987b4c76",
+    "title": "Fracture Point",
+    "slug": "fracture-point"
+  },
+  "330020": {
+    "found": true,
+    "itad_id": "018d937e-fd8d-73c0-b39e-365032ec4d3b",
+    "title": "Children of Morta",
+    "slug": "children-of-morta"
   }
 }
