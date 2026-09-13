@@ -15412,5 +15412,29 @@
     "itad_id": "01929c66-1aa6-724c-a14d-7e5ca4435a3f",
     "title": "Anomaly Company",
     "slug": "anomaly-company"
+  },
+  "276810": {
+    "found": true,
+    "itad_id": "018d937f-1f5b-7133-8d77-3df4d90dcfd5",
+    "title": "Mordheim: City of the Damned",
+    "slug": "mordheim-city-of-the-damned"
+  },
+  "1848440": {
+    "found": true,
+    "itad_id": "018d937f-6ef7-7064-8329-40bb2acc4679",
+    "title": "Foolish Mortals",
+    "slug": "foolish-mortals"
+  },
+  "2487060": {
+    "found": true,
+    "itad_id": "018d937f-71ef-706b-a535-f990a9dae006",
+    "title": "Anonymous Hacker Simulator",
+    "slug": "anonymous-hacker-simulator"
+  },
+  "792100": {
+    "found": true,
+    "itad_id": "018d937f-131b-7300-bd15-3082bdf94aad",
+    "title": "7 Billion Humans",
+    "slug": "7-billion-humans"
   }
 }
