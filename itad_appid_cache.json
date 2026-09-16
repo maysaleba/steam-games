@@ -15568,5 +15568,107 @@
     "itad_id": "019e1ceb-0c2e-7020-ac13-3e1e9556aa2d",
     "title": "Pibcremental",
     "slug": "pibcremental"
+  },
+  "3639070": {
+    "found": true,
+    "itad_id": "0199ba43-246a-72ff-be39-c1c6c11b33ab",
+    "title": "BLACKWOOD",
+    "slug": "blackwood"
+  },
+  "3636930": {
+    "found": true,
+    "itad_id": "019663c3-8d4e-70ef-9c3e-7673ea14d773",
+    "title": "Nautic XP",
+    "slug": "nautic-xp"
+  },
+  "2572040": {
+    "found": true,
+    "itad_id": "018d937f-7498-70a1-a872-5f769fe8f871",
+    "title": "Woodo",
+    "slug": "woodo"
+  },
+  "2076010": {
+    "found": true,
+    "itad_id": "018d937f-789f-7230-a566-903af53a4f0c",
+    "title": "UNDER NIGHT IN-BIRTH II Sys:Celes",
+    "slug": "under-night-in-birth-ii-sys-celes"
+  },
+  "3572800": {
+    "found": true,
+    "itad_id": "01958317-c7b2-7285-90c4-8b7aff6474bc",
+    "title": "Duo Quest",
+    "slug": "duo-quest"
+  },
+  "253230": {
+    "found": true,
+    "itad_id": "018d937e-f8c8-7024-945b-c85de1cdcc5e",
+    "title": "A Hat in Time",
+    "slug": "a-hat-in-time"
+  },
+  "3275400": {
+    "found": true,
+    "itad_id": "019d1a3e-f40c-73c2-8e0b-7a0444d55a7a",
+    "title": "PATLABOR the Case Files",
+    "slug": "patlabor-the-case-files"
+  },
+  "4241920": {
+    "found": true,
+    "itad_id": "019c14ad-7d3b-70ce-a16b-cabc5acae488",
+    "title": "BRAZILIAN DRUG DEALER BEFORE 4: DEMONS FROM THE PORTAL TO HELL I OPENED ARE STILL IN THE FAVELA AND NOW I HAVE TO SAVE MAMADAS FROM RONALDO",
+    "slug": "brazilian-drug-dealer-before-4-demons-from-the-portal-to-hell-i-opened--a92eeafa"
+  },
+  "751780": {
+    "found": true,
+    "itad_id": "018d937e-f03f-7340-bd14-4dc1d8890684",
+    "title": "Forager",
+    "slug": "forager"
+  },
+  "4870430": {
+    "found": true,
+    "itad_id": "019f4162-cee5-728a-9a85-39a182859bbd",
+    "title": "Tidy Up History",
+    "slug": "tidy-up-history"
+  },
+  "3690030": {
+    "found": true,
+    "itad_id": "01966ce2-2a25-7242-9500-dd1c56bccae5",
+    "title": "The Last Gas Station",
+    "slug": "the-last-gas-station"
+  },
+  "1274570": {
+    "found": true,
+    "itad_id": "018d937f-45e6-71ce-9e29-913c574efcab",
+    "title": "DEVOUR",
+    "slug": "devour"
+  },
+  "1605250": {
+    "found": true,
+    "itad_id": "01943af3-7320-70dd-ba06-e383ca793f3f",
+    "title": "Moros Protocol",
+    "slug": "moros-protocol"
+  },
+  "1390410": {
+    "found": true,
+    "itad_id": "018d937f-4658-7208-85bf-2ae3546db48c",
+    "title": "Midnight Fight Express",
+    "slug": "midnight-fight-express"
+  },
+  "964800": {
+    "found": true,
+    "itad_id": "018d937f-2817-706a-978f-55e24b1e5867",
+    "title": "Prodeus",
+    "slug": "prodeus"
+  },
+  "3818000": {
+    "found": true,
+    "itad_id": "0198b44f-02a4-7343-afb7-942c518ae1b1",
+    "title": "Guns and Nuns: Storming Hell",
+    "slug": "guns-and-nuns-storming-hell"
+  },
+  "5159810": {
+    "found": true,
+    "itad_id": "01a065bf-3acd-70e7-809e-48ed1e128524",
+    "title": "ArmorSim",
+    "slug": "armorsim"
   }
 }
