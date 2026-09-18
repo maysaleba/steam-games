@@ -15736,5 +15736,53 @@
     "itad_id": "018d937f-469d-7287-8e06-cd070ae03e4e",
     "title": "Immortals Fenyx Rising",
     "slug": "immortals-fenyx-rising"
+  },
+  "48190": {
+    "found": true,
+    "itad_id": "018d937f-0e82-70e5-ac00-0d05a4abc342",
+    "title": "Assassin's Creed Brotherhood",
+    "slug": "assassins-creed-brotherhood"
+  },
+  "3983860": {
+    "found": true,
+    "itad_id": "019b93d5-3adf-7375-b36b-e8df2c613e21",
+    "title": "Nightwater",
+    "slug": "nightwater"
+  },
+  "33230": {
+    "found": true,
+    "itad_id": "018d937f-3497-71d8-91b5-442e6b36f0cd",
+    "title": "Assassin's Creed 2",
+    "slug": "assassins-creed-2"
+  },
+  "2841650": {
+    "found": true,
+    "itad_id": "019c2d9f-45be-726c-bd0e-ccd19c3f2c9c",
+    "title": "Sniper Dan",
+    "slug": "sniper-dan"
+  },
+  "3124340": {
+    "found": true,
+    "itad_id": "019736a3-bc52-7136-885a-9fe93efd428b",
+    "title": "Demeo x Dungeons & Dragons: Battlemarked",
+    "slug": "demeo-x-dungeons-and-dragons-battlemarked"
+  },
+  "4310440": {
+    "found": true,
+    "itad_id": "019bee54-ab10-732d-9579-f72b6ea8e2e3",
+    "title": "Crown Siege",
+    "slug": "crown-siege"
+  },
+  "2609610": {
+    "found": true,
+    "itad_id": "018d937f-75d2-7190-9b80-78ebe4f2fffc",
+    "title": "CONVRGENCE",
+    "slug": "convrgence"
+  },
+  "5120650": {
+    "found": true,
+    "itad_id": "01a03396-fd5c-7308-a1f5-aa6657964e4a",
+    "title": "Paver: Tidy Up Together",
+    "slug": "paver-tidy-up-together"
   }
 }
