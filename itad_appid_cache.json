@@ -15784,5 +15784,59 @@
     "itad_id": "01a03396-fd5c-7308-a1f5-aa6657964e4a",
     "title": "Paver: Tidy Up Together",
     "slug": "paver-tidy-up-together"
+  },
+  "3483510": {
+    "found": true,
+    "itad_id": "019c2e88-c8c9-7288-952b-38a6f489c82a",
+    "title": "The Adventures of Elliot: The Millennium Tales",
+    "slug": "the-adventures-of-elliot-the-millennium-tales"
+  },
+  "603850": {
+    "found": true,
+    "itad_id": "018d937f-4970-7244-aa9d-4cf223ec6e76",
+    "title": "Age of History II",
+    "slug": "age-of-history-ii"
+  },
+  "3058360": {
+    "found": true,
+    "itad_id": "0192debf-2df3-73f5-b84b-20c5d3c92811",
+    "title": "Parisian Brasserie Simulator",
+    "slug": "parisian-brasserie-simulator"
+  },
+  "355790": {
+    "found": true,
+    "itad_id": "018d937f-1aec-7102-83f9-35f468f6cc40",
+    "title": "Styx: Shards of Darkness",
+    "slug": "styx-shards-of-darkness"
+  },
+  "3088700": {
+    "found": true,
+    "itad_id": "0192f7df-5f14-708e-ba25-91bea54bf4a5",
+    "title": "Driving Rogue",
+    "slug": "driving-rogue"
+  },
+  "233270": {
+    "found": true,
+    "itad_id": "018d937f-12d3-72a3-acae-ed2350c9ce29",
+    "title": "Far Cry 3: Blood Dragon",
+    "slug": "far-cry-3-blood-dragon"
+  },
+  "235600": {
+    "found": true,
+    "itad_id": "018d937f-0666-72c0-a5d2-2d6f26813db6",
+    "title": "Tom Clancy's Splinter Cell Blacklist",
+    "slug": "tom-clancys-splinter-cell-blacklist"
+  },
+  "1446650": {
+    "found": true,
+    "itad_id": "018d937f-496c-70c2-8eee-8b5b1d321f73",
+    "title": "Bravely Default II",
+    "slug": "bravely-default-ii"
+  },
+  "19900": {
+    "found": true,
+    "itad_id": "018d937f-2067-73c1-912d-8192a3f11244",
+    "title": "Far Cry 2",
+    "slug": "far-cry-2"
   }
 }
