@@ -15838,5 +15838,41 @@
     "itad_id": "018d937f-2067-73c1-912d-8192a3f11244",
     "title": "Far Cry 2",
     "slug": "far-cry-2"
+  },
+  "4739040": {
+    "found": true,
+    "itad_id": "019e55fe-c653-7033-ad24-e511ac790db8",
+    "title": "DISCIPLINE SIMULATOR",
+    "slug": "discipline-simulator"
+  },
+  "1299510": {
+    "found": true,
+    "itad_id": "018d937f-47cc-7291-8feb-1d56b3f996d7",
+    "title": "Vampire: The Masquerade - Swansong",
+    "slug": "vampire-the-masquerade-swansong"
+  },
+  "3919360": {
+    "found": true,
+    "itad_id": "019985cc-4cc0-7387-be19-94e243a01bb9",
+    "title": "Dig Island",
+    "slug": "dig-island"
+  },
+  "4271160": {
+    "found": true,
+    "itad_id": "019c23a4-ec03-7153-bd29-fc61f56b7d8f",
+    "title": "Zero Stress King: Idle Defense",
+    "slug": "zero-stress-king-idle-defense"
+  },
+  "841190": {
+    "found": true,
+    "itad_id": "018d937f-29b5-73c0-aa4d-e3dd6234a23c",
+    "title": "Honey, I Joined a Cult",
+    "slug": "honey-i-joined-a-cult"
+  },
+  "13520": {
+    "found": true,
+    "itad_id": "018d937f-1907-72cf-8690-c574012a635d",
+    "title": "Far Cry",
+    "slug": "far-cry"
   }
 }
