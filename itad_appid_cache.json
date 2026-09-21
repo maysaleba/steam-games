@@ -15874,5 +15874,59 @@
     "itad_id": "018d937f-1907-72cf-8690-c574012a635d",
     "title": "Far Cry",
     "slug": "far-cry"
+  },
+  "4019220": {
+    "found": true,
+    "itad_id": "01995753-2a17-70d4-bb5d-7abc91e63685",
+    "title": "Dressmaker",
+    "slug": "dressmaker--1"
+  },
+  "4364730": {
+    "found": true,
+    "itad_id": "019c5b98-2305-7382-83e4-5589570a9b60",
+    "title": "IGTAP: an Incremental Game That's Also a Platformer",
+    "slug": "igtap-an-incremental-game-thats-also-a-platformer"
+  },
+  "3510740": {
+    "found": true,
+    "itad_id": "019db562-95ce-73b1-adfb-4d5b5e812e58",
+    "title": "Normal Golf Game",
+    "slug": "normal-golf-game"
+  },
+  "3565480": {
+    "found": true,
+    "itad_id": "019c31e9-c0bd-71ab-854c-09512d7f2ebd",
+    "title": "Roadhouse Simulator",
+    "slug": "roadhouse-simulator"
+  },
+  "2710040": {
+    "found": true,
+    "itad_id": "018e16bf-5821-70a6-8582-767151d61ea2",
+    "title": "Delverium",
+    "slug": "delverium"
+  },
+  "2403830": {
+    "found": true,
+    "itad_id": "01949266-9949-717f-87da-674a1856be16",
+    "title": "Brave New Wonders",
+    "slug": "brave-new-wonders"
+  },
+  "1691190": {
+    "found": true,
+    "itad_id": "019176a2-3906-719c-9689-305ef84f2e10",
+    "title": "Rogue Waters",
+    "slug": "rogue-waters"
+  },
+  "4513060": {
+    "found": true,
+    "itad_id": "019d2d05-6e50-7163-ab55-85381728afa7",
+    "title": "Yandere Virus",
+    "slug": "yandere-virus"
+  },
+  "1417930": {
+    "found": true,
+    "itad_id": "018d937f-4950-71cc-bb74-a5927e5baa43",
+    "title": "Lorn's Lure",
+    "slug": "lorns-lure"
   }
 }
