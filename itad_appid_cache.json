@@ -15928,5 +15928,131 @@
     "itad_id": "018d937f-4950-71cc-bb74-a5927e5baa43",
     "title": "Lorn's Lure",
     "slug": "lorns-lure"
+  },
+  "620980": {
+    "found": true,
+    "itad_id": "018d937f-379f-724a-8765-26a7d382d7dc",
+    "title": "Beat Saber",
+    "slug": "beat-saber"
+  },
+  "3699590": {
+    "found": true,
+    "itad_id": "019884ac-2cf1-70f4-a3d2-32fd68944ee5",
+    "title": "Well Dweller",
+    "slug": "well-dweller"
+  },
+  "3255500": {
+    "found": true,
+    "itad_id": "0192e084-7d37-72db-b3d8-763cfecb64b6",
+    "title": "Ved:Recure",
+    "slug": "ved-recure"
+  },
+  "4094660": {
+    "found": true,
+    "itad_id": "019aeb0f-27a4-71ce-93cd-469d64e404d2",
+    "title": "Rivage",
+    "slug": "rivage"
+  },
+  "1374860": {
+    "found": true,
+    "itad_id": "018d937f-461a-702c-beac-50e771f2770e",
+    "title": "Nocturne",
+    "slug": "nocturne"
+  },
+  "3328490": {
+    "found": true,
+    "itad_id": "019bbcf8-1009-736e-bbce-8ba7ca64faac",
+    "title": "Airport Control 27",
+    "slug": "airport-control-27"
+  },
+  "3208930": {
+    "found": true,
+    "itad_id": "01973da6-0a10-7352-ab3f-a3fce7167c34",
+    "title": "Galvatein : Adventurers' Guild",
+    "slug": "galvatein-adventurers-guild"
+  },
+  "1221950": {
+    "found": true,
+    "itad_id": "018d937f-4222-7283-8995-a6f2e2d86b15",
+    "title": "Nighthawks",
+    "slug": "nighthawks"
+  },
+  "2538870": {
+    "found": true,
+    "itad_id": "018d937f-5e57-7267-bfff-725d70d77e81",
+    "title": "False Hero",
+    "slug": "false-hero"
+  },
+  "3589510": {
+    "found": true,
+    "itad_id": "0198500c-5438-71c4-8284-d110e9591392",
+    "title": "Returns Outlet Simulator",
+    "slug": "returns-outlet-simulator"
+  },
+  "2876200": {
+    "found": true,
+    "itad_id": "018fc085-8312-70e0-b946-ba78e63f9c44",
+    "title": "eXoSpace Combat Engineer",
+    "slug": "exospace-combat-engineer"
+  },
+  "3613050": {
+    "found": true,
+    "itad_id": "0196fa81-42f9-712b-b358-deef59ec8efc",
+    "title": "Gravebound",
+    "slug": "gravebound"
+  },
+  "3623530": {
+    "found": true,
+    "itad_id": "019b0f00-413e-7052-a78e-4e5f1b6de433",
+    "title": "Deified",
+    "slug": "deified"
+  },
+  "790740": {
+    "found": true,
+    "itad_id": "018d937f-205a-724e-b700-0e6b0a598d9c",
+    "title": "Tick Tock: A Tale for Two",
+    "slug": "tick-tock-a-tale-for-two"
+  },
+  "990380": {
+    "found": true,
+    "itad_id": "0194fc64-5024-73af-b304-084a46ab9868",
+    "title": "METAL EDEN",
+    "slug": "metal-eden"
+  },
+  "2999500": {
+    "found": true,
+    "itad_id": "018fecf0-5f56-72a7-8078-9a5439f09d7b",
+    "title": "STUNTBOOST",
+    "slug": "stuntboost"
+  },
+  "302670": {
+    "found": true,
+    "itad_id": "018d937f-1239-70d3-b49d-b9545a67de2b",
+    "title": "Call to Arms",
+    "slug": "call-to-arms"
+  },
+  "2891020": {
+    "found": true,
+    "itad_id": "018e63ca-40dd-721d-976a-a351f745bfd0",
+    "title": "Undusted: Letters from the Past",
+    "slug": "undusted-letters-from-the-past"
+  },
+  "4274990": {
+    "found": true,
+    "itad_id": "019d1164-f366-7066-a3ba-2aedb312d88f",
+    "title": "Minibus Simulator",
+    "slug": "minibus-simulator"
+  },
+  "774791": {
+    "found": true,
+    "itad_id": "018d937f-3cc5-7116-b8e1-06ca7cc82691",
+    "title": "Surgeon Simulator 2",
+    "slug": "surgeon-simulator-2"
+  },
+  "1179080": {
+    "found": true,
+    "itad_id": "018d937f-3a65-7375-9822-1bdfa8a9f8c9",
+    "title": "FAITH: The Unholy Trinity",
+    "slug": "faith-the-unholy-trinity"
   }
 }
