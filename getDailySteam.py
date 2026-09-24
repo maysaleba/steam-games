@@ -32,7 +32,7 @@ ITAD_API_KEY = os.getenv(
 
 DAILY_TARGET = 50
 FETCH_LIMIT = 500
-ROLLING_DAYS = 10
+ROLLING_DAYS = 9
 
 
 def build_steam_store_items_url(appid: str, country_code: str = COUNTRY) -> str:
@@ -473,6 +473,27 @@ def fetch_appdetails(appid):
 
         data = response.json()
         app_data = data.get(str(appid), {})
+
+        # Steam can return a valid app under a different top-level key.
+        if not app_data:
+            requested_appid = str(appid)
+
+            app_data = next(
+                (
+                    value
+                    for value in data.values()
+                    if isinstance(value, dict)
+                    and str(value.get("data", {}).get("steam_appid", ""))
+                    == requested_appid
+                ),
+                {},
+            )
+
+            if app_data:
+                print(
+                    f"[Steam] appdetails key mismatch: requested {appid}, "
+                    f"found {app_data.get('data', {}).get('steam_appid')}"
+                )
 
         if not app_data.get("success"):
             return {}
