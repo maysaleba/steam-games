@@ -16336,5 +16336,29 @@
     "itad_id": "018d937f-27e3-71d8-bdef-4a8f4a7d4da0",
     "title": "Destroy All Humans",
     "slug": "destroy-all-humans"
+  },
+  "4260270": {
+    "found": true,
+    "itad_id": "019b3e1c-2084-717f-8a9c-d3f68375c2e1",
+    "title": "Stranded with You",
+    "slug": "stranded-with-you"
+  },
+  "895620": {
+    "found": true,
+    "itad_id": "018d937f-29ce-7008-af01-732efdba31d7",
+    "title": "Spellcaster University",
+    "slug": "spellcaster-university"
+  },
+  "2429270": {
+    "found": true,
+    "itad_id": "018d937e-efd8-7269-b7a1-823a79077fbb",
+    "title": "The RPG",
+    "slug": "the-rpg"
+  },
+  "362890": {
+    "found": true,
+    "itad_id": "018d937f-20eb-70ae-bb67-f6d04b00780d",
+    "title": "Black Mesa",
+    "slug": "black-mesa"
   }
 }
