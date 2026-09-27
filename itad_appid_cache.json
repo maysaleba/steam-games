@@ -16360,5 +16360,23 @@
     "itad_id": "018d937f-20eb-70ae-bb67-f6d04b00780d",
     "title": "Black Mesa",
     "slug": "black-mesa"
+  },
+  "2434600": {
+    "found": true,
+    "itad_id": "018d937f-734c-7231-9aad-3c6d094f9864",
+    "title": "ShantyTown",
+    "slug": "shantytown"
+  },
+  "254480": {
+    "found": true,
+    "itad_id": "018d937f-3298-73ab-95ad-35e80d7af84e",
+    "title": "Obscure II (Obscure: The Aftermath)",
+    "slug": "obscure-ii-obscure-the-aftermath"
+  },
+  "5148990": {
+    "found": true,
+    "itad_id": "01a0828d-d745-72f4-bb56-a395f1b70a8f",
+    "title": "Scratch Tickets With Your Friends 🎰",
+    "slug": "scratch-tickets-with-your-friends"
   }
 }
