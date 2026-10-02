@@ -8,7 +8,7 @@ on:
     # = 12:00 PM PST
     # = 1:00 PM PDT
     # Safe buffer after Steam refresh
-    - cron: "0 20 * * *"
+    - cron: "47 19 * * *"
 
 jobs:
   steam-deals:
