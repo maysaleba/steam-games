@@ -26,7 +26,7 @@ IMAGE_FOLDER = Path("output_images")
 POST_TITLE = "Popular Steam Games On Sale"
 
 COMMENTS = [
-   # "🎮 Cheap Steam Wallet: https://www.eneba.com/steam-gift-card-steam-wallet-gift-card-50-php-steam-key-philippines?af_id=maysaleba&currency=PHP&region=philippines"
+    "🎮 Cheap Steam Wallet: https://www.eneba.com/steam-gift-card-steam-wallet-gift-card-50-php-steam-key-philippines?af_id=maysaleba&currency=PHP&region=philippines"
 ]
 
 MAX_IMAGES_PER_POST = None
