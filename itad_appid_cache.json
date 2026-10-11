@@ -16714,5 +16714,35 @@
     "itad_id": "0190deed-7550-71d9-9ecf-b9a58a5339e7",
     "title": "Truckful",
     "slug": "truckful"
+  },
+  "1234430": {
+    "found": true,
+    "itad_id": "018d937f-5256-73e1-bba6-66fd45f1d52a",
+    "title": "Ad Infinitum",
+    "slug": "ad-infinitum"
+  },
+  "2772750": {
+    "found": true,
+    "itad_id": "018d937f-7b02-7022-aafb-45ff5e8ae032",
+    "title": "Age of History 3",
+    "slug": "age-of-history-3"
+  },
+  "3115160": {
+    "found": true,
+    "itad_id": "0196f8d7-4c2e-72f1-8ae2-0cf8f7082f87",
+    "title": "Warhammer 40,000: Boltgun 2",
+    "slug": "warhammer-40000-boltgun-2"
+  },
+  "4282780": {
+    "found": true,
+    "itad_id": "019c1f9f-1ac9-705e-9bef-ef608cc7808e",
+    "title": "Duelist: Idle Expedition",
+    "slug": "duelist-idle-expedition"
+  },
+  "3232690": {
+    "found": true,
+    "itad_id": "01995b92-2a5c-7152-8586-52d968c8bd5d",
+    "title": "Maid Cafe Simulator",
+    "slug": "maid-cafe-simulator"
   }
 }
