@@ -17212,5 +17212,29 @@
     "itad_id": "018d937f-3e47-71b8-8361-d514af53d93a",
     "title": "OUTRIDERS",
     "slug": "outriders"
+  },
+  "4621970": {
+    "found": true,
+    "itad_id": "019dc3f9-dfac-7294-b949-14d3f991c30b",
+    "title": "Loop Dungeon - Incremental",
+    "slug": "loop-dungeon-incremental"
+  },
+  "4304900": {
+    "found": true,
+    "itad_id": "019c0633-d023-7205-9515-222bc5af755f",
+    "title": "Big Dig",
+    "slug": "big-dig"
+  },
+  "1853440": {
+    "found": true,
+    "itad_id": "0198c809-37b8-73c6-8242-b12955d6387a",
+    "title": "Tropico 7",
+    "slug": "tropico-7"
+  },
+  "1480560": {
+    "found": true,
+    "itad_id": "018d937f-4d3b-7333-8666-20f857d288e0",
+    "title": "Lawn Mowing Simulator",
+    "slug": "lawn-mowing-simulator"
   }
 }
