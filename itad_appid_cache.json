@@ -17302,5 +17302,65 @@
     "itad_id": "019a4c38-0783-70a2-92a9-241adb361fe0",
     "title": "AKIBA LOST",
     "slug": "akiba-lost"
+  },
+  "2087540": {
+    "found": true,
+    "itad_id": "01a03f56-49f5-73f0-bcd3-54f29cdf7161",
+    "title": "Escape from Playtime",
+    "slug": "escape-from-playtime"
+  },
+  "881020": {
+    "found": true,
+    "itad_id": "018d937f-7465-7378-9fcd-074776ce0fc2",
+    "title": "Granblue Fantasy: Relink",
+    "slug": "granblue-fantasy-relink"
+  },
+  "4094350": {
+    "found": true,
+    "itad_id": "019a78ce-81a1-70f0-b6d7-91c38e416fa8",
+    "title": "Online: 404",
+    "slug": "online-404"
+  },
+  "4338180": {
+    "found": true,
+    "itad_id": "019bdfcb-3345-73ce-b489-1e39df09ac86",
+    "title": "Dearbnb",
+    "slug": "dearbnb"
+  },
+  "2396990": {
+    "found": true,
+    "itad_id": "0198696b-c3be-705f-9762-03fad9bddcac",
+    "title": "Fate/hollow ataraxia REMASTERED",
+    "slug": "fate-hollow-ataraxia-remastered"
+  },
+  "3909960": {
+    "found": true,
+    "itad_id": "018d937f-6e3b-702d-b799-358b8d9bd7d9",
+    "title": "Dementium: The Ward",
+    "slug": "dementium-the-ward"
+  },
+  "1272160": {
+    "found": true,
+    "itad_id": "018d937f-43b6-71f3-afa1-c140a6dfbb72",
+    "title": "The Life and Suffering of Sir Brante",
+    "slug": "the-life-and-suffering-of-sir-brante"
+  },
+  "1385380": {
+    "found": true,
+    "itad_id": "018d937f-4642-739b-8bbb-33ee280ee65d",
+    "title": "Across the Obelisk",
+    "slug": "across-the-obelisk"
+  },
+  "3700470": {
+    "found": true,
+    "itad_id": "01975d5e-ed1b-7151-99ac-c380b8ce47a7",
+    "title": "Ship Explorer",
+    "slug": "ship-explorer"
+  },
+  "38410": {
+    "found": true,
+    "itad_id": "018d937f-039b-724c-b8fa-1766fbdf4ea9",
+    "title": "Fallout 2: A Post Nuclear Role Playing Game",
+    "slug": "fallout-2-a-post-nuclear-role-playing-game"
   }
 }
