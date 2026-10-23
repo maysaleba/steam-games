@@ -17428,5 +17428,101 @@
     "itad_id": "018d937e-f091-73b0-ba96-31d381a2ee98",
     "title": "Monster Prom",
     "slug": "monster-prom"
+  },
+  "5335510": {
+    "found": true,
+    "itad_id": "01a112f6-cf5a-73af-ba1b-132bfc8dc698",
+    "title": "Moon Sweepers",
+    "slug": "moon-sweepers"
+  },
+  "1566200": {
+    "found": true,
+    "itad_id": "018d937f-69b9-70dd-997c-2322b1efcaca",
+    "title": "Tape to Tape",
+    "slug": "tape-to-tape"
+  },
+  "4817620": {
+    "found": true,
+    "itad_id": "01a119b9-1c0b-732c-acea-0c57af16e091",
+    "title": "One Way Tickets",
+    "slug": "one-way-tickets"
+  },
+  "3355800": {
+    "found": true,
+    "itad_id": "01934768-228e-7242-bbee-c47549c315a3",
+    "title": "Bank Simulator",
+    "slug": "bank-simulator"
+  },
+  "2552310": {
+    "found": true,
+    "itad_id": "018d937f-73c2-70af-8a34-a18fc23de80d",
+    "title": "Dungeon Inn",
+    "slug": "dungeon-inn"
+  },
+  "3129420": {
+    "found": true,
+    "itad_id": "019574e2-e9cd-726c-b509-f34586d27dc6",
+    "title": "ASPIS",
+    "slug": "aspis"
+  },
+  "1140270": {
+    "found": true,
+    "itad_id": "018d937e-ff33-73f2-aa55-7205f2db2283",
+    "title": "Monster Prom 2: Monster Camp",
+    "slug": "monster-prom-2-monster-camp"
+  },
+  "5316540": {
+    "found": true,
+    "itad_id": "01a0fd8f-656b-70ab-ba14-01051f0e4454",
+    "title": "Tidy Up the Halloween Shop",
+    "slug": "tidy-up-the-halloween-shop"
+  },
+  "261030": {
+    "found": true,
+    "itad_id": "018d937e-ffb9-707b-a6dd-86c93c60b01f",
+    "title": "The Walking Dead: Season Two",
+    "slug": "the-walking-dead-season-two"
+  },
+  "536220": {
+    "found": true,
+    "itad_id": "018d937f-220f-71d1-b01d-96fa99605c1f",
+    "title": "The Walking Dead: A New Frontier",
+    "slug": "the-walking-dead-a-new-frontier"
+  },
+  "3168520": {
+    "found": true,
+    "itad_id": "0191f944-2f16-70d3-b71c-fa120e90f193",
+    "title": "BloomTale",
+    "slug": "bloomtale"
+  },
+  "5013160": {
+    "found": true,
+    "itad_id": "01a03ef6-598a-7142-9055-92502678128e",
+    "title": "Hubble Bubble",
+    "slug": "hubble-bubble"
+  },
+  "429570": {
+    "found": true,
+    "itad_id": "018d937f-2b3f-73bf-a058-8c1cf693f82e",
+    "title": "The Walking Dead: Michonne - A Telltale Miniseries",
+    "slug": "the-walking-dead-michonne-a-telltale-miniseries"
+  },
+  "3813350": {
+    "found": true,
+    "itad_id": "0197f375-41dd-702f-bbb3-51bf8d6599a9",
+    "title": "Azure Striker Gunvolt Trilogy Enhanced",
+    "slug": "azure-striker-gunvolt-trilogy-enhanced"
+  },
+  "502280": {
+    "found": true,
+    "itad_id": "018d937f-13b1-72c7-b101-e6be72ce4eb2",
+    "title": "BERSERK and the Band of the Hawk",
+    "slug": "berserk-and-the-band-of-the-hawk"
+  },
+  "1250": {
+    "found": true,
+    "itad_id": "018d937e-e9e7-7150-a862-6ce645540849",
+    "title": "Killing Floor",
+    "slug": "killing-floor"
   }
 }
