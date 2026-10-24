@@ -17524,5 +17524,71 @@
     "itad_id": "018d937e-e9e7-7150-a862-6ce645540849",
     "title": "Killing Floor",
     "slug": "killing-floor"
+  },
+  "242640": {
+    "found": true,
+    "itad_id": "018d937e-f50f-72c7-bcd1-6a2227ff0cca",
+    "title": "Styx: Master of Shadows",
+    "slug": "styx-master-of-shadows"
+  },
+  "2445430": {
+    "found": true,
+    "itad_id": "018d937f-7168-710f-8950-a94d8b6d923a",
+    "title": "Tensei Brave",
+    "slug": "tensei-brave"
+  },
+  "770390": {
+    "found": true,
+    "itad_id": "018d937f-347a-72e1-8cfa-12f47fc8f977",
+    "title": "Draugen",
+    "slug": "draugen"
+  },
+  "982290": {
+    "found": true,
+    "itad_id": "018d937f-3090-7177-ae0b-9ed58cada509",
+    "title": "Airborne Kingdom",
+    "slug": "airborne-kingdom"
+  },
+  "1621070": {
+    "found": true,
+    "itad_id": "018d937f-5043-7072-8015-e9a6c6bdb4ba",
+    "title": "DeadPoly",
+    "slug": "deadpoly"
+  },
+  "1253220": {
+    "found": true,
+    "itad_id": "018d937f-4c9e-709d-b0eb-805a820ab85a",
+    "title": "The Gold River Project",
+    "slug": "the-gold-river-project"
+  },
+  "2939510": {
+    "found": true,
+    "itad_id": "018ef73f-aa32-73b3-8ff4-7ae09a01a886",
+    "title": "Under Canopies",
+    "slug": "under-canopies"
+  },
+  "2438680": {
+    "found": true,
+    "itad_id": "018d937f-6f06-7090-909b-45728d0754e6",
+    "title": "Airborne Empire",
+    "slug": "airborne-empire"
+  },
+  "3199650": {
+    "found": true,
+    "itad_id": "019267ef-425e-702c-9f9a-0649957b456e",
+    "title": "Pathologic 3",
+    "slug": "pathologic-3"
+  },
+  "4771880": {
+    "found": true,
+    "itad_id": "019e9567-20a2-71eb-9f1c-cd48ad35c19a",
+    "title": "Three Kingdoms:Yi",
+    "slug": "three-kingdoms-yi"
+  },
+  "1186640": {
+    "found": true,
+    "itad_id": "018d937f-3a69-719a-a766-acba4c5c734f",
+    "title": "Pumpkin Jack",
+    "slug": "pumpkin-jack"
   }
 }
