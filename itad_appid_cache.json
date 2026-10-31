@@ -18130,5 +18130,65 @@
     "itad_id": "01917129-5eec-712c-a36f-db55b5e73ae4",
     "title": "Directive 8020",
     "slug": "directive-8020"
+  },
+  "3459340": {
+    "found": true,
+    "itad_id": "01950569-f79e-72f5-bc22-cdd6186efe13",
+    "title": "Lacey's Flash Games",
+    "slug": "laceys-flash-games"
+  },
+  "3048060": {
+    "found": true,
+    "itad_id": "01980973-9823-732a-b48d-da1f08c4eea6",
+    "title": "Trivia Murder Party 3",
+    "slug": "trivia-murder-party-3"
+  },
+  "1367590": {
+    "found": true,
+    "itad_id": "018d937f-45f8-7060-83a9-1838c67c6e08",
+    "title": "Tormented Souls",
+    "slug": "tormented-souls"
+  },
+  "1903620": {
+    "found": true,
+    "itad_id": "018d937f-6d3f-71c5-a9bc-96ebf719290b",
+    "title": "Killer Frequency",
+    "slug": "killer-frequency"
+  },
+  "2564910": {
+    "found": true,
+    "itad_id": "0192f855-cd8d-73d7-8971-474d94d4a812",
+    "title": "CRYO",
+    "slug": "cryo"
+  },
+  "5056390": {
+    "found": true,
+    "itad_id": "01a07c7d-eda3-70f0-a2c0-abe7ca71b394",
+    "title": "Dead of the Brain",
+    "slug": "dead-of-the-brain"
+  },
+  "1670870": {
+    "found": true,
+    "itad_id": "018d937f-524f-7039-bc33-487aa7927036",
+    "title": "MADiSON",
+    "slug": "madison"
+  },
+  "872670": {
+    "found": true,
+    "itad_id": "018d9647-ee31-7271-b532-150f844b48a4",
+    "title": "SCP: 5K",
+    "slug": "scp-5k"
+  },
+  "3173130": {
+    "found": true,
+    "itad_id": "0191803e-d1a0-72d7-ba98-26a9bfa50d2b",
+    "title": "Gun Frog",
+    "slug": "gun-frog"
+  },
+  "3189340": {
+    "found": true,
+    "itad_id": "0191c983-97f9-715a-8bff-a14c7af8b6ad",
+    "title": "Dungeons of Eternity",
+    "slug": "dungeons-of-eternity"
   }
 }
