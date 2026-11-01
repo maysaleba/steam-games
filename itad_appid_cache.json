@@ -18190,5 +18190,35 @@
     "itad_id": "0191c983-97f9-715a-8bff-a14c7af8b6ad",
     "title": "Dungeons of Eternity",
     "slug": "dungeons-of-eternity"
+  },
+  "247970": {
+    "found": true,
+    "itad_id": "019cb520-27cd-72af-8367-4484fa3a5b7b",
+    "title": "Korea. IL-2 Series",
+    "slug": "korea-il-2-series"
+  },
+  "335670": {
+    "found": true,
+    "itad_id": "018d937f-3a88-733c-9dca-155ae6a5b9f0",
+    "title": "LISA: The Painful",
+    "slug": "lisa-the-painful"
+  },
+  "115800": {
+    "found": true,
+    "itad_id": "018d937f-08b0-7348-88dc-03d88c5413e3",
+    "title": "Owlboy",
+    "slug": "owlboy"
+  },
+  "1343240": {
+    "found": true,
+    "itad_id": "018d937f-4d2d-7144-8fb4-b010a092e21e",
+    "title": "Thymesia",
+    "slug": "thymesia"
+  },
+  "1062830": {
+    "found": true,
+    "itad_id": "018d937f-2205-7190-80fa-78e781ee77c9",
+    "title": "Embr",
+    "slug": "embr"
   }
 }
