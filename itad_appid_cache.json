@@ -18316,5 +18316,89 @@
     "itad_id": "018d937f-0c45-70cf-bb4a-fd636775b9bd",
     "title": "Imperium",
     "slug": "imperium"
+  },
+  "2320980": {
+    "found": true,
+    "itad_id": "0193b0b8-3063-72ec-9d1b-fb98e9182270",
+    "title": "Loftia",
+    "slug": "loftia"
+  },
+  "3669870": {
+    "found": true,
+    "itad_id": "019b1065-1cb5-734b-86a1-a67493dbc0c4",
+    "title": "CONTROL Resonant",
+    "slug": "control-resonant"
+  },
+  "5266240": {
+    "found": true,
+    "itad_id": "01a0bb86-35e8-73b7-8be7-a4e5a59f584e",
+    "title": "Potato Please",
+    "slug": "potato-please"
+  },
+  "3758950": {
+    "found": true,
+    "itad_id": "01971c75-f372-7126-9c6a-5fdc8eba7ab9",
+    "title": "Death at Fleming Manor",
+    "slug": "death-at-fleming-manor"
+  },
+  "5181520": {
+    "found": true,
+    "itad_id": "01a05e9c-b1af-70e0-945b-bc107c490bf9",
+    "title": "Mycelarium",
+    "slug": "mycelarium"
+  },
+  "5101960": {
+    "found": true,
+    "itad_id": "01a04377-c0f1-7212-a42a-9bd8ca14a5f4",
+    "title": "Dungeons & Dynasties",
+    "slug": "dungeons-and-dynasties"
+  },
+  "4430260": {
+    "found": true,
+    "itad_id": "019cdae4-4d91-7091-8e0c-a7280fbad44f",
+    "title": "Beat For Speed",
+    "slug": "beat-for-speed"
+  },
+  "3053950": {
+    "found": true,
+    "itad_id": "0190b840-18ab-71f2-a080-a3518a7150a9",
+    "title": "Dungeon Rampage",
+    "slug": "dungeon-rampage"
+  },
+  "5028050": {
+    "found": true,
+    "itad_id": "019fd367-cb8a-701d-be2a-9dcc81c5c8c0",
+    "title": "Traffic Architect",
+    "slug": "traffic-architect"
+  },
+  "3393720": {
+    "found": true,
+    "itad_id": "019463ff-b3db-7017-8924-771286bf578c",
+    "title": "Ramen Shop Simulator",
+    "slug": "ramen-shop-simulator"
+  },
+  "4621810": {
+    "found": true,
+    "itad_id": "019d96f8-0287-73b5-9d33-41556357e317",
+    "title": "Livin' the Cream: Ice Cream Simulator",
+    "slug": "livin-the-cream-ice-cream-simulator"
+  },
+  "4736470": {
+    "found": true,
+    "itad_id": "019e4060-5742-73f7-8da5-7d04b26177e5",
+    "title": "Dead Sector",
+    "slug": "dead-sector--1"
+  },
+  "3529090": {
+    "found": true,
+    "itad_id": "0195626e-cd30-70f1-b732-890d4f20d60f",
+    "title": "Astra Bestiary",
+    "slug": "astra-bestiary"
+  },
+  "4779470": {
+    "found": true,
+    "itad_id": "01a0f7c4-2c86-7003-bb0c-e9e26820d084",
+    "title": "Walkers",
+    "slug": "walkers"
   }
 }
