@@ -18688,5 +18688,143 @@
     "itad_id": "018d937f-0a88-72b7-83ad-95083d43b7c7",
     "title": "Wing Commander®: Privateer™",
     "slug": "wing-commander-privateer"
+  },
+  "5160800": {
+    "found": true,
+    "itad_id": "01a0470f-ed52-71cb-b261-015542742b35",
+    "title": "Find The Needle",
+    "slug": "find-the-needle"
+  },
+  "1211600": {
+    "found": true,
+    "itad_id": "018d96d4-6704-70c8-8f71-157a3c42f9f3",
+    "title": "ZED ZONE",
+    "slug": "zed-zone"
+  },
+  "4834760": {
+    "found": true,
+    "itad_id": "019f5c5e-7922-7164-bc5a-9b75cb7cab3e",
+    "title": "Pool of Radiance: Ruins of Myth Drannor",
+    "slug": "pool-of-radiance-ruins-of-myth-drannor"
+  },
+  "3499520": {
+    "found": true,
+    "itad_id": "019bd81c-dbd5-70ed-b7e0-512adc9a5961",
+    "title": "Piano Glow",
+    "slug": "piano-glow"
+  },
+  "4725170": {
+    "found": true,
+    "itad_id": "019e2bd4-ddc3-72ce-89f6-0039fb7b0f89",
+    "title": "Elven Huntress: Sunveil",
+    "slug": "elven-huntress-sunveil"
+  },
+  "2244210": {
+    "found": true,
+    "itad_id": "019cc040-a7a0-7106-9caf-a9ee37e0944e",
+    "title": "Echoes of Aincrad",
+    "slug": "echoes-of-aincrad"
+  },
+  "1876930": {
+    "found": true,
+    "itad_id": "018d937f-6f09-712c-8e66-46b83790a081",
+    "title": "Saloon Simulator",
+    "slug": "saloon-simulator"
+  },
+  "3826290": {
+    "found": true,
+    "itad_id": "01978c5d-ab7b-7286-82a6-1ad1429b8f74",
+    "title": "组长！怨念请查收！",
+    "slug": "zu-zhang-yuan-nian-qing-cha-shou"
+  },
+  "3067100": {
+    "found": true,
+    "itad_id": "018d937f-3640-700f-9afa-60fc1bea9558",
+    "title": "Wing Commander: Armada",
+    "slug": "wing-commander-armada"
+  },
+  "3067090": {
+    "found": true,
+    "itad_id": "018d937f-00b2-7347-99b3-48b150e9db50",
+    "title": "Wing Commander: Academy",
+    "slug": "wing-commander-academy"
+  },
+  "4468540": {
+    "found": true,
+    "itad_id": "019d7d0e-ea39-7069-8564-259dfdd188d9",
+    "title": "It's About Pirates",
+    "slug": "its-about-pirates"
+  },
+  "2433560": {
+    "found": true,
+    "itad_id": "01920ff8-0760-71ae-af44-d7ddbb964e31",
+    "title": "Meadgard",
+    "slug": "meadgard"
+  },
+  "3067540": {
+    "found": true,
+    "itad_id": "018d9592-d012-702a-8bcc-0009909161c2",
+    "title": "Ultima™ VII: The Complete Edition",
+    "slug": "ultima-vii-the-complete-edition"
+  },
+  "584980": {
+    "found": true,
+    "itad_id": "018d937f-2f2d-73fa-8393-e6a17a390978",
+    "title": "Late Shift",
+    "slug": "late-shift"
+  },
+  "3066890": {
+    "found": true,
+    "itad_id": "018d937f-0380-7304-b143-852ef0f364d6",
+    "title": "Crusader: No Remorse™",
+    "slug": "crusader-no-remorse"
+  },
+  "837880": {
+    "found": true,
+    "itad_id": "018d937f-789f-7230-a566-903af4b945ea",
+    "title": "You Suck at Parking Complete Edition",
+    "slug": "you-suck-at-parking-complete-edition"
+  },
+  "3067550": {
+    "found": true,
+    "itad_id": "018d9592-d002-72c9-a4f1-aa81e9e0b3f2",
+    "title": "Ultima™ VIII Gold Edition",
+    "slug": "ultima-viii-gold-edition"
+  },
+  "3149980": {
+    "found": true,
+    "itad_id": "01927aea-54a7-706a-9a46-9a2948c13f7f",
+    "title": "Love n Life: Happy Student",
+    "slug": "love-n-life-happy-student"
+  },
+  "3067580": {
+    "found": true,
+    "itad_id": "018d937e-f83e-7171-b43f-0920fac51f46",
+    "title": "Ultima™ Underworld 1",
+    "slug": "ultima-underworld-1"
+  },
+  "3067560": {
+    "found": true,
+    "itad_id": "018d9592-cfca-73b7-8d9f-3d96744a7405",
+    "title": "Ultima™ IX: Ascension",
+    "slug": "ultima-ix-ascension"
+  },
+  "3067590": {
+    "found": true,
+    "itad_id": "018fd69b-1f03-707d-8715-519b8518962f",
+    "title": "Ultima Underworld II",
+    "slug": "ultima-underworld-ii"
+  },
+  "3067510": {
+    "found": true,
+    "itad_id": "018d9592-d03c-71e7-a786-5c06c7e73986",
+    "title": "Ultima IV: Quest of the Avatar",
+    "slug": "ultima-iv-quest-of-the-avatar"
+  },
+  "3067530": {
+    "found": true,
+    "itad_id": "018d937f-3335-727b-b97d-7c62510b9d0f",
+    "title": "Ultima VI: The False Prophet",
+    "slug": "ultima-vi-the-false-prophet"
   }
 }
