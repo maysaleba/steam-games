@@ -19912,5 +19912,29 @@
     "itad_id": "01995cb4-fe36-7330-a624-73545645ce4c",
     "title": "KORRIDOR",
     "slug": "korridor"
+  },
+  "4080220": {
+    "found": true,
+    "itad_id": "019f8fc2-975c-734e-92e6-7d99a6c5996a",
+    "title": "EA SPORTS FC™ 27",
+    "slug": "ea-sports-fc-27"
+  },
+  "2075800": {
+    "found": true,
+    "itad_id": "01964d1d-d815-72b0-b6fc-74f5633798cd",
+    "title": "STAR WARS Zero Company™",
+    "slug": "star-wars-zero-company"
+  },
+  "3949290": {
+    "found": true,
+    "itad_id": "01981661-4834-70f4-a33b-5c22848273ef",
+    "title": "Ys X: Proud Nordics",
+    "slug": "ys-x-proud-nordics"
+  },
+  "3787240": {
+    "found": true,
+    "itad_id": "01978568-d686-7160-93cd-60833894c052",
+    "title": "MARVEL Tōkon: Fighting Souls",
+    "slug": "marvel-tokon-fighting-souls"
   }
 }
