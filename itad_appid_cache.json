@@ -19936,5 +19936,41 @@
     "itad_id": "01978568-d686-7160-93cd-60833894c052",
     "title": "MARVEL Tōkon: Fighting Souls",
     "slug": "marvel-tokon-fighting-souls"
+  },
+  "3010850": {
+    "found": true,
+    "itad_id": "018ffe44-0adb-73ef-bec8-fe879ab6ff2a",
+    "title": "Gears of War: E-Day",
+    "slug": "gears-of-war-e-day"
+  },
+  "4697880": {
+    "found": true,
+    "itad_id": "018d937f-463f-73d5-b536-e1f029ca7223",
+    "title": "Rock Band",
+    "slug": "rock-band"
+  },
+  "3378960": {
+    "found": true,
+    "itad_id": "0193d95f-659c-71e6-8f46-381a8cbeba39",
+    "title": "Lost Soul Aside™",
+    "slug": "lost-soul-aside"
+  },
+  "394510": {
+    "found": true,
+    "itad_id": "018d937f-3a49-7176-a573-3ec12f775cd5",
+    "title": "HELLDIVERS™ Dive Harder Edition",
+    "slug": "helldivers-dive-harder-edition"
+  },
+  "5196330": {
+    "found": true,
+    "itad_id": "01a06836-db67-7263-9b9f-e34b58b497ce",
+    "title": "IT THINKS! - Build Your Own GPU",
+    "slug": "it-thinks-build-your-own-gpu"
+  },
+  "4199960": {
+    "found": true,
+    "itad_id": "019dfdcd-f70a-70d8-be98-15a624788a6b",
+    "title": "The Jackbox Party Pack 12",
+    "slug": "the-jackbox-party-pack-12"
   }
 }
