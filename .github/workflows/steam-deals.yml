@@ -3,12 +3,9 @@ name: Steam Deals Pipeline
 on:
   workflow_dispatch:
 
-  schedule:
-    # Runs daily at 8:00 PM UTC
-    # = 12:00 PM PST
-    # = 1:00 PM PDT
-    # Safe buffer after Steam refresh
-    - cron: "47 19 * * *"
+concurrency:
+  group: steam-deals-pipeline
+  cancel-in-progress: false
 
 jobs:
   steam-deals:
